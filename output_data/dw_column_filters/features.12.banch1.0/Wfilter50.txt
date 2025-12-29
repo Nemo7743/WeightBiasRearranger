@@ -1,0 +1,4 @@
+0006 8c98 0000 0000
+ffdc ffc5 ffd7 0000
+ffad ff64 ff8b 0000
+ffc2 ff8b ffa4 0000

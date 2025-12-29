@@ -1,0 +1,4 @@
+ffff ac92 0000 0000
+ffba ff7c ffe0 0000
+ffe7 02c6 ffea 0000
+ffed ff3e ffc8 0000

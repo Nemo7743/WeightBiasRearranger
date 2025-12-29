@@ -1,0 +1,4 @@
+0003 27be 0000 0000
+ffe9 ffd2 ffd6 0000
+ffca ff9a ffad 0000
+ffd5 ffaf ffbc 0000

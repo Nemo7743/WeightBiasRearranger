@@ -1,0 +1,4 @@
+0000 e23d 0000 0000
+ffc1 ff89 ffb1 0000
+ff78 fef8 ff44 0000
+ffa2 ff37 ff6d 0000

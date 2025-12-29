@@ -1,0 +1,4 @@
+0000 5d34 0000 0000
+ffac ff70 ffa3 0000
+ffac ff95 ff7d 0000
+ffa7 ff6f ffa8 0000

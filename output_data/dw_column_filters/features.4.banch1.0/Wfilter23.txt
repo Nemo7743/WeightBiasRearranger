@@ -1,0 +1,4 @@
+0015 66ba 0000 0000
+ffd7 ffb0 ffcc 0000
+ffa5 ff4a ff91 0000
+ffc4 ff86 ffb9 0000

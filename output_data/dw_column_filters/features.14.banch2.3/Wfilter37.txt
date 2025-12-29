@@ -1,0 +1,4 @@
+ffff a2c9 0000 0000
+ffd1 ff2c ffe0 0000
+0079 0254 00d4 0000
+ffd5 ff41 ffed 0000

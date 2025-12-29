@@ -1,0 +1,4 @@
+ffff e0e9 0000 0000
+ffef fffd 0032 0000
+ffe9 02a7 ffd2 0000
+fff3 fe07 ff73 0000

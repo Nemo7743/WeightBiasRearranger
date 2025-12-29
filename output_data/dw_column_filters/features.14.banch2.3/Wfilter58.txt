@@ -1,0 +1,4 @@
+0001 14fc 0000 0000
+ffd0 ff7f ffc0 0000
+0016 fe46 ffaf 0000
+ffd1 ff59 ffba 0000

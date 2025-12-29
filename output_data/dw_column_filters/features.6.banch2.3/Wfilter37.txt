@@ -1,0 +1,4 @@
+0000 425c 0000 0000
+ffe3 ffa9 ffd6 0000
+ffb9 fe96 ffaf 0000
+ffd2 ff57 ffc3 0000

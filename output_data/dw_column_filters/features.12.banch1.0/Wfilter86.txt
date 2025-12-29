@@ -1,0 +1,4 @@
+0004 2df3 0000 0000
+ffcf ffaf ffc4 0000
+ff95 ff53 ff7d 0000
+ffa2 ff71 ff97 0000

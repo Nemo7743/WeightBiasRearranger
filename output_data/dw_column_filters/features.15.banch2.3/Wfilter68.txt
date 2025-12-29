@@ -1,0 +1,4 @@
+0000 677f 0000 0000
+ffcb ff98 ffea 0000
+ff87 fe93 fffe 0000
+ffcd ff84 ffec 0000

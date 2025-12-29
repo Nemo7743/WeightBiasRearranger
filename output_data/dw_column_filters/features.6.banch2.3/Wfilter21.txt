@@ -1,0 +1,4 @@
+0000 83fe 0000 0000
+ffeb ffcd ffca 0000
+ffb0 ff6e ff92 0000
+ffd8 ffa8 ffbf 0000

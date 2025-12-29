@@ -1,0 +1,4 @@
+0000 681f 0000 0000
+ffaa ff6e ffc8 0000
+ff1c ff78 ff69 0000
+ff9a ff39 ffc4 0000

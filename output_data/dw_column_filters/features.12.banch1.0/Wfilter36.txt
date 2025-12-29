@@ -1,0 +1,4 @@
+000a f51a 0000 0000
+ffde ffba ffcc 0000
+ffab ff53 ff7b 0000
+ffc4 ff7c ff99 0000

@@ -1,0 +1,4 @@
+ffff bd2b 0000 0000
+ffbd ff99 ff99 0000
+0010 0261 0014 0000
+ffcd ff9a ffa1 0000

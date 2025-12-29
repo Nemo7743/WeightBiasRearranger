@@ -1,0 +1,4 @@
+0000 a47c 0000 0000
+ffc5 ff4a ffd3 0000
+ff58 0020 ff6c 0000
+ffb3 ff4d ffcf 0000

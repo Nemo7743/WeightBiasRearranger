@@ -1,0 +1,4 @@
+0000 734b 0000 0000
+ffbe ff70 ffa3 0000
+ff69 fecb ff1f 0000
+ff8c ff12 ff51 0000

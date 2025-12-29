@@ -1,0 +1,4 @@
+ffff c0d1 0000 0000
+ffdb ff95 fff2 0000
+ffcc 0241 ffe6 0000
+ffd9 ffad fff6 0000

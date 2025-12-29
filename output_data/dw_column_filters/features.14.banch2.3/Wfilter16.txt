@@ -1,0 +1,4 @@
+0000 56ad 0000 0000
+ffd5 ff70 ffda 0000
+ffff ff0b fef6 0000
+ffd3 ff64 ffca 0000

@@ -1,0 +1,4 @@
+0000 5939 0000 0000
+ffc4 ffcd ffdf 0000
+ff7d fe75 ffc6 0000
+ffbd ffc0 ffdd 0000

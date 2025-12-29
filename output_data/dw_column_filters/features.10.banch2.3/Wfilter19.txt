@@ -1,0 +1,4 @@
+0000 c9b5 0000 0000
+ffad ffc8 ffb7 0000
+0050 fe5b ffc7 0000
+ffc4 ffad ffaa 0000

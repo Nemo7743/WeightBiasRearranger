@@ -1,0 +1,7 @@
+000e b765 0000 0000
+0001 ffea 0002 fff2
+ffeb 0004 000b fffb
+fffc 000b fffe fff6
+ff59 0000 0005 000b
+0002 000e 0001 fffe
+ffc8 0000 fff7 000a

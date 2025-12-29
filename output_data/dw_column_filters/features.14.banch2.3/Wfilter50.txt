@@ -1,0 +1,4 @@
+ffff f42e 0000 0000
+ffaf ffcb 0055 0000
+fee2 0083 0143 0000
+ffb0 ffce 005e 0000

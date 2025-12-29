@@ -1,0 +1,4 @@
+ffff bca2 0000 0000
+ffef 001d ffdb 0000
+0058 01c3 000e 0000
+ffe5 0034 ffed 0000

@@ -1,0 +1,4 @@
+ffff acb0 0000 0000
+ffdd 0066 fff5 0000
+ffd1 0167 fff4 0000
+ffd3 010d ffdf 0000

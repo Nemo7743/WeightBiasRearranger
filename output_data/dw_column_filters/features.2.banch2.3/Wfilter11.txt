@@ -1,0 +1,4 @@
+0000 128e 0000 0000
+fffc ffaa fff5 0000
+0026 fbf6 fde3 0000
+ff4d fe4f fec3 0000

@@ -1,0 +1,4 @@
+0000 64b6 0000 0000
+ffe1 ffc1 ffce 0000
+ffc8 fe93 ff9a 0000
+ffe2 ffae ffc9 0000

@@ -1,0 +1,4 @@
+0000 c3a5 0000 0000
+fff7 fff3 ffec 0000
+fff2 ffa7 ff9d 0000
+ffdd ff94 ff92 0000

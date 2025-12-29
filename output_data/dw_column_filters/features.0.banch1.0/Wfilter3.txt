@@ -1,0 +1,4 @@
+0007 b5b7 0000 0000
+000d ffea ffe9 0000
+ffeb fef9 fed4 0000
+fffa fedf fec4 0000

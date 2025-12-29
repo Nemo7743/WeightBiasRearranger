@@ -1,0 +1,4 @@
+ffff d59e 0000 0000
+ffa6 feca 00c1 0000
+fed3 033b ff92 0000
+00bd ffb2 febe 0000

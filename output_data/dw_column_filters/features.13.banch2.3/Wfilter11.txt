@@ -1,0 +1,4 @@
+0000 947c 0000 0000
+ffae ff72 ffa8 0000
+ff57 ff70 ff8f 0000
+ffb0 ff6e ffaf 0000

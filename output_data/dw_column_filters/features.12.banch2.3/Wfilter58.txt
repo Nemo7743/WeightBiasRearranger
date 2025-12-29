@@ -1,0 +1,4 @@
+0000 53ec 0000 0000
+ffab ff48 ff84 0000
+ff09 fe40 fef3 0000
+ff2e fea2 ff30 0000

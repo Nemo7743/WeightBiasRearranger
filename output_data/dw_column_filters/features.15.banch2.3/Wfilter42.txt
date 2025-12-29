@@ -1,0 +1,4 @@
+0000 6c93 0000 0000
+ffbd ff14 ffc6 0000
+ffed ff24 fff3 0000
+ffbe ff0f ffc0 0000

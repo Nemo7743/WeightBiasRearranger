@@ -1,0 +1,4 @@
+0000 6484 0000 0000
+ff93 ffb0 ffa4 0000
+ff7e ff7d ffb8 0000
+ff84 ffb1 ff9b 0000

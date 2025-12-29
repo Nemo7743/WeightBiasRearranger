@@ -1,0 +1,4 @@
+0000 9141 0000 0000
+ffca ff8a ffb6 0000
+ff49 ff47 ffb7 0000
+ffc0 ff7a ffad 0000

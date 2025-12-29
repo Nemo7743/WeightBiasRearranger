@@ -1,0 +1,7 @@
+0000 3731 0000 0000
+0002 000f 0000 0080
+fff7 ffff fffd 0000
+000f fff8 fffa 0002
+ffff ffff 0002 ffff
+fffa fffb 0000 0002
+0002 fffb 0009 0005

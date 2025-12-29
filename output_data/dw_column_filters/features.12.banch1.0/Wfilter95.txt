@@ -1,0 +1,4 @@
+0002 2f10 0000 0000
+ffdb ffbd ffd1 0000
+ffb3 ff68 ff8a 0000
+ffc2 ff89 ffa0 0000

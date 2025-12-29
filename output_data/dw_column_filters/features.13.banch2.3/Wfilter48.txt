@@ -1,0 +1,4 @@
+0000 9dbf 0000 0000
+ffd4 ffa3 fff5 0000
+fef1 ff14 0043 0000
+ffbb ff91 fffd 0000

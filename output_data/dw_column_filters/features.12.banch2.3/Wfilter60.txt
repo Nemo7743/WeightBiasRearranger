@@ -1,0 +1,4 @@
+0000 497c 0000 0000
+ff9f ff3c ff7f 0000
+ff38 fe7a fee4 0000
+ff5f feca ff21 0000

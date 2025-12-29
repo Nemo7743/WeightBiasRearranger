@@ -1,0 +1,4 @@
+0000 6c4d 0000 0000
+ffe7 ff8e ffe1 0000
+ffd8 ff48 ff54 0000
+ff94 ff76 ff9c 0000

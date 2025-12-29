@@ -1,0 +1,7 @@
+ffff c81e 0000 0000
+0017 0004 0003 fff8
+fffb 0006 fffe ffd3
+fff7 00cd ffcb 0015
+0002 ffbd fff1 0014
+000b ffea 0012 0007
+fffd ffdb ffce 0081

@@ -1,0 +1,4 @@
+ffff 6ca0 0000 0000
+fff9 00bb ffcc 0000
+00e5 015c 00c6 0000
+fffc 00bc ffe0 0000

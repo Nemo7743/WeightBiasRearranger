@@ -1,0 +1,4 @@
+ffff 652e 0000 0000
+ffb3 ffa4 ffaf 0000
+ffdd 02d6 ffc0 0000
+ffb3 ffc0 ffa8 0000

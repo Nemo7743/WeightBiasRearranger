@@ -1,0 +1,4 @@
+ffff 5b2d 0000 0000
+ffc2 ffc4 ffda 0000
+ffbe 02e7 001d 0000
+ffc7 ffce ffde 0000

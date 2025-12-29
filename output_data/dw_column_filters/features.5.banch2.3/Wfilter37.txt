@@ -1,0 +1,4 @@
+ffff ad81 0000 0000
+fff0 ff94 ffd0 0000
+ff81 0275 ffb2 0000
+ffbd 0015 ffc5 0000

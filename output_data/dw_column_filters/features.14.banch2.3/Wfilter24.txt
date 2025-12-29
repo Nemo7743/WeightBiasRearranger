@@ -1,0 +1,4 @@
+0000 5d06 0000 0000
+ff98 ff6c ffae 0000
+ffc6 ff16 ff9a 0000
+ff99 ff58 ffa4 0000

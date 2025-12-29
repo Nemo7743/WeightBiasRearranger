@@ -1,0 +1,4 @@
+ffff ea6f 0000 0000
+ffb7 fedd ff92 0000
+ffa2 032c 0072 0000
+ff8a ffab ffbb 0000

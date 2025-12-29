@@ -1,0 +1,4 @@
+0001 0a14 0000 0000
+fff5 ff5f ffd4 0000
+003d feaa ffc8 0000
+fff0 ff86 ffa9 0000

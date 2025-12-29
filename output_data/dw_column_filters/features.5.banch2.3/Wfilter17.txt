@@ -1,0 +1,4 @@
+ffff 365b 0000 0000
+ffff ffa3 ffe0 0000
+fff5 0286 ffd9 0000
+fffe ffc1 fff9 0000

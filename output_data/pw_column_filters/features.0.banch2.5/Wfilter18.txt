@@ -1,0 +1,7 @@
+0000 d3e0 0000 0000
+fff8 fffb 0007 fff8
+ffc1 ffbc ffe1 0009
+0000 ffbf fff1 0001
+0000 ffbe fff6 0030
+fffe 0000 ffef 0005
+0003 fffe ffef fff1

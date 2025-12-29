@@ -1,0 +1,4 @@
+0000 c9cf 0000 0000
+fff0 ff9a ffe2 0000
+ffc3 ff56 ff67 0000
+ffe6 ff73 ffbf 0000

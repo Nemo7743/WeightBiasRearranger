@@ -1,0 +1,4 @@
+0000 909a 0000 0000
+ffd3 ffa6 ffd8 0000
+ffb6 ff21 ffb1 0000
+ffca ff99 ffd2 0000

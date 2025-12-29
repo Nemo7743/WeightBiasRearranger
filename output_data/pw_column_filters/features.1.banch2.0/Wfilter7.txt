@@ -1,0 +1,7 @@
+0008 5eb3 0000 0000
+ffdf 001f ffa1 ffcc
+0001 0020 ffed 0094
+0038 fff9 ffcc fff4
+fff2 ff4c 002d ff8b
+0001 0012 ffef ffec
+ffd0 0020 ffcd ffd3

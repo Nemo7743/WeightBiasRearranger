@@ -1,0 +1,4 @@
+0005 8e41 0000 0000
+ffe7 ffce ffdc 0000
+ffc4 ff8c ffaf 0000
+ffd2 ffab ffc8 0000

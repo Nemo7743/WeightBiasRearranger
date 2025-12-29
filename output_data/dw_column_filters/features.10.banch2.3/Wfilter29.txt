@@ -1,0 +1,4 @@
+ffff 67be 0000 0000
+0006 ff85 ffe7 0000
+ff4d 02cc ffba 0000
+fffa ff88 ffed 0000

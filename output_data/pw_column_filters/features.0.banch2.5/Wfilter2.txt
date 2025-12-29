@@ -1,0 +1,7 @@
+0000 cd27 0000 0000
+fff7 0010 ffef ffec
+fffc 0000 ffd9 000a
+0000 0000 ffff ffdb
+0000 0007 0002 fffb
+0003 0000 fff1 0028
+ffff 000a fffd ffe6

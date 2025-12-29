@@ -1,0 +1,4 @@
+0000 4d72 0000 0000
+fffa ffc5 ffed 0000
+ffd9 fe7a ffdb 0000
+ffec ff8b ffe8 0000

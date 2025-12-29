@@ -1,0 +1,7 @@
+0001 23ad 0000 0000
+ffd5 0007 0001 0027
+ffee fffc ffff 0010
+0000 0003 ffe0 fffa
+0000 fff8 0012 fff1
+fffa 0000 fff6 fffa
+fffb 0008 ffe3 002a

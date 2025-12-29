@@ -1,0 +1,4 @@
+0000 1e4f 0000 0000
+ff84 ffa4 ffc8 0000
+ff70 fe88 feef 0000
+ff7e fef0 ff99 0000

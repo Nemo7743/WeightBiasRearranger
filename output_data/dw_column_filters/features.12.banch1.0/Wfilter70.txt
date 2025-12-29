@@ -1,0 +1,4 @@
+0003 68d6 0000 0000
+ffd9 ffbc ffd2 0000
+ffa9 ff59 ff85 0000
+ffc3 ff81 ffa6 0000

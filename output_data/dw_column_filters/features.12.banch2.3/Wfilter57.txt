@@ -1,0 +1,4 @@
+0000 6424 0000 0000
+ffbc ff91 ffbb 0000
+ff7d ff14 ff4b 0000
+ffa2 ff50 ff75 0000

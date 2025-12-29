@@ -1,0 +1,4 @@
+0006 186d 0000 0000
+ffd5 ffaf ffc3 0000
+ffa7 ff50 ff7b 0000
+ffc0 ff79 ff99 0000

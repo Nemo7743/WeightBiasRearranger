@@ -1,0 +1,4 @@
+0000 5e39 0000 0000
+ffd9 ff9f ffb9 0000
+ff9d ff1e ff5b 0000
+ffaf ff48 ff78 0000

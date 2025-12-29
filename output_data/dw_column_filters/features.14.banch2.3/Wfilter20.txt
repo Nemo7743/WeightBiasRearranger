@@ -1,0 +1,4 @@
+ffff 56ac 0000 0000
+ffdd 0006 ffe1 0000
+ffda 022e 007b 0000
+ffd7 0022 ffe3 0000

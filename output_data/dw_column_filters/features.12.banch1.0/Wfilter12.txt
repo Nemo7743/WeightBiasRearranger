@@ -1,0 +1,4 @@
+0007 d754 0000 0000
+ffe9 ffc6 ffda 0000
+ffcb ff6e ff88 0000
+ffd7 ff8c ffa3 0000

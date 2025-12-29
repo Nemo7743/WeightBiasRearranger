@@ -1,0 +1,4 @@
+0000 7d95 0000 0000
+ffbe ff89 ffa7 0000
+ff6e fefe ff3f 0000
+ff90 ff38 ff72 0000

@@ -1,0 +1,4 @@
+ffff ec3f 0000 0000
+ffc6 ff32 ffca 0000
+ffcf 01fd ffaa 0000
+0007 ffac fff2 0000

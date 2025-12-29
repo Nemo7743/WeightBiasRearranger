@@ -1,0 +1,4 @@
+0000 6fc9 0000 0000
+ff88 fecb ffb9 0000
+ff31 ffbf fef7 0000
+ff87 fee0 ffac 0000

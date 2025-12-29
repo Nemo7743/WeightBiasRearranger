@@ -1,0 +1,4 @@
+0000 9e9c 0000 0000
+ffa1 ffaf ffef 0000
+fec0 ff66 003c 0000
+ff97 ffa8 ffe4 0000

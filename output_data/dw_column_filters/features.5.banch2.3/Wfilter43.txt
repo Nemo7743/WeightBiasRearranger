@@ -1,0 +1,4 @@
+0000 816f 0000 0000
+ffec ffda 0003 0000
+ffe9 fec6 ff76 0000
+fff2 ff8d ffe5 0000

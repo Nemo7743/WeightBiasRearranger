@@ -1,0 +1,4 @@
+0000 3447 0000 0000
+fff5 ff4e ffde 0000
+ffa4 feb1 ff68 0000
+fffa ff2d ffec 0000

@@ -1,0 +1,4 @@
+0009 966e 0000 0000
+ffdb ffc2 ffc5 0000
+ffbf ff71 ff90 0000
+ffcc ff92 ffa9 0000

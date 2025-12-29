@@ -1,0 +1,4 @@
+000f ef00 0000 0000
+ffea ffae ff9c 0000
+ffe4 ff74 ff43 0000
+ffdf ff89 ff67 0000

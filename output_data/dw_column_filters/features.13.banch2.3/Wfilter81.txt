@@ -1,0 +1,4 @@
+0000 787a 0000 0000
+ffa7 ff9c ff86 0000
+ffba ffcc ff88 0000
+ffa1 ff94 ff8a 0000

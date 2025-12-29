@@ -1,0 +1,4 @@
+0010 e6bf 0000 0000
+ffe1 ffc2 ffd9 0000
+ffcc ff59 ff77 0000
+ffd5 ff68 ff73 0000

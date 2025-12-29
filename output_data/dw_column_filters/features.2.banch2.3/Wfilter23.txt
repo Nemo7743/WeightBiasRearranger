@@ -1,0 +1,4 @@
+ffff e755 0000 0000
+ffc0 feb6 ffd5 0000
+feff 0450 ff37 0000
+ffd2 ff68 ffc1 0000

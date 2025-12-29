@@ -1,0 +1,4 @@
+000e bd74 0000 0000
+fff2 ffd9 ffd7 0000
+ffd7 ff38 ff4a 0000
+ffd2 ff37 ff50 0000

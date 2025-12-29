@@ -1,0 +1,4 @@
+ffff 2c8c 0000 0000
+ffe9 ff7c ffda 0000
+ff70 0382 ff98 0000
+ffe4 ffde ffca 0000

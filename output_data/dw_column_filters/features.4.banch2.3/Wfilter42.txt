@@ -1,0 +1,4 @@
+0000 69c2 0000 0000
+ffc9 ffa3 ffd8 0000
+ff8f ff1e ff70 0000
+ffb4 ff48 ff73 0000

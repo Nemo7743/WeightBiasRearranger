@@ -1,0 +1,4 @@
+0005 06da 0000 0000
+ffdf ffcc ffd2 0000
+ffcd ff65 ff85 0000
+ffd4 ff7b ff96 0000

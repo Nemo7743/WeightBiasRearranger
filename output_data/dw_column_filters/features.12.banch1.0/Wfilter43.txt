@@ -1,0 +1,4 @@
+0004 00a6 0000 0000
+fff5 ffcd ffcf 0000
+ffdd ff70 ff93 0000
+ffe7 ffa1 ffb2 0000

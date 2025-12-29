@@ -1,0 +1,4 @@
+ffff b896 0000 0000
+0001 ff2e fffc 0000
+ff3a 02e2 ff89 0000
+fff4 ff68 fff0 0000

@@ -1,0 +1,4 @@
+0000 68df 0000 0000
+fff3 ffb4 000b 0000
+fff3 fe1f ffbb 0000
+ffe9 ff9c 0001 0000

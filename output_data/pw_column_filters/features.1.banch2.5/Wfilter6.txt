@@ -1,0 +1,7 @@
+0000 9073 0000 0000
+ffef 001a fffb 001b
+fff2 003c fff5 001f
+fff9 0011 ffee 0009
+fffb ffee fffe fff2
+ffe6 ffd7 fffc fff2
+000c 0008 ffe6 0008

@@ -1,0 +1,4 @@
+000c eb9d 0000 0000
+ffe7 ffca ffd9 0000
+ffcb ff84 ff9a 0000
+ffdd ff9f ffb2 0000

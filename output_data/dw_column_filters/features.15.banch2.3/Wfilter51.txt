@@ -1,0 +1,4 @@
+0000 7f6a 0000 0000
+ffff ff75 fff7 0000
+ff45 fefe ff8d 0000
+0000 ff79 fff1 0000

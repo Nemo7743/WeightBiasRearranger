@@ -1,0 +1,4 @@
+0000 44a5 0000 0000
+ffb4 ff81 ffe5 0000
+ff76 fe83 ffc8 0000
+ffae ff69 ffd5 0000

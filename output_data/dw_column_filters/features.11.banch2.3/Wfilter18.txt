@@ -1,0 +1,4 @@
+ffff ed4a 0000 0000
+ffb9 ff65 ffaa 0000
+ff3a 0307 ffa3 0000
+ffad ffa0 ffa2 0000

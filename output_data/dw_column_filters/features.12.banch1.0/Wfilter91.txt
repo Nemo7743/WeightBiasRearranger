@@ -1,0 +1,4 @@
+0002 7ecf 0000 0000
+ffd1 ffc3 ffd5 0000
+ffba ffae ffd1 0000
+ffc4 ffaa ffc5 0000

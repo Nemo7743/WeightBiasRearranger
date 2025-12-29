@@ -1,0 +1,4 @@
+ffff 6d75 0000 0000
+ffff fff2 fffc 0000
+fffb fffe 0023 0000
+fff8 0019 004f 0000

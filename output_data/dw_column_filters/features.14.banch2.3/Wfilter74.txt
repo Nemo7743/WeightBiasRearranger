@@ -1,0 +1,4 @@
+0000 4f3f 0000 0000
+ff6a ff37 ffb5 0000
+0086 ffa1 fe4a 0000
+ff72 ff3f ffac 0000

@@ -1,0 +1,4 @@
+ffff 14b4 0000 0000
+ffda 0010 ffc9 0000
+fffa 0354 ff4b 0000
+ffd7 ffe5 ffa4 0000

@@ -1,0 +1,4 @@
+0000 3144 0000 0000
+fff9 ff3e ffca 0000
+fe94 ff6a ff81 0000
+ffac ff15 ff88 0000

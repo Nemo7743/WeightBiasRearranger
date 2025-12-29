@@ -1,0 +1,7 @@
+fffd 52e9 0000 0000
+ffdd ffa4 ffc6 0029
+ffec ffae ffab ff70
+ffeb 002d 00b4 ff67
+ff9f 0030 ffd7 ffdd
+ffe8 0061 0000 ffeb
+001e 002a 0021 fffc

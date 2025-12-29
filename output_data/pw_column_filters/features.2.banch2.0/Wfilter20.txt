@@ -1,0 +1,7 @@
+0000 68e3 0000 0000
+001e 0027 ffda ffe7
+ffff 001c 0027 0007
+fffc ffe7 ffb9 ffb1
+0003 fff1 000f ffb7
+ffc8 0088 0000 0002
+ffd8 ffd7 ffb9 001c

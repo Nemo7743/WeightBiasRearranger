@@ -1,0 +1,4 @@
+ffff b69c 0000 0000
+fff0 ffa7 fff6 0000
+ffc7 01ca 0023 0000
+ffec ffeb fff9 0000

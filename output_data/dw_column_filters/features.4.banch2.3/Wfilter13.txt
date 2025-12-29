@@ -1,0 +1,4 @@
+0000 7ba2 0000 0000
+ffdb ffab ffc0 0000
+ffa3 ff0f ff32 0000
+ffc5 ff33 ff62 0000

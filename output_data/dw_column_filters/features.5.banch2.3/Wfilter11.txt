@@ -1,0 +1,4 @@
+ffff bf0d 0000 0000
+ffec fee2 ffd5 0000
+ffc3 02f0 ffec 0000
+ffd8 ff7f ffd8 0000

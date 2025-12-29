@@ -1,0 +1,7 @@
+0002 babd 0000 0000
+fff6 0034 fff2 0011
+0005 ffee ffd7 0020
+ffee 0031 0032 ffdb
+fffb fffc ffdc ff96
+0023 0032 0000 0025
+0006 ffee 0009 005b

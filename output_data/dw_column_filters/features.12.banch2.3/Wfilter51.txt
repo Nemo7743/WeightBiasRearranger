@@ -1,0 +1,4 @@
+0000 765a 0000 0000
+ffac ff4c ff7f 0000
+ff38 fe8f fee7 0000
+ff6f fee5 ff29 0000

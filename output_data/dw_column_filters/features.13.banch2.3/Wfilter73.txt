@@ -1,0 +1,4 @@
+0000 3524 0000 0000
+ffd7 ff66 ffdb 0000
+ff84 ff63 ff5d 0000
+ffd8 ff59 ffcd 0000

@@ -1,0 +1,4 @@
+0000 5cd3 0000 0000
+ffc3 ff59 ffcb 0000
+ff7c ff82 ff02 0000
+ffbd ff2f ffb4 0000

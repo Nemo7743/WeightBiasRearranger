@@ -1,0 +1,4 @@
+0000 73f6 0000 0000
+ffe7 ffa9 ffc4 0000
+ffc3 fecd ff88 0000
+ffe6 ffa2 ffbf 0000

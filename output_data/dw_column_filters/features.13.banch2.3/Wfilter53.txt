@@ -1,0 +1,4 @@
+0000 408d 0000 0000
+ffd1 ff66 ffac 0000
+ffc3 ff2a ffa8 0000
+ffc5 ff5e ffa8 0000

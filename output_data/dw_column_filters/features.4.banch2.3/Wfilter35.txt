@@ -1,0 +1,4 @@
+0000 65bf 0000 0000
+ffe4 ffd4 ffe2 0000
+ffd3 ff53 ff7a 0000
+ffda ff58 ff76 0000

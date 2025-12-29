@@ -1,0 +1,4 @@
+0000 4b45 0000 0000
+ffab ff26 ffc4 0000
+ffe5 fe32 ff9d 0000
+ffde 001d ffc5 0000

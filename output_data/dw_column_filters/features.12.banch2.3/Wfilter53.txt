@@ -1,0 +1,4 @@
+0000 9cae 0000 0000
+ffc4 ff78 ff9c 0000
+ff6f fecd ff17 0000
+ff96 ff15 ff49 0000

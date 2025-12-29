@@ -1,0 +1,4 @@
+0004 28d9 0000 0000
+ffec ffcb ffd4 0000
+ffcb ff63 ff7a 0000
+ffd7 ff97 ff9d 0000

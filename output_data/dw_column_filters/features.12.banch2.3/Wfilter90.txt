@@ -1,0 +1,4 @@
+ffff ee2e 0000 0000
+ff78 ffc7 0073 0000
+feb7 ffc6 014c 0000
+ff0f ffc8 00f5 0000

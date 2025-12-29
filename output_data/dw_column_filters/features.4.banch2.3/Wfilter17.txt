@@ -1,0 +1,4 @@
+0000 7be8 0000 0000
+ffe4 ffb3 ffc6 0000
+ff9e ff3b ff80 0000
+ffa2 ff56 ff9e 0000

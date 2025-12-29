@@ -1,0 +1,4 @@
+ffff f5e8 0000 0000
+fff2 fffe 00b8 0000
+ff85 ff57 00a6 0000
+ffec fff3 00b5 0000

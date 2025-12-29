@@ -1,0 +1,4 @@
+ffff d586 0000 0000
+ffa8 ffab ffdf 0000
+feef 0226 0050 0000
+ffa7 ffa6 ffe7 0000

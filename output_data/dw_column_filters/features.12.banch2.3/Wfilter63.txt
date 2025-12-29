@@ -1,0 +1,4 @@
+0000 3e9d 0000 0000
+ffc3 ff73 ffab 0000
+ff70 fef7 ff43 0000
+ff7d ff23 ff5c 0000

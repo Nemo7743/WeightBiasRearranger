@@ -1,0 +1,4 @@
+0000 ba9f 0000 0000
+0001 ff98 0003 0000
+ffb1 fe5f ffa1 0000
+ffff ff8a fffd 0000

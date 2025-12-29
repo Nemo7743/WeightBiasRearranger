@@ -1,0 +1,4 @@
+0000 4524 0000 0000
+ffc6 ff8a ffd3 0000
+ffda ff4f ff07 0000
+ffd5 ff63 ffc4 0000

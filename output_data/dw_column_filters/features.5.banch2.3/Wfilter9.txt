@@ -1,0 +1,4 @@
+0000 9379 0000 0000
+ffee ffdc ffe6 0000
+ff96 ff43 ffef 0000
+ffc6 ff7a ffed 0000

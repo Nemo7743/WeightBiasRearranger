@@ -1,0 +1,4 @@
+ffff f1be 0000 0000
+0057 fffe ffbd 0000
+0139 ffea fed2 0000
+0056 0007 ffaf 0000

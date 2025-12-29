@@ -1,0 +1,4 @@
+0000 4c2f 0000 0000
+ff1d ff4d ff5b 0000
+ff4b fe9d ffc3 0000
+ff18 ff4d ff6d 0000

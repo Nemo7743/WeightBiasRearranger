@@ -1,0 +1,4 @@
+0004 fe0b 0000 0000
+ffe4 ffbc ffd7 0000
+ffbb ff71 ffa0 0000
+ffd7 ff9e ffbe 0000

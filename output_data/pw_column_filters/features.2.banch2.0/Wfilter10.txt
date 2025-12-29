@@ -1,0 +1,7 @@
+0004 53bf 0000 0000
+0010 0015 0012 0011
+fffe ffc2 ffeb 0007
+fffd ffda ff98 0019
+0001 001e ffea ffdf
+fff1 0060 0000 ffec
+fff1 fff2 0037 000c

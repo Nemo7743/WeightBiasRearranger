@@ -1,0 +1,4 @@
+000a b8fb 0000 0000
+ffce ff9c ffd1 0000
+ffd9 ffc0 ffd6 0000
+fff8 fffc 0007 0000

@@ -1,0 +1,4 @@
+ffff cb57 0000 0000
+ffef ff8e ff9e 0000
+0060 0299 fe9c 0000
+ffed ffed ff92 0000

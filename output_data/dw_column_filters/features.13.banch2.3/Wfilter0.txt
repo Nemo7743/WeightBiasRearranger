@@ -1,0 +1,4 @@
+0000 76ea 0000 0000
+ffef ffb2 000e 0000
+ff9e fe8f ff8f 0000
+ffee ffa5 0001 0000

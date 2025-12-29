@@ -1,0 +1,4 @@
+0000 749b 0000 0000
+ffb6 ff73 ff9f 0000
+ff6b fedc ff33 0000
+ff8b ff26 ff66 0000

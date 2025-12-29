@@ -1,0 +1,4 @@
+0000 fe93 0000 0000
+fff7 ff95 ffe8 0000
+ffd9 fde4 ffba 0000
+fffb ff71 ffea 0000

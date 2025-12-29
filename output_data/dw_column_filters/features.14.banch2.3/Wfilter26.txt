@@ -1,0 +1,4 @@
+ffff def5 0000 0000
+ff9f ff7c ffa1 0000
+006e 01bd ffd0 0000
+ffa6 ff78 ffa7 0000

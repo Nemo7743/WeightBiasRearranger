@@ -1,0 +1,4 @@
+ffff a3a0 0000 0000
+ffdc ff46 ffa5 0000
+ff47 02ae 0045 0000
+ff98 0058 ffbb 0000

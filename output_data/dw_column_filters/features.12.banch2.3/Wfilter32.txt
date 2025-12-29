@@ -1,0 +1,4 @@
+0000 4678 0000 0000
+ff7f ff1e ff45 0000
+fefb fdda fe19 0000
+ff4c fe33 fe78 0000

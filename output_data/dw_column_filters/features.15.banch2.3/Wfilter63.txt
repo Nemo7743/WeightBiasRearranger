@@ -1,0 +1,4 @@
+0000 90ba 0000 0000
+ffe3 ff9e ffde 0000
+ffc6 fe78 0012 0000
+ffe2 ff96 ffdb 0000

@@ -1,0 +1,4 @@
+000c d138 0000 0000
+ffe4 ffd2 ffe1 0000
+ffcb ff70 ff9d 0000
+ffdc ff9d ffb8 0000

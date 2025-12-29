@@ -1,0 +1,4 @@
+0000 822d 0000 0000
+004f ffcb ffad 0000
+00fe ff0b fed7 0000
+005c ffb9 ffb7 0000

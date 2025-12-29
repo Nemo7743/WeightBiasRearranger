@@ -1,0 +1,4 @@
+0000 f14d 0000 0000
+ffc8 0003 ffcd 0000
+fff7 fef7 ffd5 0000
+ffd9 ffc9 ffb7 0000

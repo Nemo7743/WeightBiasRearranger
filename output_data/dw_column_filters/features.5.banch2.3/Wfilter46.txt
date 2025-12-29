@@ -1,0 +1,4 @@
+ffff ec3e 0000 0000
+fff8 0064 0010 0000
+ffbe 0199 ff96 0000
+fff0 fedd fff1 0000

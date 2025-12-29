@@ -1,0 +1,4 @@
+0000 8f85 0000 0000
+ffb4 0005 ffd0 0000
+ffae fe2a ffed 0000
+ffd0 ffc7 ffdd 0000

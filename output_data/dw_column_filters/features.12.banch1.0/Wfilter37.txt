@@ -1,0 +1,4 @@
+0006 eb89 0000 0000
+ffdd ffbd ffcd 0000
+ffba ff7b ff99 0000
+ffc9 ff90 ffaa 0000

@@ -1,0 +1,4 @@
+0002 de3c 0000 0000
+ffda ffc5 ffcf 0000
+ffc6 ff7e ff81 0000
+ffd1 ff94 ff9a 0000

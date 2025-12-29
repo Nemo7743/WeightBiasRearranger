@@ -1,0 +1,7 @@
+0005 870a 0000 0000
+ffca fffe 000a 000c
+ffe2 0003 000f ffed
+ff65 0012 0003 fff7
+fff1 0008 fffc 0009
+004b ffe1 0028 ffee
+0010 0002 ff92 ffda

@@ -1,0 +1,4 @@
+0000 45e2 0000 0000
+ffa5 ff6b ffa9 0000
+ff5a fedc ff23 0000
+ff7a ff15 ff51 0000

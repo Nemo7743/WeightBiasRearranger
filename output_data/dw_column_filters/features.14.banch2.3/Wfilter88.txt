@@ -1,0 +1,4 @@
+0000 5ad3 0000 0000
+ff51 ffaa ff9c 0000
+ff4d ffae ffc2 0000
+ff48 ffa3 ff99 0000

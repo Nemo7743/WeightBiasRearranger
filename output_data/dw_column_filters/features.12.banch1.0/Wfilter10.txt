@@ -1,0 +1,4 @@
+0016 343c 0000 0000
+ffe7 ffbc ffd2 0000
+ffb3 ff4c ff87 0000
+ffc0 ff76 ffa8 0000

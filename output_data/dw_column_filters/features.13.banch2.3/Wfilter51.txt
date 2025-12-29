@@ -1,0 +1,4 @@
+0000 51e3 0000 0000
+fff8 ffa7 ffff 0000
+ffc7 fe73 ff79 0000
+fff8 ff94 fff4 0000

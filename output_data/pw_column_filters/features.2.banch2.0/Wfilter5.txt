@@ -1,0 +1,7 @@
+fffe 88a5 0000 0000
+ffef ffc1 fff8 ffed
+fffa 003e ff5b ffb5
+fff2 0025 0024 0011
+0004 0046 00e8 ffca
+0015 ffd1 0000 ffb5
+000b 003b ffc5 0008
