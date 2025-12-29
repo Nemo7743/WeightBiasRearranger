@@ -124,6 +124,6 @@ if __name__ == "__main__":
     # 注意：此區塊假設目錄結構/檔案存在才能成功執行。
     try:
         # 測試 layer_num = 12
-        src_dw, src_pw, dst = package_tile_downSampling_L(11)
+        src_dw, src_pw, dst = package_tile_downSampling_L(0)
     except Exception as e:
         print(f"執行錯誤：{e}")

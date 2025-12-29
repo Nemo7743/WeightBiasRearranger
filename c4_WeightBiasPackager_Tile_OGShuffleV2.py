@@ -11,13 +11,6 @@ def package_tile_OGshuffle(layer_num):
     使用 list slicing [start::6] 的方式，
     例如 Group0 包含 Filter 0, 6, 12, 18...
     這能確保在總數為 48 時，每包恰好有 8 個 filter，且分散於各區段。
-
-    參數 (Args):
-        layer_num (int): 層級索引。必須嚴格為 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 13, 14 或 15。
-
-    拋出異常 (Raises):
-        ValueError: 如果 layer_num 無效。
-        FileNotFoundError: 如果來源檔案遺失。
     """
     # --- 第一階段：驗證與路徑設定 ---
     
@@ -42,6 +35,9 @@ def package_tile_OGshuffle(layer_num):
 
     # 建立輸出目錄
     os.makedirs(output_dir, exist_ok=True)
+    
+    # [修改點 1] 提早確認輸出目錄
+    print(f"已確認輸出目錄：{output_dir}")
 
     # --- 第二階段：檔案搜尋與排序 ---
 
@@ -60,7 +56,6 @@ def package_tile_OGshuffle(layer_num):
                 index = int(f[6:-4]) 
                 filter_indices.append(index)
             except ValueError:
-                print("存在不符合模式的檔案")
                 continue # 跳過不符合模式的檔案
 
     # 關鍵：依數值排序
@@ -76,13 +71,16 @@ def package_tile_OGshuffle(layer_num):
     # 規則：必須固定打 6 包，且內容分散 (例如 0, 6, 12...)
     num_groups = 6
 
+    # [修改點 2] 加入處理前的總結訊息
+    print(f"正在將 {total_filters} 個過濾器分散處理為 {num_groups} 組...")
+
     for group_idx in range(num_groups):
         # 使用間隔切片：從 group_idx 開始，每隔 6 個取一個
         current_group_indices = filter_indices[group_idx::num_groups]
         
-        # 如果沒有過濾器落入此群組，則跳過 (視需求也可生成空檔)
+        # 如果沒有過濾器落入此群組，則跳過
         if not current_group_indices:
-            print(f"Group{group_idx} 無分配到 Filter，跳過。")
+            # print(f"Group{group_idx} 無分配到 Filter，跳過。") # 可選：保持版面乾淨可註解掉
             continue
 
         group_content_blocks = []
@@ -108,7 +106,6 @@ def package_tile_OGshuffle(layer_num):
                 raise FileNotFoundError(f"Filter{idx} 缺少對應的檔案：{e.filename}")
 
             # 組合：內部區塊格式化 (雙換行)
-            # 結構：PW1 \n\n DW \n\n PW2
             combined_block = f"{content_pw1}\n\n{content_dw}\n\n{content_pw2}"
             group_content_blocks.append(combined_block)
 
@@ -123,20 +120,26 @@ def package_tile_OGshuffle(layer_num):
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(final_group_content)
         
-        # 顯示該組包含哪些 Filter Index，方便除錯確認分散是否正確
+        # [修改點 3] 調整縮排與顯示格式 (只顯示檔名而非全路徑)
         indices_str = ", ".join(map(str, current_group_indices))
-        print(f"已生成 {output_path}，包含 Filters: [{indices_str}]")
+        print(f"  已生成 {output_filename}，包含 Filter: [{indices_str}]")
 
-    print(f"第 {layer_num} 層處理完成。輸出已儲存至 {output_dir}")
+    # [修改點 4] 簡化完成訊息
+    print("打包完成。")
 
 
 # --- 測試執行區塊 ---
 if __name__ == "__main__":
     # 這裡依序執行所有有效層級
+    # 為了測試方便，這裡只先跑第一層 (Layer 1)
+    # 若要跑全部，請取消下方 list 的註解並還原迴圈
+    #layers_to_process = [1] 
     layers_to_process = [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15]
     
     for layer in layers_to_process:
         try:
+            print(f"--- Processing Layer {layer} ---")
             package_tile_OGshuffle(layer)
+            print("-" * 30)
         except Exception as e:
             print(f"Layer {layer} 處理失敗: {e}")

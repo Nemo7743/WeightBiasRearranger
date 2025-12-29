@@ -5,18 +5,6 @@ def package_tile_downSampling_R(layer_num):
     """
     將來自三個來源目錄的權重打包成 6 個分組的輸出檔案，
     用於右分支 (Right Branch) 下採樣邏輯。
-    
-    修改重點：
-    採用「間隔採樣」(Interleaved) 方式打包，
-    例如：Group0 包含 0, 6, 12... 而非 0, 1, 2...
-    確保固定輸出 6 個檔案。
-
-    參數 (Args):
-        layer_num (int): 層級索引。必須嚴格為 0, 4 或 12。
-
-    拋出異常 (Raises):
-        ValueError: 如果 layer_num 無效。
-        FileNotFoundError: 如果來源檔案遺失。
     """
     # --- 第一階段：驗證與路徑設定 ---
     
@@ -37,6 +25,9 @@ def package_tile_downSampling_R(layer_num):
 
     # 建立輸出目錄
     os.makedirs(output_dir, exist_ok=True)
+    
+    # [修改點 1] 在建立目錄後，印出確認路徑
+    print(f"已確認輸出目錄：{output_dir}")
 
     # --- 第二階段：檔案搜尋與排序 ---
 
@@ -51,14 +42,12 @@ def package_tile_downSampling_R(layer_num):
     for f in all_files:
         if f.startswith("Filter") and f.endswith(".txt"):
             try:
-                # 提取 'Filter' 和 '.txt' 之間的數字
                 index = int(f[6:-4]) 
                 filter_indices.append(index)
             except ValueError:
-                print("存在不符合模式的檔案")
-                continue # 跳過不符合模式的檔案
+                continue
 
-    # 關鍵：依數值排序，確保順序正確 (0, 1, 2, 3...)
+    # 關鍵：依數值排序
     filter_indices.sort()
     
     total_filters = len(filter_indices)
@@ -67,25 +56,17 @@ def package_tile_downSampling_R(layer_num):
         return
 
     # --- 第三階段：分散式分組 (Interleaved Grouping) 與處理 ---
-
-    # 規則：必須固定打 6 包，且內容分散
-    # 使用 slicing [start::step] 的方式，Step 固定為 6
-    # Group 0: indices[0], indices[6], indices[12]...
-    # Group 1: indices[1], indices[7], indices[13]...
     
     num_groups = 6
+    
+    # [修改點 2] 在開始迴圈前，印出總體處理狀態
+    print(f"正在將 {total_filters} 個過濾器分散處理為 {num_groups} 組...")
 
     for group_idx in range(num_groups):
-        # --- 修改點：使用間隔切片 (Step=6) ---
-        # 這會自動處理所有長度的 filter 列表，並分配給 6 個組
         current_group_indices = filter_indices[group_idx::num_groups]
         
-        # 如果因為 Filter 總數太少 (例如只有 4 個 filter)，導致後面的 Group 分不到 filter
-        # 這種情況下 current_group_indices 會是空的，我們仍產生空檔案或跳過
-        # 這裡選擇跳過不產生檔案，或者也可以產生空檔，視需求而定。
-        # 根據一般邏輯，若無內容則不寫入：
         if not current_group_indices:
-            print(f"Group{group_idx} 無分配到 Filter，跳過生成。")
+            # 若該組無分配到 filter (視需求決定是否印出，這裡保持簡潔略過或印出提示)
             continue
 
         group_content_blocks = []
@@ -107,17 +88,14 @@ def package_tile_downSampling_R(layer_num):
                 with open(path_pw2, 'r', encoding='utf-8') as f:
                     content_pw2 = f.read().strip()
             except FileNotFoundError as e:
-                # 重新拋出異常並附帶上下文以協助除錯
                 raise FileNotFoundError(f"Filter{idx} 缺少對應的檔案：{e.filename}")
 
-            # 組合：內部區塊格式化 (雙換行)
-            # 結構：PW1 \n\n DW \n\n PW2
+            # 組合：PW1 \n\n DW \n\n PW2
             combined_block = f"{content_pw1}\n\n{content_dw}\n\n{content_pw2}"
             group_content_blocks.append(combined_block)
 
         # --- 第四階段：寫入輸出 ---
 
-        # 組合區塊：群組聚合 (三換行)
         final_group_content = "\n\n\n".join(group_content_blocks)
         
         output_filename = f"Group{group_idx}.txt"
@@ -126,13 +104,16 @@ def package_tile_downSampling_R(layer_num):
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(final_group_content)
         
-        # 列印除錯訊息顯示該組包含哪些 Filter，方便確認分散是否正確
+        # [修改點 3] 修改縮排與顯示格式
         indices_str = ", ".join(map(str, current_group_indices))
-        print(f"已生成 {output_filename}，包含 Filter: [{indices_str}]")
+        print(f"  已生成 {output_filename}，包含 Filter: [{indices_str}]")
 
-    print(f"第 {layer_num} 層處理完成。輸出已儲存至 {output_dir}")
+    # [修改點 4] 簡化結束訊息
+    print("打包完成。")
 
 # --- 測試執行區塊 ---
 if __name__ == "__main__":
-    # 測試範例：確保 layer_num 為 0, 4, 或 12
-    package_tile_downSampling_R(11)
+    # 測試範例
+    # 注意：這裡會依據程式邏輯輸出到 tile1.2 (因為是 Right Branch)，
+    # 但格式會完全符合您要求的樣式。
+    package_tile_downSampling_R(0)

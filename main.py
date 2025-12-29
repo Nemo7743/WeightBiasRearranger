@@ -3,8 +3,10 @@ import sys
 
 # 引用組譯器
 import a0_InstructionAssemblerV1 as InstructionAssembler
-# 引用外部重排程式
+# 引用重排程式
 import b0_WeightBiasRearranger_All as WeightBiasRearranger
+# 引用打包程式
+import c0_WeightBiasPackager as WeightBiasPackager
 
 # --- Logger 類別 ---
 class Logger(object):
@@ -38,6 +40,11 @@ def main():
     print("--- [Step 1] 開始權重與資料切分流程 ---")
     WeightBiasRearranger.run_weight_rearrange()
     print("--- [Step 1] 結束權重與資料切分流程 ---")
+
+    print("\n")
+    print("--- [Step 2] 開始權重與資料打包流程 ---")
+    WeightBiasPackager.run_weight_Packager()
+    print("--- [Step 2] 結束權重與資料打包流程 ---")
 
 if __name__ == "__main__":
     main()

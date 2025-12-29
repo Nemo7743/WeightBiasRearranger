@@ -56,7 +56,7 @@ def package_tile0():
         with open(output_path, 'w', encoding='utf-8') as f_out:
             f_out.write(combined_text)
 
-        print(f"完成輸出: {output_path} (包含 Filters: {[group_idx + i*6 for i in range(4)]})")
+        print(f"完成輸出: {output_path}，包含 Filters: {[group_idx + i*6 for i in range(4)]}")
 
 # --- 執行 Function ---
 if __name__ == "__main__":
