@@ -28,7 +28,7 @@ def process_pw_weights(weight_file, bias_file, output_folder):
         # 動態計算：這一個 Filter 的通道長度 (Channel Count)
         channel_len = len(weights)
         
-        output_path = os.path.join(output_folder, f"Wfilter{i}.txt")
+        output_path = os.path.join(output_folder, f"Filter{i}.txt")
         
         with open(output_path, 'w') as f:
             # 1. 處理 Bias: 拆分高 4 位與低 4 位，並補兩個 0000
@@ -59,7 +59,7 @@ def run_all():
                 # 檔案名稱設定
                 W_FILE = f"data_model/features.{i}.banch{j}_w.txt"
                 B_FILE = f"data_model/features.{i}.banch{j}_b.txt"
-                output_folder = f"output_data/pw_column_filters/features.{i}.banch{j}"
+                output_folder = f"output_data_split/pw_column_filters/features.{i}.banch{j}"
 
                 try:
                     process_pw_weights(W_FILE, B_FILE, output_folder)
@@ -73,7 +73,7 @@ def run_all():
                 # 檔案名稱設定
                 W_FILE = f"data_model/features.{i}.banch{j}_w.txt"
                 B_FILE = f"data_model/features.{i}.banch{j}_b.txt"
-                output_folder = f"output_data/pw_column_filters/features.{i}.banch{j}"
+                output_folder = f"output_data_split/pw_column_filters/features.{i}.banch{j}"
 
                 try:
                     process_pw_weights(W_FILE, B_FILE, output_folder)
@@ -105,7 +105,7 @@ if __name__ == "__main__":
                 # 檔案名稱設定
                 W_FILE = f"data_model/features.{i}.banch{j}_w.txt"
                 B_FILE = f"data_model/features.{i}.banch{j}_b.txt"
-                output_folder = f"output_data/pw_column_filters/features.{i}.banch{j}"
+                output_folder = f"output_data_split/pw_column_filters/features.{i}.banch{j}"
 
                 try:
                     process_pw_weights(W_FILE, B_FILE, output_folder)
@@ -119,7 +119,7 @@ if __name__ == "__main__":
                 # 檔案名稱設定
                 W_FILE = f"data_model/features.{i}.banch{j}_w.txt"
                 B_FILE = f"data_model/features.{i}.banch{j}_b.txt"
-                output_folder = f"output_data/pw_column_filters/features.{i}.banch{j}"
+                output_folder = f"output_data_split/pw_column_filters/features.{i}.banch{j}"
 
                 try:
                     process_pw_weights(W_FILE, B_FILE, output_folder)

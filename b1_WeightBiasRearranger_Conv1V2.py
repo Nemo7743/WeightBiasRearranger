@@ -52,7 +52,7 @@ def rearrange_conv1_to_column_major(weight_file, bias_file, output_folder):
 def run_all():
     W_FILE = "data_model/conv1.0_w.txt"
     B_FILE = "data_model/conv1.0_b.txt"
-    output_folder="output_data/conv1_column_filters"
+    output_folder="output_data_split/conv1_column_filters"
 
     try:
         rearrange_conv1_to_column_major(W_FILE, B_FILE, output_folder)
@@ -64,7 +64,7 @@ def run_all():
 if __name__ == "__main__":
     W_FILE = "data_model/conv1.0_w.txt"
     B_FILE = "data_model/conv1.0_b.txt"
-    output_folder="output_data/conv1_column_filters"
+    output_folder="output_data_split/conv1_column_filters"
 
     try:
         rearrange_conv1_to_column_major(W_FILE, B_FILE, output_folder)

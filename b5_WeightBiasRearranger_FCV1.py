@@ -54,7 +54,7 @@ def run_all():
     # 設定輸入檔名
     W_FILE = "data_model/classifier.1_w.txt"
     B_FILE = "data_model/classifier.1_b.txt"
-    output_folder = "output_data/fc_filters"
+    output_folder = "output_data_split/fc_filters"
     
     try:
         process_FC_weights(W_FILE, B_FILE, output_folder)
@@ -67,7 +67,7 @@ if __name__ == "__main__":
     # 設定輸入檔名
     W_FILE = "data_model/classifier.1_w.txt"
     B_FILE = "data_model/classifier.1_b.txt"
-    output_folder = "output_data/fc_filters"
+    output_folder = "output_data_split/fc_filters"
     
     try:
         process_FC_weights(W_FILE, B_FILE, output_folder)

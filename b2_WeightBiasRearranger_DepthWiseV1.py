@@ -27,7 +27,7 @@ def process_dw_weights_column_major(weight_file, bias_file, output_folder):
         bias_high = bias_hex[0:4]
         bias_low = bias_hex[4:8]
         
-        output_path = os.path.join(output_folder, f"Wfilter{i}.txt")
+        output_path = os.path.join(output_folder, f"Filter{i}.txt")
         
         with open(output_path, 'w') as f:
             # 寫入第一行：Bias 分拆 + Padding
@@ -61,7 +61,7 @@ def run_all():
                 # 檔案名稱設定
                 W_FILE = f"data_model/features.{i}.banch{j}_w.txt"
                 B_FILE = f"data_model/features.{i}.banch{j}_b.txt"
-                output_folder = f"output_data/dw_column_filters/features.{i}.banch{j}"
+                output_folder = f"output_data_split/dw_column_filters/features.{i}.banch{j}"
 
                 try:
                     process_dw_weights_column_major(W_FILE, B_FILE, output_folder)
@@ -75,7 +75,7 @@ def run_all():
                 # 檔案名稱設定
                 W_FILE = f"data_model/features.{i}.banch{j}_w.txt"
                 B_FILE = f"data_model/features.{i}.banch{j}_b.txt"
-                output_folder = f"output_data/dw_column_filters/features.{i}.banch{j}"
+                output_folder = f"output_data_split/dw_column_filters/features.{i}.banch{j}"
 
                 try:
                     process_dw_weights_column_major(W_FILE, B_FILE, output_folder)
@@ -107,7 +107,7 @@ if __name__ == "__main__":
                 # 檔案名稱設定
                 W_FILE = f"data_model/features.{i}.banch{j}_w.txt"
                 B_FILE = f"data_model/features.{i}.banch{j}_b.txt"
-                output_folder = f"output_data/dw_column_filters/features.{i}.banch{j}"
+                output_folder = f"output_data_split/dw_column_filters/features.{i}.banch{j}"
 
                 try:
                     process_dw_weights_column_major(W_FILE, B_FILE, output_folder)
@@ -121,7 +121,7 @@ if __name__ == "__main__":
                 # 檔案名稱設定
                 W_FILE = f"data_model/features.{i}.banch{j}_w.txt"
                 B_FILE = f"data_model/features.{i}.banch{j}_b.txt"
-                output_folder = f"output_data/dw_column_filters/features.{i}.banch{j}"
+                output_folder = f"output_data_split/dw_column_filters/features.{i}.banch{j}"
 
                 try:
                     process_dw_weights_column_major(W_FILE, B_FILE, output_folder)
