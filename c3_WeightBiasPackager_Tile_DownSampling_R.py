@@ -124,4 +124,4 @@ def package_tile_downSampling_R(layer_num):
 
 # --- 測試執行區塊 ---
 if __name__ == "__main__":
-    package_tile_downSampling_R(4)
+    package_tile_downSampling_R(12)
