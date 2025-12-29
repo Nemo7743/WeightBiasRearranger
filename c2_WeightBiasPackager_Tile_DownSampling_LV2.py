@@ -1,8 +1,15 @@
 import os
+import math
 
 def package_tile_downSampling_L(layer_num: int):
     """
     準備目錄路徑，驗證輸入，並將 ShuffleNet 權重打包成分組的文字檔案。
+    
+    修改說明：
+    採用「間隔採樣 (Interleaved)」方式打包，確保固定輸出 6 個群組。
+    使用 list slicing [start::6] 的方式，
+    例如 Group0 包含 Filter 0, 6, 12, 18...
+    這能確保在總數為 48 時，每包恰好有 8 個 filter，且分散於各區段。
     
     參數 (Args):
         layer_num (int): 層級識別碼。必須是 0, 4 或 12。
@@ -24,7 +31,7 @@ def package_tile_downSampling_L(layer_num: int):
     }
     mapped_tile_name = tile_map[layer_num]
 
-    # 保留特定的目錄命名慣例
+    # 保留特定的目錄命名慣例 (Left Branch)
     dw_folder_name = f"features.{layer_num}.banch1.0"
     pw_folder_name = f"features.{layer_num}.banch1.2"
 
@@ -33,9 +40,8 @@ def package_tile_downSampling_L(layer_num: int):
     output_path = os.path.join("output_data_packaged", mapped_tile_name)
 
     # 確保輸出目錄存在
-    if not os.path.exists(output_path):
-        os.makedirs(output_path)
-        print(f"已建立輸出目錄：{output_path}")
+    os.makedirs(output_path, exist_ok=True)
+    print(f"已確認輸出目錄：{output_path}")
 
     # --- 3. 檔案搜尋與數值排序 ---
     try:
@@ -45,7 +51,6 @@ def package_tile_downSampling_L(layer_num: int):
         raise FileNotFoundError(f"找不到來源目錄：{dw_source_path}")
 
     # 關鍵：依數字排序 (Filter2 < Filter10)，而非依字母順序
-    # 我們假設檔名格式為 'FilterX.txt'
     all_files.sort(key=lambda x: int(x.replace("Filter", "").replace(".txt", "")))
     
     total_files = len(all_files)
@@ -53,28 +58,23 @@ def package_tile_downSampling_L(layer_num: int):
         print("警告：來源目錄中未發現過濾器檔案。")
         return dw_source_path, pw_source_path, output_path
 
-    # --- 4. 動態分組邏輯 ---
-    # 我們需要正好 6 個輸出檔案 (Group0 - Group5)
-    # 計算基礎區塊大小
-    chunk_size = total_files // 6
+    # --- 4. 動態分組邏輯 (Interleaved) ---
+    # 要求：必須固定打 6 包，且內容分散。
+    # 算法：使用固定步長 6 進行切片。
+    # Group 0: indices 0, 6, 12, 18...
+    # Group 1: indices 1, 7, 13, 19...
     
-    # 如果 total_files < 6，chunk_size 會是 0。
-    # 下方的邏輯會處理 0 的情況，將所有檔案放入 Group 5 或建立空群組。
-    
-    print(f"正在將 {total_files} 個過濾器處理分為 6 組...")
+    num_groups = 6
+    print(f"正在將 {total_files} 個過濾器分散處理為 {num_groups} 組...")
 
-    for group_idx in range(6):
-        # 計算切片的起始與結束索引
-        start_idx = group_idx * chunk_size
-        
-        # 處理餘數的邏輯：
-        # 如果是最後一組 (Group 5)，則納入剩餘的所有檔案。
-        # 這確保當 total_files 不能被 6 整除時，不會有檔案被遺漏。
-        if group_idx == 5:
-            group_files = all_files[start_idx:]
-        else:
-            end_idx = start_idx + chunk_size
-            group_files = all_files[start_idx:end_idx]
+    for group_idx in range(num_groups):
+        # 使用 Python list slicing [start::step]
+        # 這會自動處理所有長度，並均勻分配
+        group_files = all_files[group_idx::num_groups]
+
+        # 如果該組沒有分配到任何檔案 (例如總數少於 6 個時的後幾組)，則跳過或視需求處理
+        if not group_files:
+            continue
 
         # --- 5. 內容處理 (迴圈) ---
         combined_content = []
@@ -84,19 +84,25 @@ def package_tile_downSampling_L(layer_num: int):
             dw_file_path = os.path.join(dw_source_path, filename)
             pw_file_path = os.path.join(pw_source_path, filename)
 
-            # 讀取 DW 內容
-            with open(dw_file_path, 'r', encoding='utf-8') as f:
-                dw_content = f.read().strip()
+            try:
+                # 讀取 DW 內容
+                with open(dw_file_path, 'r', encoding='utf-8') as f:
+                    dw_content = f.read().strip()
 
-            # 讀取 PW 內容
-            with open(pw_file_path, 'r', encoding='utf-8') as f:
-                pw_content = f.read().strip()
+                # 讀取 PW 內容
+                with open(pw_file_path, 'r', encoding='utf-8') as f:
+                    pw_content = f.read().strip()
+                
+                # 格式化配對：dw \n pw
+                # 注意：這裡根據範例需求，DW 與 PW 之間用雙換行
+                pair_block = f"{dw_content}\n\n{pw_content}"
+                combined_content.append(pair_block)
+                
+            except FileNotFoundError as e:
+                print(f"錯誤：找不到對應檔案 {e.filename}，跳過此 Filter。")
+                continue
 
-            # 格式化配對：dw \n pw
-            pair_block = f"{dw_content}\n\n{pw_content}"
-            combined_content.append(pair_block)
-
-        # 將此群組中的所有配對用雙換行符號連接
+        # 將此群組中的所有配對用雙換行符號連接 (Filter 與 Filter 之間)
         final_group_string = "\n\n\n".join(combined_content)
 
         # --- 6. 輸出生成 ---
@@ -106,7 +112,9 @@ def package_tile_downSampling_L(layer_num: int):
         with open(output_file_path, 'w', encoding='utf-8') as f:
             f.write(final_group_string)
             
-        print(f"  已生成 {output_filename}，包含 {len(group_files)} 組配對。")
+        # 提取索引數字以顯示資訊
+        indices = [f.replace("Filter", "").replace(".txt", "") for f in group_files]
+        print(f"  已生成 {output_filename}，包含 Filter: [{', '.join(indices)}]")
 
     print("打包完成。")
     return dw_source_path, pw_source_path, output_path
@@ -114,9 +122,8 @@ def package_tile_downSampling_L(layer_num: int):
 # --- 測試執行區塊 ---
 if __name__ == "__main__":
     # 注意：此區塊假設目錄結構/檔案存在才能成功執行。
-    # 這僅是示範如何呼叫此函數。
     try:
-        src_dw, src_pw, dst = package_tile_downSampling_L(12)
-        print(f"\n已驗證路徑：\nDW 來源：{src_dw}\nPW 來源：{src_pw}\n輸出：{dst}")
+        # 測試 layer_num = 12
+        src_dw, src_pw, dst = package_tile_downSampling_L(11)
     except Exception as e:
-        print(f"錯誤：{e}")
+        print(f"執行錯誤：{e}")

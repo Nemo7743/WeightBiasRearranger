@@ -1,13 +1,19 @@
 import os
 import math
 
-def package_tile_downSampling_R(layer_num):
+def package_tile_OGshuffle(layer_num):
     """
     將來自三個來源目錄的權重打包成 6 個分組的輸出檔案，
     用於右分支 (Right Branch) 下採樣邏輯。
 
+    修改說明：
+    採用「間隔採樣 (Interleaved)」方式打包，確保固定輸出 6 個群組。
+    使用 list slicing [start::6] 的方式，
+    例如 Group0 包含 Filter 0, 6, 12, 18...
+    這能確保在總數為 48 時，每包恰好有 8 個 filter，且分散於各區段。
+
     參數 (Args):
-        layer_num (int): 層級索引。必須嚴格為 0, 4 或 12。
+        layer_num (int): 層級索引。必須嚴格為 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 13, 14 或 15。
 
     拋出異常 (Raises):
         ValueError: 如果 layer_num 無效。
@@ -15,12 +21,16 @@ def package_tile_downSampling_R(layer_num):
     """
     # --- 第一階段：驗證與路徑設定 ---
     
-    if layer_num not in [0, 4, 12]:
-        print("無效的 layer_num。預期為 0、4 或 12。")
-        raise ValueError("無效的 layer_num。預期為 0、4 或 12。")
+    valid_layers = [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15]
+    if layer_num not in valid_layers:
+        print(f"無效的 layer_num。預期為 {valid_layers}。")
+        raise ValueError(f"無效的 layer_num。預期為 {valid_layers}。")
     
     # 輸出路徑映射
-    tile_map = {0: "tile1.2", 4: "tile5.2", 12: "tile13.2"}
+    tile_map = {
+        1: "tile2.2", 2: "tile3.2", 3: "tile4.2", 5: "tile6.2", 6: "tile7.2", 7: "tile8.2", 8: "tile9.2",
+        9: "tile10.2", 10: "tile11.2", 11: "tile12.2", 13: "tile14.2", 14: "tile15.2", 15: "tile16.2"
+                }
     tile_name = tile_map[layer_num]
     output_dir = os.path.join("output_data_packaged", tile_name)
 
@@ -61,23 +71,19 @@ def package_tile_downSampling_R(layer_num):
         print(f"警告：在 {src_pw1} 中找不到有效的過濾器檔案")
         return
 
-    # --- 第三階段：動態分組與處理 ---
+    # --- 第三階段：動態分散分組 (Interleaved) 與處理 ---
 
-    # 計算區塊大小以確保正好有 6 個輸出群組
-    # 我們使用 math.ceil 將「餘數」項目分配到前面的群組（如有必要）
-    chunk_size = math.ceil(total_filters / 6)
+    # 規則：必須固定打 6 包，且內容分散 (例如 0, 6, 12...)
+    num_groups = 6
 
-    for group_idx in range(6):
-        # 決定此群組的過濾器切片範圍
-        start_idx = group_idx * chunk_size
-        end_idx = start_idx + chunk_size
+    for group_idx in range(num_groups):
+        # 使用間隔切片：從 group_idx 開始，每隔 6 個取一個
+        current_group_indices = filter_indices[group_idx::num_groups]
         
-        # 切片已排序的索引列表 (Python 會優雅地處理越界切片)
-        current_group_indices = filter_indices[start_idx:end_idx]
-        
-        # 如果沒有過濾器落入此群組 (例如：總過濾器少於 6 個)，則跳過
+        # 如果沒有過濾器落入此群組，則跳過 (視需求也可生成空檔)
         if not current_group_indices:
-            break
+            print(f"Group{group_idx} 無分配到 Filter，跳過。")
+            continue
 
         group_content_blocks = []
 
@@ -117,11 +123,20 @@ def package_tile_downSampling_R(layer_num):
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(final_group_content)
         
-        print(f"已生成 {output_path}，包含過濾器 {current_group_indices[0]} 到 {current_group_indices[-1]}")
+        # 顯示該組包含哪些 Filter Index，方便除錯確認分散是否正確
+        indices_str = ", ".join(map(str, current_group_indices))
+        print(f"已生成 {output_path}，包含 Filters: [{indices_str}]")
 
     print(f"第 {layer_num} 層處理完成。輸出已儲存至 {output_dir}")
 
 
 # --- 測試執行區塊 ---
 if __name__ == "__main__":
-    package_tile_downSampling_R(12)
+    # 這裡依序執行所有有效層級
+    layers_to_process = [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15]
+    
+    for layer in layers_to_process:
+        try:
+            package_tile_OGshuffle(layer)
+        except Exception as e:
+            print(f"Layer {layer} 處理失敗: {e}")

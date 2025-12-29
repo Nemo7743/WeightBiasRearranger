@@ -1,13 +1,18 @@
 import os
 import math
 
-def package_tile_OGshuffle(layer_num):
+def package_tile_downSampling_R(layer_num):
     """
     將來自三個來源目錄的權重打包成 6 個分組的輸出檔案，
     用於右分支 (Right Branch) 下採樣邏輯。
+    
+    修改重點：
+    採用「間隔採樣」(Interleaved) 方式打包，
+    例如：Group0 包含 0, 6, 12... 而非 0, 1, 2...
+    確保固定輸出 6 個檔案。
 
     參數 (Args):
-        layer_num (int): 層級索引。必須嚴格為 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 13, 14 或 15。
+        layer_num (int): 層級索引。必須嚴格為 0, 4 或 12。
 
     拋出異常 (Raises):
         ValueError: 如果 layer_num 無效。
@@ -15,15 +20,12 @@ def package_tile_OGshuffle(layer_num):
     """
     # --- 第一階段：驗證與路徑設定 ---
     
-    if layer_num not in [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15]:
-        print("無效的 layer_num。預期為 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 13, 14 或 15。")
-        raise ValueError("無效的 layer_num。預期為 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 13, 14 或 15。")
+    if layer_num not in [0, 4, 12]:
+        print("無效的 layer_num。預期為 0、4 或 12。")
+        raise ValueError("無效的 layer_num。預期為 0、4 或 12。")
     
     # 輸出路徑映射
-    tile_map = {
-        1: "tile2.2", 2: "tile3.2", 3: "tile4.2", 5: "tile6.2", 6: "tile7.2", 7: "tile8.2", 8: "tile9.2",
-        9: "tile10.2", 10: "tile11.2", 11: "tile12.2", 13: "tile14.2", 14: "tile15.2", 15: "tile16.2"
-                }
+    tile_map = {0: "tile1.2", 4: "tile5.2", 12: "tile13.2"}
     tile_name = tile_map[layer_num]
     output_dir = os.path.join("output_data_packaged", tile_name)
 
@@ -56,7 +58,7 @@ def package_tile_OGshuffle(layer_num):
                 print("存在不符合模式的檔案")
                 continue # 跳過不符合模式的檔案
 
-    # 關鍵：依數值排序
+    # 關鍵：依數值排序，確保順序正確 (0, 1, 2, 3...)
     filter_indices.sort()
     
     total_filters = len(filter_indices)
@@ -64,23 +66,27 @@ def package_tile_OGshuffle(layer_num):
         print(f"警告：在 {src_pw1} 中找不到有效的過濾器檔案")
         return
 
-    # --- 第三階段：動態分組與處理 ---
+    # --- 第三階段：分散式分組 (Interleaved Grouping) 與處理 ---
 
-    # 計算區塊大小以確保正好有 6 個輸出群組
-    # 我們使用 math.ceil 將「餘數」項目分配到前面的群組（如有必要）
-    chunk_size = math.ceil(total_filters / 6)
+    # 規則：必須固定打 6 包，且內容分散
+    # 使用 slicing [start::step] 的方式，Step 固定為 6
+    # Group 0: indices[0], indices[6], indices[12]...
+    # Group 1: indices[1], indices[7], indices[13]...
+    
+    num_groups = 6
 
-    for group_idx in range(6):
-        # 決定此群組的過濾器切片範圍
-        start_idx = group_idx * chunk_size
-        end_idx = start_idx + chunk_size
+    for group_idx in range(num_groups):
+        # --- 修改點：使用間隔切片 (Step=6) ---
+        # 這會自動處理所有長度的 filter 列表，並分配給 6 個組
+        current_group_indices = filter_indices[group_idx::num_groups]
         
-        # 切片已排序的索引列表 (Python 會優雅地處理越界切片)
-        current_group_indices = filter_indices[start_idx:end_idx]
-        
-        # 如果沒有過濾器落入此群組 (例如：總過濾器少於 6 個)，則跳過
+        # 如果因為 Filter 總數太少 (例如只有 4 個 filter)，導致後面的 Group 分不到 filter
+        # 這種情況下 current_group_indices 會是空的，我們仍產生空檔案或跳過
+        # 這裡選擇跳過不產生檔案，或者也可以產生空檔，視需求而定。
+        # 根據一般邏輯，若無內容則不寫入：
         if not current_group_indices:
-            break
+            print(f"Group{group_idx} 無分配到 Filter，跳過生成。")
+            continue
 
         group_content_blocks = []
 
@@ -120,23 +126,13 @@ def package_tile_OGshuffle(layer_num):
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(final_group_content)
         
-        print(f"已生成 {output_path}，包含過濾器 {current_group_indices[0]} 到 {current_group_indices[-1]}")
+        # 列印除錯訊息顯示該組包含哪些 Filter，方便確認分散是否正確
+        indices_str = ", ".join(map(str, current_group_indices))
+        print(f"已生成 {output_filename}，包含 Filter: [{indices_str}]")
 
     print(f"第 {layer_num} 層處理完成。輸出已儲存至 {output_dir}")
 
-
 # --- 測試執行區塊 ---
 if __name__ == "__main__":
-    package_tile_OGshuffle(1)
-    package_tile_OGshuffle(2)
-    package_tile_OGshuffle(3)
-    package_tile_OGshuffle(5)
-    package_tile_OGshuffle(6)
-    package_tile_OGshuffle(7)
-    package_tile_OGshuffle(8)
-    package_tile_OGshuffle(9)
-    package_tile_OGshuffle(10)
-    package_tile_OGshuffle(11)
-    package_tile_OGshuffle(13)
-    package_tile_OGshuffle(14)
-    package_tile_OGshuffle(15)
+    # 測試範例：確保 layer_num 為 0, 4, 或 12
+    package_tile_downSampling_R(11)
