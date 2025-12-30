@@ -1,6 +1,6 @@
 import os
 
-def package_tile0():
+def package_P0_Conv1():
     """
     讀取 output_data_split/conv1_column_filters 中的 Filter0.txt 到 Filter23.txt。
     
@@ -60,4 +60,4 @@ def package_tile0():
 
 # --- 執行 Function ---
 if __name__ == "__main__":
-    package_tile0()
+    package_P0_Conv1()
