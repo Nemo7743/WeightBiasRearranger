@@ -1,17 +1,17 @@
 import os
 
 # 引用各打包程式
-import c1_WeightBiasPackager_Tile0V2 as tile0
+import c1_WeightBiasPackager_Tile0_Conv1V2 as tile0
 import c2_WeightBiasPackager_Tile_DownSampling_LV2 as Tile_DownSampling_L
 import c3_WeightBiasPackager_Tile_DownSampling_RV2 as Tile_DownSampling_R
 import c4_WeightBiasPackager_Tile_OGShuffleV2 as Tile_OGShuffle
-import c5_WeightBiasPackager_Tile_ConvLastV2 as Tile_ConvLast
-import c6_WeightBiasPackager_Tile_FCV1 as Tile_FC
+import c5_WeightBiasPackager_Tile17_ConvLastV2 as Tile_ConvLast
+import c6_WeightBiasPackager_Tile18_FCV1 as Tile_FC
 
 def run_weight_Packager():
     # --- 執行 Tile0 (Conv1) ---
     print("--- 打包 Tile0 ---")
-    tile0.package_tile0()
+    tile0.package_tile0_Conv1()
     print("--- 打包 Tile0 結束 ---")
 
     # --- 執行 Tile1 (DownSampling) ---
@@ -52,12 +52,12 @@ def run_weight_Packager():
     
     # --- 執行 Tile17 (ConvLast) ---
     print("--- 打包 Tile17 ---")
-    Tile_ConvLast.package_tile_convlast()
+    Tile_ConvLast.package_tile17_convlast()
     print("--- 打包 Tile17 結束 ---")
 
     # --- 執行 Tile18 (FC) ---
     print("--- 打包 Tile18 ---")
-    Tile_FC.package_tile_FC()
+    Tile_FC.package_tile18_FC()
     print("--- 打包 Tile18 結束 ---")
 
 # --- 執行 Function ---

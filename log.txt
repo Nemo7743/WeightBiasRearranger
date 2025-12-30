@@ -145,241 +145,636 @@
 
 --- [Step 2] 開始權重與資料打包流程 ---
 --- 打包 Tile0 ---
-完成輸出: output_data_packaged\tile0\Group0.txt，包含 Filters: [0, 6, 12, 18]
-完成輸出: output_data_packaged\tile0\Group1.txt，包含 Filters: [1, 7, 13, 19]
-完成輸出: output_data_packaged\tile0\Group2.txt，包含 Filters: [2, 8, 14, 20]
-完成輸出: output_data_packaged\tile0\Group3.txt，包含 Filters: [3, 9, 15, 21]
-完成輸出: output_data_packaged\tile0\Group4.txt，包含 Filters: [4, 10, 16, 22]
-完成輸出: output_data_packaged\tile0\Group5.txt，包含 Filters: [5, 11, 17, 23]
+已確認輸出目錄：output_data_packaged\tile0_Conv1\P0_Conv1
+正在將 24 個 Filter 轉換為 GroupX.Y 格式 (共 24 包)...
+  [Filter0.txt] -> 轉換為 -> [Group0.0.txt]
+  [Filter1.txt] -> 轉換為 -> [Group0.1.txt]
+  [Filter2.txt] -> 轉換為 -> [Group0.2.txt]
+  [Filter3.txt] -> 轉換為 -> [Group0.3.txt]
+  [Filter4.txt] -> 轉換為 -> [Group1.0.txt]
+  [Filter5.txt] -> 轉換為 -> [Group1.1.txt]
+  [Filter6.txt] -> 轉換為 -> [Group1.2.txt]
+  [Filter7.txt] -> 轉換為 -> [Group1.3.txt]
+  [Filter8.txt] -> 轉換為 -> [Group2.0.txt]
+  [Filter9.txt] -> 轉換為 -> [Group2.1.txt]
+  [Filter10.txt] -> 轉換為 -> [Group2.2.txt]
+  [Filter11.txt] -> 轉換為 -> [Group2.3.txt]
+  [Filter12.txt] -> 轉換為 -> [Group3.0.txt]
+  [Filter13.txt] -> 轉換為 -> [Group3.1.txt]
+  [Filter14.txt] -> 轉換為 -> [Group3.2.txt]
+  [Filter15.txt] -> 轉換為 -> [Group3.3.txt]
+  [Filter16.txt] -> 轉換為 -> [Group4.0.txt]
+  [Filter17.txt] -> 轉換為 -> [Group4.1.txt]
+  [Filter18.txt] -> 轉換為 -> [Group4.2.txt]
+  [Filter19.txt] -> 轉換為 -> [Group4.3.txt]
+  [Filter20.txt] -> 轉換為 -> [Group5.0.txt]
+  [Filter21.txt] -> 轉換為 -> [Group5.1.txt]
+  [Filter22.txt] -> 轉換為 -> [Group5.2.txt]
+  [Filter23.txt] -> 轉換為 -> [Group5.3.txt]
+------------------------------
+打包完成，共生成 24 個檔案於 output_data_packaged\tile0_Conv1\P0_Conv1
 --- 打包 Tile0 結束 ---
 --- 打包 Tile1 ---
-已確認輸出目錄：output_data_packaged\tile1.1
-正在將 24 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23]
+已確認輸出目錄：
+  DW -> output_data_packaged\tile1.1_DownSamplingL\P0_DW
+  PW -> output_data_packaged\tile1.1_DownSamplingL\P1_PW
+偵測到 24 個 Filter，正在進行 24 分組打包...
+  已生成 Group0.0.txt 	包含 Filter: [0]
+  已生成 Group0.1.txt 	包含 Filter: [1]
+  已生成 Group0.2.txt 	包含 Filter: [2]
+  已生成 Group0.3.txt 	包含 Filter: [3]
+  已生成 Group1.0.txt 	包含 Filter: [4]
+  已生成 Group1.1.txt 	包含 Filter: [5]
+  已生成 Group1.2.txt 	包含 Filter: [6]
+  已生成 Group1.3.txt 	包含 Filter: [7]
+  已生成 Group2.0.txt 	包含 Filter: [8]
+  已生成 Group2.1.txt 	包含 Filter: [9]
+  已生成 Group2.2.txt 	包含 Filter: [10]
+  已生成 Group2.3.txt 	包含 Filter: [11]
+  已生成 Group3.0.txt 	包含 Filter: [12]
+  已生成 Group3.1.txt 	包含 Filter: [13]
+  已生成 Group3.2.txt 	包含 Filter: [14]
+  已生成 Group3.3.txt 	包含 Filter: [15]
+  已生成 Group4.0.txt 	包含 Filter: [16]
+  已生成 Group4.1.txt 	包含 Filter: [17]
+  已生成 Group4.2.txt 	包含 Filter: [18]
+  已生成 Group4.3.txt 	包含 Filter: [19]
+  已生成 Group5.0.txt 	包含 Filter: [20]
+  已生成 Group5.1.txt 	包含 Filter: [21]
+  已生成 Group5.2.txt 	包含 Filter: [22]
+  已生成 Group5.3.txt 	包含 Filter: [23]
 打包完成。
-已確認輸出目錄：output_data_packaged\tile1.2
-正在將 24 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23]
+已確認輸出目錄結構於：output_data_packaged\tile1.2_DownSamplingR
+  -> P0_PW, P1_DW, P2_PW
+偵測到 24 個 Filter，正在進行 24 分組打包 (PW/DW 分離)...
+  已生成 Group0.0.txt 	包含: [0]
+  已生成 Group0.1.txt 	包含: [1]
+  已生成 Group0.2.txt 	包含: [2]
+  已生成 Group0.3.txt 	包含: [3]
+  已生成 Group1.0.txt 	包含: [4]
+  已生成 Group1.1.txt 	包含: [5]
+  已生成 Group1.2.txt 	包含: [6]
+  已生成 Group1.3.txt 	包含: [7]
+  已生成 Group2.0.txt 	包含: [8]
+  已生成 Group2.1.txt 	包含: [9]
+  已生成 Group2.2.txt 	包含: [10]
+  已生成 Group2.3.txt 	包含: [11]
+  已生成 Group3.0.txt 	包含: [12]
+  已生成 Group3.1.txt 	包含: [13]
+  已生成 Group3.2.txt 	包含: [14]
+  已生成 Group3.3.txt 	包含: [15]
+  已生成 Group4.0.txt 	包含: [16]
+  已生成 Group4.1.txt 	包含: [17]
+  已生成 Group4.2.txt 	包含: [18]
+  已生成 Group4.3.txt 	包含: [19]
+  已生成 Group5.0.txt 	包含: [20]
+  已生成 Group5.1.txt 	包含: [21]
+  已生成 Group5.2.txt 	包含: [22]
+  已生成 Group5.3.txt 	包含: [23]
 打包完成。
 --- 打包 Tile1 結束 ---
 --- 打包 Tile2 ---
-已確認輸出目錄：output_data_packaged\tile2.2
-正在將 24 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23]
+已確認輸出目錄結構於：output_data_packaged\tile2.2_OGShuffle
+  -> 分離為: P0_PW, P1_DW, P2_PW
+偵測到 24 個 Filter，正在進行 24 分組打包 (三路分離)...
+  已生成 Group0.0.txt 	包含: [0]
+  已生成 Group0.1.txt 	包含: [1]
+  已生成 Group0.2.txt 	包含: [2]
+  已生成 Group0.3.txt 	包含: [3]
+  已生成 Group1.0.txt 	包含: [4]
+  已生成 Group1.1.txt 	包含: [5]
+  已生成 Group1.2.txt 	包含: [6]
+  已生成 Group1.3.txt 	包含: [7]
+  已生成 Group2.0.txt 	包含: [8]
+  已生成 Group2.1.txt 	包含: [9]
+  已生成 Group2.2.txt 	包含: [10]
+  已生成 Group2.3.txt 	包含: [11]
+  已生成 Group3.0.txt 	包含: [12]
+  已生成 Group3.1.txt 	包含: [13]
+  已生成 Group3.2.txt 	包含: [14]
+  已生成 Group3.3.txt 	包含: [15]
+  已生成 Group4.0.txt 	包含: [16]
+  已生成 Group4.1.txt 	包含: [17]
+  已生成 Group4.2.txt 	包含: [18]
+  已生成 Group4.3.txt 	包含: [19]
+  已生成 Group5.0.txt 	包含: [20]
+  已生成 Group5.1.txt 	包含: [21]
+  已生成 Group5.2.txt 	包含: [22]
+  已生成 Group5.3.txt 	包含: [23]
 打包完成。
 --- 打包 Tile2 結束 ---
 --- 打包 Tile3 ---
-已確認輸出目錄：output_data_packaged\tile3.2
-正在將 24 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23]
+已確認輸出目錄結構於：output_data_packaged\tile3.2_OGShuffle
+  -> 分離為: P0_PW, P1_DW, P2_PW
+偵測到 24 個 Filter，正在進行 24 分組打包 (三路分離)...
+  已生成 Group0.0.txt 	包含: [0]
+  已生成 Group0.1.txt 	包含: [1]
+  已生成 Group0.2.txt 	包含: [2]
+  已生成 Group0.3.txt 	包含: [3]
+  已生成 Group1.0.txt 	包含: [4]
+  已生成 Group1.1.txt 	包含: [5]
+  已生成 Group1.2.txt 	包含: [6]
+  已生成 Group1.3.txt 	包含: [7]
+  已生成 Group2.0.txt 	包含: [8]
+  已生成 Group2.1.txt 	包含: [9]
+  已生成 Group2.2.txt 	包含: [10]
+  已生成 Group2.3.txt 	包含: [11]
+  已生成 Group3.0.txt 	包含: [12]
+  已生成 Group3.1.txt 	包含: [13]
+  已生成 Group3.2.txt 	包含: [14]
+  已生成 Group3.3.txt 	包含: [15]
+  已生成 Group4.0.txt 	包含: [16]
+  已生成 Group4.1.txt 	包含: [17]
+  已生成 Group4.2.txt 	包含: [18]
+  已生成 Group4.3.txt 	包含: [19]
+  已生成 Group5.0.txt 	包含: [20]
+  已生成 Group5.1.txt 	包含: [21]
+  已生成 Group5.2.txt 	包含: [22]
+  已生成 Group5.3.txt 	包含: [23]
 打包完成。
 --- 打包 Tile3 結束 ---
 --- 打包 Tile4 ---
-已確認輸出目錄：output_data_packaged\tile4.2
-正在將 24 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23]
+已確認輸出目錄結構於：output_data_packaged\tile4.2_OGShuffle
+  -> 分離為: P0_PW, P1_DW, P2_PW
+偵測到 24 個 Filter，正在進行 24 分組打包 (三路分離)...
+  已生成 Group0.0.txt 	包含: [0]
+  已生成 Group0.1.txt 	包含: [1]
+  已生成 Group0.2.txt 	包含: [2]
+  已生成 Group0.3.txt 	包含: [3]
+  已生成 Group1.0.txt 	包含: [4]
+  已生成 Group1.1.txt 	包含: [5]
+  已生成 Group1.2.txt 	包含: [6]
+  已生成 Group1.3.txt 	包含: [7]
+  已生成 Group2.0.txt 	包含: [8]
+  已生成 Group2.1.txt 	包含: [9]
+  已生成 Group2.2.txt 	包含: [10]
+  已生成 Group2.3.txt 	包含: [11]
+  已生成 Group3.0.txt 	包含: [12]
+  已生成 Group3.1.txt 	包含: [13]
+  已生成 Group3.2.txt 	包含: [14]
+  已生成 Group3.3.txt 	包含: [15]
+  已生成 Group4.0.txt 	包含: [16]
+  已生成 Group4.1.txt 	包含: [17]
+  已生成 Group4.2.txt 	包含: [18]
+  已生成 Group4.3.txt 	包含: [19]
+  已生成 Group5.0.txt 	包含: [20]
+  已生成 Group5.1.txt 	包含: [21]
+  已生成 Group5.2.txt 	包含: [22]
+  已生成 Group5.3.txt 	包含: [23]
 打包完成。
 --- 打包 Tile4 結束 ---
 --- 打包 Tile5 ---
-已確認輸出目錄：output_data_packaged\tile5.1
-正在將 48 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18, 24, 30, 36, 42]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19, 25, 31, 37, 43]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20, 26, 32, 38, 44]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21, 27, 33, 39, 45]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22, 28, 34, 40, 46]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23, 29, 35, 41, 47]
+已確認輸出目錄：
+  DW -> output_data_packaged\tile5.1_DownSamplingL\P0_DW
+  PW -> output_data_packaged\tile5.1_DownSamplingL\P1_PW
+偵測到 48 個 Filter，正在進行 24 分組打包...
+  已生成 Group0.0.txt 	包含 Filter: [0, 24]
+  已生成 Group0.1.txt 	包含 Filter: [1, 25]
+  已生成 Group0.2.txt 	包含 Filter: [2, 26]
+  已生成 Group0.3.txt 	包含 Filter: [3, 27]
+  已生成 Group1.0.txt 	包含 Filter: [4, 28]
+  已生成 Group1.1.txt 	包含 Filter: [5, 29]
+  已生成 Group1.2.txt 	包含 Filter: [6, 30]
+  已生成 Group1.3.txt 	包含 Filter: [7, 31]
+  已生成 Group2.0.txt 	包含 Filter: [8, 32]
+  已生成 Group2.1.txt 	包含 Filter: [9, 33]
+  已生成 Group2.2.txt 	包含 Filter: [10, 34]
+  已生成 Group2.3.txt 	包含 Filter: [11, 35]
+  已生成 Group3.0.txt 	包含 Filter: [12, 36]
+  已生成 Group3.1.txt 	包含 Filter: [13, 37]
+  已生成 Group3.2.txt 	包含 Filter: [14, 38]
+  已生成 Group3.3.txt 	包含 Filter: [15, 39]
+  已生成 Group4.0.txt 	包含 Filter: [16, 40]
+  已生成 Group4.1.txt 	包含 Filter: [17, 41]
+  已生成 Group4.2.txt 	包含 Filter: [18, 42]
+  已生成 Group4.3.txt 	包含 Filter: [19, 43]
+  已生成 Group5.0.txt 	包含 Filter: [20, 44]
+  已生成 Group5.1.txt 	包含 Filter: [21, 45]
+  已生成 Group5.2.txt 	包含 Filter: [22, 46]
+  已生成 Group5.3.txt 	包含 Filter: [23, 47]
 打包完成。
-已確認輸出目錄：output_data_packaged\tile5.2
-正在將 48 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18, 24, 30, 36, 42]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19, 25, 31, 37, 43]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20, 26, 32, 38, 44]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21, 27, 33, 39, 45]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22, 28, 34, 40, 46]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23, 29, 35, 41, 47]
+已確認輸出目錄結構於：output_data_packaged\tile5.2_DownSamplingR
+  -> P0_PW, P1_DW, P2_PW
+偵測到 48 個 Filter，正在進行 24 分組打包 (PW/DW 分離)...
+  已生成 Group0.0.txt 	包含: [0, 24]
+  已生成 Group0.1.txt 	包含: [1, 25]
+  已生成 Group0.2.txt 	包含: [2, 26]
+  已生成 Group0.3.txt 	包含: [3, 27]
+  已生成 Group1.0.txt 	包含: [4, 28]
+  已生成 Group1.1.txt 	包含: [5, 29]
+  已生成 Group1.2.txt 	包含: [6, 30]
+  已生成 Group1.3.txt 	包含: [7, 31]
+  已生成 Group2.0.txt 	包含: [8, 32]
+  已生成 Group2.1.txt 	包含: [9, 33]
+  已生成 Group2.2.txt 	包含: [10, 34]
+  已生成 Group2.3.txt 	包含: [11, 35]
+  已生成 Group3.0.txt 	包含: [12, 36]
+  已生成 Group3.1.txt 	包含: [13, 37]
+  已生成 Group3.2.txt 	包含: [14, 38]
+  已生成 Group3.3.txt 	包含: [15, 39]
+  已生成 Group4.0.txt 	包含: [16, 40]
+  已生成 Group4.1.txt 	包含: [17, 41]
+  已生成 Group4.2.txt 	包含: [18, 42]
+  已生成 Group4.3.txt 	包含: [19, 43]
+  已生成 Group5.0.txt 	包含: [20, 44]
+  已生成 Group5.1.txt 	包含: [21, 45]
+  已生成 Group5.2.txt 	包含: [22, 46]
+  已生成 Group5.3.txt 	包含: [23, 47]
 打包完成。
 --- 打包 Tile5 結束 ---
 --- 打包 Tile6 ---
-已確認輸出目錄：output_data_packaged\tile6.2
-正在將 48 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18, 24, 30, 36, 42]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19, 25, 31, 37, 43]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20, 26, 32, 38, 44]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21, 27, 33, 39, 45]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22, 28, 34, 40, 46]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23, 29, 35, 41, 47]
+已確認輸出目錄結構於：output_data_packaged\tile6.2_OGShuffle
+  -> 分離為: P0_PW, P1_DW, P2_PW
+偵測到 48 個 Filter，正在進行 24 分組打包 (三路分離)...
+  已生成 Group0.0.txt 	包含: [0, 24]
+  已生成 Group0.1.txt 	包含: [1, 25]
+  已生成 Group0.2.txt 	包含: [2, 26]
+  已生成 Group0.3.txt 	包含: [3, 27]
+  已生成 Group1.0.txt 	包含: [4, 28]
+  已生成 Group1.1.txt 	包含: [5, 29]
+  已生成 Group1.2.txt 	包含: [6, 30]
+  已生成 Group1.3.txt 	包含: [7, 31]
+  已生成 Group2.0.txt 	包含: [8, 32]
+  已生成 Group2.1.txt 	包含: [9, 33]
+  已生成 Group2.2.txt 	包含: [10, 34]
+  已生成 Group2.3.txt 	包含: [11, 35]
+  已生成 Group3.0.txt 	包含: [12, 36]
+  已生成 Group3.1.txt 	包含: [13, 37]
+  已生成 Group3.2.txt 	包含: [14, 38]
+  已生成 Group3.3.txt 	包含: [15, 39]
+  已生成 Group4.0.txt 	包含: [16, 40]
+  已生成 Group4.1.txt 	包含: [17, 41]
+  已生成 Group4.2.txt 	包含: [18, 42]
+  已生成 Group4.3.txt 	包含: [19, 43]
+  已生成 Group5.0.txt 	包含: [20, 44]
+  已生成 Group5.1.txt 	包含: [21, 45]
+  已生成 Group5.2.txt 	包含: [22, 46]
+  已生成 Group5.3.txt 	包含: [23, 47]
 打包完成。
 --- 打包 Tile6 結束 ---
 --- 打包 Tile7 ---
-已確認輸出目錄：output_data_packaged\tile7.2
-正在將 48 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18, 24, 30, 36, 42]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19, 25, 31, 37, 43]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20, 26, 32, 38, 44]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21, 27, 33, 39, 45]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22, 28, 34, 40, 46]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23, 29, 35, 41, 47]
+已確認輸出目錄結構於：output_data_packaged\tile7.2_OGShuffle
+  -> 分離為: P0_PW, P1_DW, P2_PW
+偵測到 48 個 Filter，正在進行 24 分組打包 (三路分離)...
+  已生成 Group0.0.txt 	包含: [0, 24]
+  已生成 Group0.1.txt 	包含: [1, 25]
+  已生成 Group0.2.txt 	包含: [2, 26]
+  已生成 Group0.3.txt 	包含: [3, 27]
+  已生成 Group1.0.txt 	包含: [4, 28]
+  已生成 Group1.1.txt 	包含: [5, 29]
+  已生成 Group1.2.txt 	包含: [6, 30]
+  已生成 Group1.3.txt 	包含: [7, 31]
+  已生成 Group2.0.txt 	包含: [8, 32]
+  已生成 Group2.1.txt 	包含: [9, 33]
+  已生成 Group2.2.txt 	包含: [10, 34]
+  已生成 Group2.3.txt 	包含: [11, 35]
+  已生成 Group3.0.txt 	包含: [12, 36]
+  已生成 Group3.1.txt 	包含: [13, 37]
+  已生成 Group3.2.txt 	包含: [14, 38]
+  已生成 Group3.3.txt 	包含: [15, 39]
+  已生成 Group4.0.txt 	包含: [16, 40]
+  已生成 Group4.1.txt 	包含: [17, 41]
+  已生成 Group4.2.txt 	包含: [18, 42]
+  已生成 Group4.3.txt 	包含: [19, 43]
+  已生成 Group5.0.txt 	包含: [20, 44]
+  已生成 Group5.1.txt 	包含: [21, 45]
+  已生成 Group5.2.txt 	包含: [22, 46]
+  已生成 Group5.3.txt 	包含: [23, 47]
 打包完成。
 --- 打包 Tile7 結束 ---
 --- 打包 Tile8 ---
-已確認輸出目錄：output_data_packaged\tile8.2
-正在將 48 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18, 24, 30, 36, 42]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19, 25, 31, 37, 43]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20, 26, 32, 38, 44]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21, 27, 33, 39, 45]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22, 28, 34, 40, 46]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23, 29, 35, 41, 47]
+已確認輸出目錄結構於：output_data_packaged\tile8.2_OGShuffle
+  -> 分離為: P0_PW, P1_DW, P2_PW
+偵測到 48 個 Filter，正在進行 24 分組打包 (三路分離)...
+  已生成 Group0.0.txt 	包含: [0, 24]
+  已生成 Group0.1.txt 	包含: [1, 25]
+  已生成 Group0.2.txt 	包含: [2, 26]
+  已生成 Group0.3.txt 	包含: [3, 27]
+  已生成 Group1.0.txt 	包含: [4, 28]
+  已生成 Group1.1.txt 	包含: [5, 29]
+  已生成 Group1.2.txt 	包含: [6, 30]
+  已生成 Group1.3.txt 	包含: [7, 31]
+  已生成 Group2.0.txt 	包含: [8, 32]
+  已生成 Group2.1.txt 	包含: [9, 33]
+  已生成 Group2.2.txt 	包含: [10, 34]
+  已生成 Group2.3.txt 	包含: [11, 35]
+  已生成 Group3.0.txt 	包含: [12, 36]
+  已生成 Group3.1.txt 	包含: [13, 37]
+  已生成 Group3.2.txt 	包含: [14, 38]
+  已生成 Group3.3.txt 	包含: [15, 39]
+  已生成 Group4.0.txt 	包含: [16, 40]
+  已生成 Group4.1.txt 	包含: [17, 41]
+  已生成 Group4.2.txt 	包含: [18, 42]
+  已生成 Group4.3.txt 	包含: [19, 43]
+  已生成 Group5.0.txt 	包含: [20, 44]
+  已生成 Group5.1.txt 	包含: [21, 45]
+  已生成 Group5.2.txt 	包含: [22, 46]
+  已生成 Group5.3.txt 	包含: [23, 47]
 打包完成。
 --- 打包 Tile8 結束 ---
 --- 打包 Tile9 ---
-已確認輸出目錄：output_data_packaged\tile9.2
-正在將 48 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18, 24, 30, 36, 42]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19, 25, 31, 37, 43]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20, 26, 32, 38, 44]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21, 27, 33, 39, 45]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22, 28, 34, 40, 46]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23, 29, 35, 41, 47]
+已確認輸出目錄結構於：output_data_packaged\tile9.2_OGShuffle
+  -> 分離為: P0_PW, P1_DW, P2_PW
+偵測到 48 個 Filter，正在進行 24 分組打包 (三路分離)...
+  已生成 Group0.0.txt 	包含: [0, 24]
+  已生成 Group0.1.txt 	包含: [1, 25]
+  已生成 Group0.2.txt 	包含: [2, 26]
+  已生成 Group0.3.txt 	包含: [3, 27]
+  已生成 Group1.0.txt 	包含: [4, 28]
+  已生成 Group1.1.txt 	包含: [5, 29]
+  已生成 Group1.2.txt 	包含: [6, 30]
+  已生成 Group1.3.txt 	包含: [7, 31]
+  已生成 Group2.0.txt 	包含: [8, 32]
+  已生成 Group2.1.txt 	包含: [9, 33]
+  已生成 Group2.2.txt 	包含: [10, 34]
+  已生成 Group2.3.txt 	包含: [11, 35]
+  已生成 Group3.0.txt 	包含: [12, 36]
+  已生成 Group3.1.txt 	包含: [13, 37]
+  已生成 Group3.2.txt 	包含: [14, 38]
+  已生成 Group3.3.txt 	包含: [15, 39]
+  已生成 Group4.0.txt 	包含: [16, 40]
+  已生成 Group4.1.txt 	包含: [17, 41]
+  已生成 Group4.2.txt 	包含: [18, 42]
+  已生成 Group4.3.txt 	包含: [19, 43]
+  已生成 Group5.0.txt 	包含: [20, 44]
+  已生成 Group5.1.txt 	包含: [21, 45]
+  已生成 Group5.2.txt 	包含: [22, 46]
+  已生成 Group5.3.txt 	包含: [23, 47]
 打包完成。
 --- 打包 Tile9 結束 ---
 --- 打包 Tile10 ---
-已確認輸出目錄：output_data_packaged\tile10.2
-正在將 48 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18, 24, 30, 36, 42]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19, 25, 31, 37, 43]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20, 26, 32, 38, 44]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21, 27, 33, 39, 45]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22, 28, 34, 40, 46]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23, 29, 35, 41, 47]
+已確認輸出目錄結構於：output_data_packaged\tile10.2_OGShuffle
+  -> 分離為: P0_PW, P1_DW, P2_PW
+偵測到 48 個 Filter，正在進行 24 分組打包 (三路分離)...
+  已生成 Group0.0.txt 	包含: [0, 24]
+  已生成 Group0.1.txt 	包含: [1, 25]
+  已生成 Group0.2.txt 	包含: [2, 26]
+  已生成 Group0.3.txt 	包含: [3, 27]
+  已生成 Group1.0.txt 	包含: [4, 28]
+  已生成 Group1.1.txt 	包含: [5, 29]
+  已生成 Group1.2.txt 	包含: [6, 30]
+  已生成 Group1.3.txt 	包含: [7, 31]
+  已生成 Group2.0.txt 	包含: [8, 32]
+  已生成 Group2.1.txt 	包含: [9, 33]
+  已生成 Group2.2.txt 	包含: [10, 34]
+  已生成 Group2.3.txt 	包含: [11, 35]
+  已生成 Group3.0.txt 	包含: [12, 36]
+  已生成 Group3.1.txt 	包含: [13, 37]
+  已生成 Group3.2.txt 	包含: [14, 38]
+  已生成 Group3.3.txt 	包含: [15, 39]
+  已生成 Group4.0.txt 	包含: [16, 40]
+  已生成 Group4.1.txt 	包含: [17, 41]
+  已生成 Group4.2.txt 	包含: [18, 42]
+  已生成 Group4.3.txt 	包含: [19, 43]
+  已生成 Group5.0.txt 	包含: [20, 44]
+  已生成 Group5.1.txt 	包含: [21, 45]
+  已生成 Group5.2.txt 	包含: [22, 46]
+  已生成 Group5.3.txt 	包含: [23, 47]
 打包完成。
 --- 打包 Tile10 結束 ---
 --- 打包 Tile11 ---
-已確認輸出目錄：output_data_packaged\tile11.2
-正在將 48 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18, 24, 30, 36, 42]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19, 25, 31, 37, 43]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20, 26, 32, 38, 44]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21, 27, 33, 39, 45]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22, 28, 34, 40, 46]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23, 29, 35, 41, 47]
+已確認輸出目錄結構於：output_data_packaged\tile11.2_OGShuffle
+  -> 分離為: P0_PW, P1_DW, P2_PW
+偵測到 48 個 Filter，正在進行 24 分組打包 (三路分離)...
+  已生成 Group0.0.txt 	包含: [0, 24]
+  已生成 Group0.1.txt 	包含: [1, 25]
+  已生成 Group0.2.txt 	包含: [2, 26]
+  已生成 Group0.3.txt 	包含: [3, 27]
+  已生成 Group1.0.txt 	包含: [4, 28]
+  已生成 Group1.1.txt 	包含: [5, 29]
+  已生成 Group1.2.txt 	包含: [6, 30]
+  已生成 Group1.3.txt 	包含: [7, 31]
+  已生成 Group2.0.txt 	包含: [8, 32]
+  已生成 Group2.1.txt 	包含: [9, 33]
+  已生成 Group2.2.txt 	包含: [10, 34]
+  已生成 Group2.3.txt 	包含: [11, 35]
+  已生成 Group3.0.txt 	包含: [12, 36]
+  已生成 Group3.1.txt 	包含: [13, 37]
+  已生成 Group3.2.txt 	包含: [14, 38]
+  已生成 Group3.3.txt 	包含: [15, 39]
+  已生成 Group4.0.txt 	包含: [16, 40]
+  已生成 Group4.1.txt 	包含: [17, 41]
+  已生成 Group4.2.txt 	包含: [18, 42]
+  已生成 Group4.3.txt 	包含: [19, 43]
+  已生成 Group5.0.txt 	包含: [20, 44]
+  已生成 Group5.1.txt 	包含: [21, 45]
+  已生成 Group5.2.txt 	包含: [22, 46]
+  已生成 Group5.3.txt 	包含: [23, 47]
 打包完成。
 --- 打包 Tile11 結束 ---
 --- 打包 Tile12 ---
-已確認輸出目錄：output_data_packaged\tile12.2
-正在將 48 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18, 24, 30, 36, 42]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19, 25, 31, 37, 43]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20, 26, 32, 38, 44]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21, 27, 33, 39, 45]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22, 28, 34, 40, 46]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23, 29, 35, 41, 47]
+已確認輸出目錄結構於：output_data_packaged\tile12.2_OGShuffle
+  -> 分離為: P0_PW, P1_DW, P2_PW
+偵測到 48 個 Filter，正在進行 24 分組打包 (三路分離)...
+  已生成 Group0.0.txt 	包含: [0, 24]
+  已生成 Group0.1.txt 	包含: [1, 25]
+  已生成 Group0.2.txt 	包含: [2, 26]
+  已生成 Group0.3.txt 	包含: [3, 27]
+  已生成 Group1.0.txt 	包含: [4, 28]
+  已生成 Group1.1.txt 	包含: [5, 29]
+  已生成 Group1.2.txt 	包含: [6, 30]
+  已生成 Group1.3.txt 	包含: [7, 31]
+  已生成 Group2.0.txt 	包含: [8, 32]
+  已生成 Group2.1.txt 	包含: [9, 33]
+  已生成 Group2.2.txt 	包含: [10, 34]
+  已生成 Group2.3.txt 	包含: [11, 35]
+  已生成 Group3.0.txt 	包含: [12, 36]
+  已生成 Group3.1.txt 	包含: [13, 37]
+  已生成 Group3.2.txt 	包含: [14, 38]
+  已生成 Group3.3.txt 	包含: [15, 39]
+  已生成 Group4.0.txt 	包含: [16, 40]
+  已生成 Group4.1.txt 	包含: [17, 41]
+  已生成 Group4.2.txt 	包含: [18, 42]
+  已生成 Group4.3.txt 	包含: [19, 43]
+  已生成 Group5.0.txt 	包含: [20, 44]
+  已生成 Group5.1.txt 	包含: [21, 45]
+  已生成 Group5.2.txt 	包含: [22, 46]
+  已生成 Group5.3.txt 	包含: [23, 47]
 打包完成。
 --- 打包 Tile12 結束 ---
 --- 打包 Tile13 ---
-已確認輸出目錄：output_data_packaged\tile13.1
-正在將 96 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19, 25, 31, 37, 43, 49, 55, 61, 67, 73, 79, 85, 91]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20, 26, 32, 38, 44, 50, 56, 62, 68, 74, 80, 86, 92]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21, 27, 33, 39, 45, 51, 57, 63, 69, 75, 81, 87, 93]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23, 29, 35, 41, 47, 53, 59, 65, 71, 77, 83, 89, 95]
+已確認輸出目錄：
+  DW -> output_data_packaged\tile13.1_DownSamplingL\P0_DW
+  PW -> output_data_packaged\tile13.1_DownSamplingL\P1_PW
+偵測到 96 個 Filter，正在進行 24 分組打包...
+  已生成 Group0.0.txt 	包含 Filter: [0, 24, 48, 72]
+  已生成 Group0.1.txt 	包含 Filter: [1, 25, 49, 73]
+  已生成 Group0.2.txt 	包含 Filter: [2, 26, 50, 74]
+  已生成 Group0.3.txt 	包含 Filter: [3, 27, 51, 75]
+  已生成 Group1.0.txt 	包含 Filter: [4, 28, 52, 76]
+  已生成 Group1.1.txt 	包含 Filter: [5, 29, 53, 77]
+  已生成 Group1.2.txt 	包含 Filter: [6, 30, 54, 78]
+  已生成 Group1.3.txt 	包含 Filter: [7, 31, 55, 79]
+  已生成 Group2.0.txt 	包含 Filter: [8, 32, 56, 80]
+  已生成 Group2.1.txt 	包含 Filter: [9, 33, 57, 81]
+  已生成 Group2.2.txt 	包含 Filter: [10, 34, 58, 82]
+  已生成 Group2.3.txt 	包含 Filter: [11, 35, 59, 83]
+  已生成 Group3.0.txt 	包含 Filter: [12, 36, 60, 84]
+  已生成 Group3.1.txt 	包含 Filter: [13, 37, 61, 85]
+  已生成 Group3.2.txt 	包含 Filter: [14, 38, 62, 86]
+  已生成 Group3.3.txt 	包含 Filter: [15, 39, 63, 87]
+  已生成 Group4.0.txt 	包含 Filter: [16, 40, 64, 88]
+  已生成 Group4.1.txt 	包含 Filter: [17, 41, 65, 89]
+  已生成 Group4.2.txt 	包含 Filter: [18, 42, 66, 90]
+  已生成 Group4.3.txt 	包含 Filter: [19, 43, 67, 91]
+  已生成 Group5.0.txt 	包含 Filter: [20, 44, 68, 92]
+  已生成 Group5.1.txt 	包含 Filter: [21, 45, 69, 93]
+  已生成 Group5.2.txt 	包含 Filter: [22, 46, 70, 94]
+  已生成 Group5.3.txt 	包含 Filter: [23, 47, 71, 95]
 打包完成。
-已確認輸出目錄：output_data_packaged\tile13.2
-正在將 96 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19, 25, 31, 37, 43, 49, 55, 61, 67, 73, 79, 85, 91]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20, 26, 32, 38, 44, 50, 56, 62, 68, 74, 80, 86, 92]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21, 27, 33, 39, 45, 51, 57, 63, 69, 75, 81, 87, 93]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23, 29, 35, 41, 47, 53, 59, 65, 71, 77, 83, 89, 95]
+已確認輸出目錄結構於：output_data_packaged\tile13.2_DownSamplingR
+  -> P0_PW, P1_DW, P2_PW
+偵測到 96 個 Filter，正在進行 24 分組打包 (PW/DW 分離)...
+  已生成 Group0.0.txt 	包含: [0, 24, 48, 72]
+  已生成 Group0.1.txt 	包含: [1, 25, 49, 73]
+  已生成 Group0.2.txt 	包含: [2, 26, 50, 74]
+  已生成 Group0.3.txt 	包含: [3, 27, 51, 75]
+  已生成 Group1.0.txt 	包含: [4, 28, 52, 76]
+  已生成 Group1.1.txt 	包含: [5, 29, 53, 77]
+  已生成 Group1.2.txt 	包含: [6, 30, 54, 78]
+  已生成 Group1.3.txt 	包含: [7, 31, 55, 79]
+  已生成 Group2.0.txt 	包含: [8, 32, 56, 80]
+  已生成 Group2.1.txt 	包含: [9, 33, 57, 81]
+  已生成 Group2.2.txt 	包含: [10, 34, 58, 82]
+  已生成 Group2.3.txt 	包含: [11, 35, 59, 83]
+  已生成 Group3.0.txt 	包含: [12, 36, 60, 84]
+  已生成 Group3.1.txt 	包含: [13, 37, 61, 85]
+  已生成 Group3.2.txt 	包含: [14, 38, 62, 86]
+  已生成 Group3.3.txt 	包含: [15, 39, 63, 87]
+  已生成 Group4.0.txt 	包含: [16, 40, 64, 88]
+  已生成 Group4.1.txt 	包含: [17, 41, 65, 89]
+  已生成 Group4.2.txt 	包含: [18, 42, 66, 90]
+  已生成 Group4.3.txt 	包含: [19, 43, 67, 91]
+  已生成 Group5.0.txt 	包含: [20, 44, 68, 92]
+  已生成 Group5.1.txt 	包含: [21, 45, 69, 93]
+  已生成 Group5.2.txt 	包含: [22, 46, 70, 94]
+  已生成 Group5.3.txt 	包含: [23, 47, 71, 95]
 打包完成。
 --- 打包 Tile13 結束 ---
 --- 打包 Tile14 ---
-已確認輸出目錄：output_data_packaged\tile14.2
-正在將 96 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19, 25, 31, 37, 43, 49, 55, 61, 67, 73, 79, 85, 91]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20, 26, 32, 38, 44, 50, 56, 62, 68, 74, 80, 86, 92]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21, 27, 33, 39, 45, 51, 57, 63, 69, 75, 81, 87, 93]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23, 29, 35, 41, 47, 53, 59, 65, 71, 77, 83, 89, 95]
+已確認輸出目錄結構於：output_data_packaged\tile14.2_OGShuffle
+  -> 分離為: P0_PW, P1_DW, P2_PW
+偵測到 96 個 Filter，正在進行 24 分組打包 (三路分離)...
+  已生成 Group0.0.txt 	包含: [0, 24, 48, 72]
+  已生成 Group0.1.txt 	包含: [1, 25, 49, 73]
+  已生成 Group0.2.txt 	包含: [2, 26, 50, 74]
+  已生成 Group0.3.txt 	包含: [3, 27, 51, 75]
+  已生成 Group1.0.txt 	包含: [4, 28, 52, 76]
+  已生成 Group1.1.txt 	包含: [5, 29, 53, 77]
+  已生成 Group1.2.txt 	包含: [6, 30, 54, 78]
+  已生成 Group1.3.txt 	包含: [7, 31, 55, 79]
+  已生成 Group2.0.txt 	包含: [8, 32, 56, 80]
+  已生成 Group2.1.txt 	包含: [9, 33, 57, 81]
+  已生成 Group2.2.txt 	包含: [10, 34, 58, 82]
+  已生成 Group2.3.txt 	包含: [11, 35, 59, 83]
+  已生成 Group3.0.txt 	包含: [12, 36, 60, 84]
+  已生成 Group3.1.txt 	包含: [13, 37, 61, 85]
+  已生成 Group3.2.txt 	包含: [14, 38, 62, 86]
+  已生成 Group3.3.txt 	包含: [15, 39, 63, 87]
+  已生成 Group4.0.txt 	包含: [16, 40, 64, 88]
+  已生成 Group4.1.txt 	包含: [17, 41, 65, 89]
+  已生成 Group4.2.txt 	包含: [18, 42, 66, 90]
+  已生成 Group4.3.txt 	包含: [19, 43, 67, 91]
+  已生成 Group5.0.txt 	包含: [20, 44, 68, 92]
+  已生成 Group5.1.txt 	包含: [21, 45, 69, 93]
+  已生成 Group5.2.txt 	包含: [22, 46, 70, 94]
+  已生成 Group5.3.txt 	包含: [23, 47, 71, 95]
 打包完成。
 --- 打包 Tile14 結束 ---
 --- 打包 Tile15 ---
-已確認輸出目錄：output_data_packaged\tile15.2
-正在將 96 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19, 25, 31, 37, 43, 49, 55, 61, 67, 73, 79, 85, 91]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20, 26, 32, 38, 44, 50, 56, 62, 68, 74, 80, 86, 92]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21, 27, 33, 39, 45, 51, 57, 63, 69, 75, 81, 87, 93]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23, 29, 35, 41, 47, 53, 59, 65, 71, 77, 83, 89, 95]
+已確認輸出目錄結構於：output_data_packaged\tile15.2_OGShuffle
+  -> 分離為: P0_PW, P1_DW, P2_PW
+偵測到 96 個 Filter，正在進行 24 分組打包 (三路分離)...
+  已生成 Group0.0.txt 	包含: [0, 24, 48, 72]
+  已生成 Group0.1.txt 	包含: [1, 25, 49, 73]
+  已生成 Group0.2.txt 	包含: [2, 26, 50, 74]
+  已生成 Group0.3.txt 	包含: [3, 27, 51, 75]
+  已生成 Group1.0.txt 	包含: [4, 28, 52, 76]
+  已生成 Group1.1.txt 	包含: [5, 29, 53, 77]
+  已生成 Group1.2.txt 	包含: [6, 30, 54, 78]
+  已生成 Group1.3.txt 	包含: [7, 31, 55, 79]
+  已生成 Group2.0.txt 	包含: [8, 32, 56, 80]
+  已生成 Group2.1.txt 	包含: [9, 33, 57, 81]
+  已生成 Group2.2.txt 	包含: [10, 34, 58, 82]
+  已生成 Group2.3.txt 	包含: [11, 35, 59, 83]
+  已生成 Group3.0.txt 	包含: [12, 36, 60, 84]
+  已生成 Group3.1.txt 	包含: [13, 37, 61, 85]
+  已生成 Group3.2.txt 	包含: [14, 38, 62, 86]
+  已生成 Group3.3.txt 	包含: [15, 39, 63, 87]
+  已生成 Group4.0.txt 	包含: [16, 40, 64, 88]
+  已生成 Group4.1.txt 	包含: [17, 41, 65, 89]
+  已生成 Group4.2.txt 	包含: [18, 42, 66, 90]
+  已生成 Group4.3.txt 	包含: [19, 43, 67, 91]
+  已生成 Group5.0.txt 	包含: [20, 44, 68, 92]
+  已生成 Group5.1.txt 	包含: [21, 45, 69, 93]
+  已生成 Group5.2.txt 	包含: [22, 46, 70, 94]
+  已生成 Group5.3.txt 	包含: [23, 47, 71, 95]
 打包完成。
 --- 打包 Tile15 結束 ---
 --- 打包 Tile16 ---
-已確認輸出目錄：output_data_packaged\tile16.2
-正在將 96 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19, 25, 31, 37, 43, 49, 55, 61, 67, 73, 79, 85, 91]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20, 26, 32, 38, 44, 50, 56, 62, 68, 74, 80, 86, 92]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21, 27, 33, 39, 45, 51, 57, 63, 69, 75, 81, 87, 93]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23, 29, 35, 41, 47, 53, 59, 65, 71, 77, 83, 89, 95]
+已確認輸出目錄結構於：output_data_packaged\tile16.2_OGShuffle
+  -> 分離為: P0_PW, P1_DW, P2_PW
+偵測到 96 個 Filter，正在進行 24 分組打包 (三路分離)...
+  已生成 Group0.0.txt 	包含: [0, 24, 48, 72]
+  已生成 Group0.1.txt 	包含: [1, 25, 49, 73]
+  已生成 Group0.2.txt 	包含: [2, 26, 50, 74]
+  已生成 Group0.3.txt 	包含: [3, 27, 51, 75]
+  已生成 Group1.0.txt 	包含: [4, 28, 52, 76]
+  已生成 Group1.1.txt 	包含: [5, 29, 53, 77]
+  已生成 Group1.2.txt 	包含: [6, 30, 54, 78]
+  已生成 Group1.3.txt 	包含: [7, 31, 55, 79]
+  已生成 Group2.0.txt 	包含: [8, 32, 56, 80]
+  已生成 Group2.1.txt 	包含: [9, 33, 57, 81]
+  已生成 Group2.2.txt 	包含: [10, 34, 58, 82]
+  已生成 Group2.3.txt 	包含: [11, 35, 59, 83]
+  已生成 Group3.0.txt 	包含: [12, 36, 60, 84]
+  已生成 Group3.1.txt 	包含: [13, 37, 61, 85]
+  已生成 Group3.2.txt 	包含: [14, 38, 62, 86]
+  已生成 Group3.3.txt 	包含: [15, 39, 63, 87]
+  已生成 Group4.0.txt 	包含: [16, 40, 64, 88]
+  已生成 Group4.1.txt 	包含: [17, 41, 65, 89]
+  已生成 Group4.2.txt 	包含: [18, 42, 66, 90]
+  已生成 Group4.3.txt 	包含: [19, 43, 67, 91]
+  已生成 Group5.0.txt 	包含: [20, 44, 68, 92]
+  已生成 Group5.1.txt 	包含: [21, 45, 69, 93]
+  已生成 Group5.2.txt 	包含: [22, 46, 70, 94]
+  已生成 Group5.3.txt 	包含: [23, 47, 71, 95]
 打包完成。
 --- 打包 Tile16 結束 ---
 --- 打包 Tile17 ---
-已確認輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\output_data_packaged\tile17
-正在將 1032 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, ..., 1026]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, ..., 1027]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, ..., 1028]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, ..., 1029]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, ..., 1030]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, ..., 1031]
+已確認輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\output_data_packaged\tile17_ConvLast\P0
+正在將 1032 個過濾器分散處理為 24 組 (每組 43 個)...
+  已生成 Group0.0.txt    包含: [0, 24, ..., 1008] 
+  已生成 Group0.1.txt    包含: [1, 25, ..., 1009] 
+  已生成 Group0.2.txt    包含: [2, 26, ..., 1010] 
+  已生成 Group0.3.txt    包含: [3, 27, ..., 1011] 
+  已生成 Group1.0.txt    包含: [4, 28, ..., 1012] 
+  已生成 Group1.1.txt    包含: [5, 29, ..., 1013] 
+  已生成 Group1.2.txt    包含: [6, 30, ..., 1014] 
+  已生成 Group1.3.txt    包含: [7, 31, ..., 1015] 
+  已生成 Group2.0.txt    包含: [8, 32, ..., 1016] 
+  已生成 Group2.1.txt    包含: [9, 33, ..., 1017] 
+  已生成 Group2.2.txt    包含: [10, 34, ..., 1018] 
+  已生成 Group2.3.txt    包含: [11, 35, ..., 1019] 
+  已生成 Group3.0.txt    包含: [12, 36, ..., 1020] 
+  已生成 Group3.1.txt    包含: [13, 37, ..., 1021] 
+  已生成 Group3.2.txt    包含: [14, 38, ..., 1022] 
+  已生成 Group3.3.txt    包含: [15, 39, ..., 1023] 
+  已生成 Group4.0.txt    包含: [16, 40, ..., 1024] (含補零)
+  已生成 Group4.1.txt    包含: [17, 41, ..., 1025] (含補零)
+  已生成 Group4.2.txt    包含: [18, 42, ..., 1026] (含補零)
+  已生成 Group4.3.txt    包含: [19, 43, ..., 1027] (含補零)
+  已生成 Group5.0.txt    包含: [20, 44, ..., 1028] (含補零)
+  已生成 Group5.1.txt    包含: [21, 45, ..., 1029] (含補零)
+  已生成 Group5.2.txt    包含: [22, 46, ..., 1030] (含補零)
+  已生成 Group5.3.txt    包含: [23, 47, ..., 1031] (含補零)
 打包完成。
 --- 打包 Tile17 結束 ---
 --- 打包 Tile18 ---
-已確認輸出目錄：output_data_packaged\tile18
+已確認輸出目錄：output_data_packaged\tile18_FC
 正在將 2 個過濾器分散處理為 2 組...
-  已生成 Group0.0.txt，包含 Filter: [0]
-  已生成 Group0.1.txt，包含 Filter: [1]
+  已生成 Group0.0.txt   包含 Filter: [0]
+  已生成 Group0.1.txt   包含 Filter: [1]
 打包完成。
 --- 打包 Tile18 結束 ---
 --- [Step 2] 結束權重與資料打包流程 ---
-已確認輸出目錄：output_data_packaged\tile0
-正在將 24 個過濾器分散處理為 6 組...
-  已生成 Group0.txt，包含 Filter: [0, 6, 12, 18]
-  已生成 Group1.txt，包含 Filter: [1, 7, 13, 19]
-  已生成 Group2.txt，包含 Filter: [2, 8, 14, 20]
-  已生成 Group3.txt，包含 Filter: [3, 9, 15, 21]
-  已生成 Group4.txt，包含 Filter: [4, 10, 16, 22]
-  已生成 Group5.txt，包含 Filter: [5, 11, 17, 23]
-打包完成。

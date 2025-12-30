@@ -48,15 +48,15 @@ def package_tile0_Conv1():
             # [修改點 3] 直接寫入對應的 Group 檔案 (不需合併)
             with open(output_path, 'w', encoding='utf-8') as f_out:
                 f_out.write(content)
-                
-            print(f"  [{input_filename}] -> 轉換為 -> [{output_filename}]")
+            
+            print(f"  已生成 {output_filename}  包含 Filter: [{i}]")
 
         except FileNotFoundError:
             print(f"錯誤: 找不到檔案 {input_path}，請檢查路徑或檔案名稱。")
 
     # 4. 顯示完成訊息
     print("-" * 30)
-    print(f"打包完成，共生成 24 個檔案於 {output_dir}")
+    print("打包完成")
 
 # --- 執行 Function ---
 if __name__ == "__main__":
