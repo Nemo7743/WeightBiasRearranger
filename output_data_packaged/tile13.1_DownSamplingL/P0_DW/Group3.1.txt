@@ -1,0 +1,19 @@
+0005 06da 0000 0000
+ffdf ffcc ffd2 0000
+ffcd ff65 ff85 0000
+ffd4 ff7b ff96 0000
+
+0006 eb89 0000 0000
+ffdd ffbd ffcd 0000
+ffba ff7b ff99 0000
+ffc9 ff90 ffaa 0000
+
+0005 4634 0000 0000
+ffee ffd3 ffdb 0000
+ffd8 ffa3 ffad 0000
+ffde ffb7 ffbc 0000
+
+fff0 6649 0000 0000
+0014 0039 003e 0000
+0038 0098 008f 0000
+0030 0081 007e 0000

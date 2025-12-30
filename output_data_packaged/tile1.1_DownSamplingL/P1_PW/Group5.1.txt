@@ -1,0 +1,7 @@
+ffff e34a 0000 0000
+fff7 0000 ffcc 0009
+fff5 ffff 0000 004f
+ffa1 0003 0000 ffca
+0000 001c 000d ffe4
+0000 ffce 0000 ffb5
+fff0 fffe 0007 0000

@@ -1,0 +1,19 @@
+0008 5e5f 0000 0000
+ffdd ffbf ffd7 0000
+ffb3 ff75 ffa2 0000
+ffca ff93 ffb2 0000
+
+000a 16f8 0000 0000
+ffde ffb4 ffce 0000
+ffb2 ff68 ffa1 0000
+ffc3 ff8e ffb8 0000
+
+0005 8e41 0000 0000
+ffe7 ffce ffdc 0000
+ffc4 ff8c ffaf 0000
+ffd2 ffab ffc8 0000
+
+0009 95cd 0000 0000
+ffe5 ffbe ffcd 0000
+ffc5 ff71 ff8e 0000
+ffd2 ff97 ffaa 0000

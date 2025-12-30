@@ -1,0 +1,9 @@
+0004 e0e9 0000 0000
+ffe0 ffa0 ffba 0000
+ffbc ff43 ff69 0000
+ffd5 ff94 ffb3 0000
+
+000a b8fb 0000 0000
+ffce ff9c ffd1 0000
+ffd9 ffc0 ffd6 0000
+fff8 fffc 0007 0000

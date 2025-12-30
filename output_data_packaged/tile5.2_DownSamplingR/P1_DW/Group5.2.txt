@@ -1,0 +1,9 @@
+0000 5c9b 0000 0000
+ffd5 ffa9 ffa0 0000
+ff9a ff1e ff2b 0000
+ffa0 ff18 ff4e 0000
+
+0000 3da9 0000 0000
+ffd7 ffb6 ffca 0000
+ffb0 ff1c ff2a 0000
+ffc0 ff29 ff2d 0000

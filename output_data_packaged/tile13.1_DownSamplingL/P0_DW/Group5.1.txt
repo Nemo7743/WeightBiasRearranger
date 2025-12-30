@@ -1,0 +1,19 @@
+fff9 c7a0 0000 0000
+0024 005e 0051 0000
+006c 00e4 00c1 0000
+0059 00b6 0094 0000
+
+0003 27be 0000 0000
+ffe9 ffd2 ffd6 0000
+ffca ff9a ffad 0000
+ffd5 ffaf ffbc 0000
+
+0003 6a56 0000 0000
+ffe8 ffb7 ffc2 0000
+ffba ff47 ff60 0000
+ffbe ff5d ff7d 0000
+
+0009 3540 0000 0000
+ffa1 ff08 ff3f 0000
+ffc1 ff8d ffaa 0000
+ffe3 ffba ffb6 0000

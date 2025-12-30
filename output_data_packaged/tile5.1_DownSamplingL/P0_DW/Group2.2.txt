@@ -1,0 +1,9 @@
+001e d337 0000 0000
+ffe6 ffc1 ffce 0000
+ffc6 ff6a ff7f 0000
+ffcd ff7b ff8c 0000
+
+0007 59cb 0000 0000
+fff2 ffc0 ffc7 0000
+ffd9 ff52 ff6e 0000
+ffc6 ff4f ff72 0000

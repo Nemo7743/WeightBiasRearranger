@@ -1,0 +1,4 @@
+ffff ffbf 0000 0000
+000c ffe9 ffc3 0000
+0024 ffef ffd1 0000
+000b ffec ffd8 0000

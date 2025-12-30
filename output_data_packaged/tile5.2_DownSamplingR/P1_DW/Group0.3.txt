@@ -1,0 +1,9 @@
+0000 3d63 0000 0000
+ffbc ff8d ffaf 0000
+ffa7 ff26 ff48 0000
+ffbd ff49 ff5c 0000
+
+0000 4762 0000 0000
+ff98 ff32 ff69 0000
+feff fe0c fe8e 0000
+ff38 fe57 fef2 0000

@@ -1,0 +1,19 @@
+0002 9aed 0000 0000
+ffcf ffa3 ffbf 0000
+ff97 ff45 ff79 0000
+ffb4 ff76 ff9f 0000
+
+0004 00a6 0000 0000
+fff5 ffcd ffcf 0000
+ffdd ff70 ff93 0000
+ffe7 ffa1 ffb2 0000
+
+0001 eb03 0000 0000
+fff1 ffdc ffdd 0000
+ffde ffab ffb2 0000
+ffe3 ffb8 ffbe 0000
+
+0002 7ecf 0000 0000
+ffd1 ffc3 ffd5 0000
+ffba ffae ffd1 0000
+ffc4 ffaa ffc5 0000

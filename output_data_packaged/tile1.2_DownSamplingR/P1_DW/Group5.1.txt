@@ -1,0 +1,4 @@
+0000 f98d 0000 0000
+ffb8 ff7f ff97 0000
+ff6a ff13 ff38 0000
+ff9a ff27 ff5b 0000
