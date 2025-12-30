@@ -10,7 +10,7 @@ def package_tile18_FC():
     src_dir = os.path.join(base_dir, 'output_data_split', 'fc_filters')
     
     # 目標資料夾: output_data_packaged/tile18
-    dst_dir = os.path.join(base_dir, 'output_data_packaged', 'tile18')
+    dst_dir = os.path.join(base_dir, 'output_data_packaged', 'tile18_FC')
 
     # 2. 確保目標資料夾存在，不存在則建立
     if not os.path.exists(dst_dir):
