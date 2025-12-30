@@ -1,0 +1,19 @@
+ffff 67c9 0000 0000
+008a 00a2 002b 0000
+0105 ffdb 0057 0000
+0098 009c 0025 0000
+
+0000 4973 0000 0000
+ffe5 ffa9 fff4 0000
+ff9c feda ff94 0000
+ffef ff95 ffff 0000
+
+0000 677f 0000 0000
+ffcb ff98 ffea 0000
+ff87 fe93 fffe 0000
+ffcd ff84 ffec 0000
+
+ffff d586 0000 0000
+ffa8 ffab ffdf 0000
+feef 0226 0050 0000
+ffa7 ffa6 ffe7 0000

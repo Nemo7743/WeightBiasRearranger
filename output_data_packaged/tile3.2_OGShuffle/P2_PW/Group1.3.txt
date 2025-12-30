@@ -1,0 +1,7 @@
+0000 e367 0000 0000
+0020 fff1 0004 fff4
+fffb fff1 0019 0008
+ffde fffe ffef 0019
+ffe3 0009 000f 0019
+000f 0004 0022 ffcf
+fffc ffe0 003c 000e

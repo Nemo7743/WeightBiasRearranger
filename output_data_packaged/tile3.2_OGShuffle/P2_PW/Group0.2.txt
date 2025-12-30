@@ -1,0 +1,7 @@
+0001 563f 0000 0000
+0006 0007 fffc fffe
+ffeb 0007 fffa 0014
+ffe9 fffe fffa fff3
+ffff 0061 fffb ffc8
+fff6 000d fff2 003c
+0027 0012 001d 0014

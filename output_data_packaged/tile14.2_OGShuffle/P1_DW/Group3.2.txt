@@ -1,0 +1,19 @@
+ffff e0fb 0000 0000
+ffc1 fe55 ffce 0000
+0152 01aa 00af 0000
+ffcd fe51 ffcf 0000
+
+ffff f3aa 0000 0000
+0041 001c ffc6 0000
+010f 003a febe 0000
+0044 0024 ffb7 0000
+
+ffff 0f4a 0000 0000
+ffd1 fff9 ffb5 0000
+ffce 0311 0055 0000
+ffd3 0020 ffbe 0000
+
+ffff e21f 0000 0000
+ffc7 ffc4 ff8b 0000
+0020 ffc6 ffde 0000
+00db 0061 0091 0000

@@ -1,0 +1,9 @@
+ffff acfb 0000 0000
+fff7 fffd 0013 0000
+008f 010e 006a 0000
+000d 00aa 0038 0000
+
+0000 8141 0000 0000
+ffd2 ff9a fffb 0000
+ffa5 ff95 ffbe 0000
+ffbb ff9e ffdd 0000

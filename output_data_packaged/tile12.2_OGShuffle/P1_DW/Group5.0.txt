@@ -1,0 +1,9 @@
+0000 9855 0000 0000
+ffdd ffa5 ffee 0000
+ffc2 fee6 ffd5 0000
+ffb7 ff8c ffd8 0000
+
+0000 823a 0000 0000
+ffac 000b 001e 0000
+ff2a fe8b 011c 0000
+ffa3 ffef 001d 0000

@@ -1,0 +1,9 @@
+ffff fa47 0000 0000
+0013 0021 ffcd 0000
+00fd 0095 fe7c 0000
+001f 000b ffb5 0000
+
+ffff c725 0000 0000
+ffca ff77 ffcd 0000
+ff49 031e ffe1 0000
+ffa8 ff83 ffb4 0000

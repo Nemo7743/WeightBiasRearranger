@@ -1,0 +1,9 @@
+0000 485e 0000 0000
+ffd5 ff9b ff5f 0000
+013c ff59 fef4 0000
+ffd7 ffce ff53 0000
+
+ffff 2fb5 0000 0000
+ffe1 ffa0 ffc0 0000
+ff75 03ba fefc 0000
+fffc ff82 ffbc 0000

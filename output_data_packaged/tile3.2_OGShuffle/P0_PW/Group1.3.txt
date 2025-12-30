@@ -1,0 +1,7 @@
+0000 e455 0000 0000
+ffe1 fff6 0067 0028
+0002 fff2 ffb2 0028
+0000 ffcd ffc5 ffa9
+ffdf ffeb ffea 0036
+ffeb 0015 0000 000e
+0004 ffe9 0035 ffe1

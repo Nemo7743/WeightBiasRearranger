@@ -1,0 +1,7 @@
+0008 2baa 0000 0000
+002b 0003 ffe8 0009
+ffe2 0002 fffe ffff
+ffd4 0006 ffec 0005
+ffde fff5 ffff fffc
+000c 0004 0000 fffa
+fffa fff9 fffd 0008

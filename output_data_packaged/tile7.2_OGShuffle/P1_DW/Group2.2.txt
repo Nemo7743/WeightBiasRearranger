@@ -1,0 +1,9 @@
+0000 7605 0000 0000
+ffe9 ffca 0001 0000
+0011 fe7b fffa 0000
+ffdf ffad ffe8 0000
+
+ffff f555 0000 0000
+ffbe ff8b ffd1 0000
+ffb9 ff5a ffd8 0000
+0029 01d7 001e 0000

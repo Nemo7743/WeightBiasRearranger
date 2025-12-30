@@ -1,0 +1,7 @@
+0000 1814 0000 0000
+0008 0090 fff4 fff2
+00f9 ffe6 ffcf ffce
+fff8 ffd0 0003 ffd7
+ff9b 0000 0048 ff8e
+006d 0052 000e ffcd
+004f 0000 ffff ffa3

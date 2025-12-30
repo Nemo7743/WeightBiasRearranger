@@ -1,0 +1,7 @@
+0000 cd7d 0000 0000
+ffde ffed fffd 0014
+004b 0013 0003 ffff
+0016 0016 ffef fffd
+0003 0006 0017 ff7e
+fffc fff3 ffe7 fff4
+0007 ffe6 fff9 002e

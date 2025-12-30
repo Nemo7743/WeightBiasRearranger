@@ -1,0 +1,9 @@
+ffff aec6 0000 0000
+ffd2 ffca fff3 0000
+fec4 0207 006d 0000
+ffe3 ffd1 ffe9 0000
+
+0000 9df0 0000 0000
+ffe0 0001 ff89 0000
+00b7 ffb6 ff14 0000
+ffb0 ffbb ff48 0000

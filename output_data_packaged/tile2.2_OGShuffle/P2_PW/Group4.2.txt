@@ -1,0 +1,7 @@
+0000 198f 0000 0000
+ffd9 ffea fff4 ffe5
+006c fffd 001b fffb
+0008 002c ffc0 0024
+000c 000c ffc5 0009
+ffa7 fff0 fff9 0039
+ffd8 007e 000a 0015

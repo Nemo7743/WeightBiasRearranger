@@ -1,0 +1,9 @@
+0000 1382 0000 0000
+ffc8 ff3e ffda 0000
+ff1c 01d3 ff99 0000
+ffa3 008f ffad 0000
+
+ffff e4fe 0000 0000
+ffcc 0088 fff1 0000
+0006 01fd ff25 0000
+ffef feaa fff2 0000

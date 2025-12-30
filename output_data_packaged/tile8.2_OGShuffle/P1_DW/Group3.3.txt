@@ -1,0 +1,9 @@
+ffff cdd1 0000 0000
+ffd1 ffb6 ffda 0000
+0022 01ee ffb4 0000
+ffeb ffb0 ffee 0000
+
+ffff dce8 0000 0000
+ffdb ffbb ffe2 0000
+fff1 01aa 002e 0000
+ffd0 ffcf ffe4 0000

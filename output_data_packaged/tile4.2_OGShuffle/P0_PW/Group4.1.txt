@@ -1,0 +1,7 @@
+0003 a768 0000 0000
+ffe3 0007 0063 fff3
+ffef fff9 0072 fffe
+fff5 ffef ffc4 fffb
+fff4 0000 0013 fff8
+0019 ffff 0014 fff7
+001f 0000 ffed fff2

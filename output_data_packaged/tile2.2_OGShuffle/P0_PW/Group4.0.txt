@@ -1,0 +1,7 @@
+000b 2061 0000 0000
+fff5 004f 000b ffe7
+ffe6 ffcc 000f ffd9
+ffef ffec 0029 ffdd
+fffd 001d ffef 0004
+0010 0001 fff3 ff8e
+fff7 ffce 0012 ffcf

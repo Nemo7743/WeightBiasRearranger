@@ -1,0 +1,9 @@
+0000 4038 0000 0000
+0009 ffc3 ffea 0000
+ffae ff50 ffbc 0000
+ffec fe4f ff9b 0000
+
+0000 429b 0000 0000
+ffcf fea7 ffc2 0000
+ffc8 ffef fffd 0000
+ffd9 012c ffda 0000

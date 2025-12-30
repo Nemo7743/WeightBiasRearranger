@@ -1,0 +1,4 @@
+0000 5360 0000 0000
+fff5 ff81 fff9 0000
+ffd3 ffcb ffcd 0000
+ffe5 ffb1 ffd7 0000

@@ -1,0 +1,7 @@
+fffe 131a 0000 0000
+0013 0001 fff3 0004
+00db 000b fff8 0006
+0001 fff1 fffb fffd
+001c 0000 fffb 0002
+0018 fffb 0000 fff7
+0095 fffb 0004 fffe

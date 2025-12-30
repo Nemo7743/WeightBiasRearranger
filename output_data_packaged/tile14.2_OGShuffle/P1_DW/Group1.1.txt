@@ -1,0 +1,19 @@
+ffff cb61 0000 0000
+ffbc ff8e ff99 0000
+002e 0220 ff71 0000
+ffbd ff97 ff91 0000
+
+0000 44a5 0000 0000
+ffb4 ff81 ffe5 0000
+ff76 fe83 ffc8 0000
+ffae ff69 ffd5 0000
+
+0000 408d 0000 0000
+ffd1 ff66 ffac 0000
+ffc3 ff2a ffa8 0000
+ffc5 ff5e ffa8 0000
+
+0001 2c29 0000 0000
+ffe7 ff99 ffb6 0000
+ff94 fe13 ffa8 0000
+ffd2 ff81 ffb0 0000

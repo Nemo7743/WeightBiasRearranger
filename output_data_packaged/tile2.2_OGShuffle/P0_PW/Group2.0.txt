@@ -1,0 +1,7 @@
+fffe 7c93 0000 0000
+000d ffa6 ffd8 fff6
+0010 003d 0020 ffe8
+ffe0 ffa4 ffec fff6
+0032 ffff 0002 002f
+ffdb ffdf fffe fff0
+ffee 006f 002c 0006

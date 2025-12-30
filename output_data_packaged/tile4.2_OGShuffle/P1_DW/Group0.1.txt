@@ -1,0 +1,4 @@
+ffff dcad 0000 0000
+ffe8 00ee ff9a 0000
+fef5 00ea fef9 0000
+002d 00ad ffef 0000

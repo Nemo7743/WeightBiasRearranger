@@ -1,0 +1,9 @@
+0000 30cb 0000 0000
+ffe7 020c 0048 0000
+ffb0 fdcc ff4c 0000
+0021 0096 fffb 0000
+
+ffff 1682 0000 0000
+003f ffbf ffce 0000
+fee9 031f ffab 0000
+ffec 004c ffe6 0000

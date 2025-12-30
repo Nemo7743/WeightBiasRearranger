@@ -1,0 +1,9 @@
+ffff fc9e 0000 0000
+fff1 fe52 ffd7 0000
+fffa 002b ffe6 0000
+0017 019e 0031 0000
+
+ffff c0d1 0000 0000
+ffdb ff95 fff2 0000
+ffcc 0241 ffe6 0000
+ffd9 ffad fff6 0000

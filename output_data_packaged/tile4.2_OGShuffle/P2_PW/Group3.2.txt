@@ -1,0 +1,7 @@
+0000 482f 0000 0000
+ffe3 ffc6 0009 fff1
+fff8 ffef 0007 ffa9
+000b ffec ffcd 001e
+fff7 ffff fffb fff8
+00b7 001c ffff 0038
+0013 0008 0000 0024

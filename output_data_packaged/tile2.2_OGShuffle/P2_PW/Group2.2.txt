@@ -1,0 +1,7 @@
+0000 09fa 0000 0000
+ffed 0007 0005 0005
+fffb 0006 0013 0006
+ffd6 ffff ffe9 ff94
+ffff 000a ffa5 0006
+ffcb ffff 0009 0079
+0023 0001 fffe ff94

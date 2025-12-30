@@ -1,0 +1,9 @@
+ffff fa27 0000 0000
+0047 ffd6 ffdc 0000
+00d0 006b febd 0000
+fffe 003e ffe9 0000
+
+ffff fb68 0000 0000
+ff96 ff56 ff7b 0000
+ffe3 008e ffb9 0000
+ffca 005b 015f 0000

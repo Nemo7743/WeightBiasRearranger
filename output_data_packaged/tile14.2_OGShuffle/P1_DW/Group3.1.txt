@@ -1,0 +1,19 @@
+0000 73f6 0000 0000
+ffe7 ffa9 ffc4 0000
+ffc3 fecd ff88 0000
+ffe6 ffa2 ffbf 0000
+
+ffff 9a54 0000 0000
+0008 00ce 0020 0000
+0057 00fe 00db 0000
+0011 00c4 002a 0000
+
+0000 64b6 0000 0000
+ffe1 ffc1 ffce 0000
+ffc8 fe93 ff9a 0000
+ffe2 ffae ffc9 0000
+
+ffff 82f5 0000 0000
+ffa5 fee6 ffcd 0000
+ff68 048c ff2f 0000
+ffb1 ff0c ffcf 0000

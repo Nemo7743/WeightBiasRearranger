@@ -1,0 +1,9 @@
+0000 234a 0000 0000
+ffe6 ff8b 0000 0000
+ffe2 ff3c 0068 0000
+ffe8 ff31 ff4f 0000
+
+ffff ac92 0000 0000
+ffba ff7c ffe0 0000
+ffe7 02c6 ffea 0000
+ffed ff3e ffc8 0000

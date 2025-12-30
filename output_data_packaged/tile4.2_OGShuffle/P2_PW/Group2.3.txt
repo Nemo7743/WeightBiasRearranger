@@ -1,0 +1,7 @@
+0000 e730 0000 0000
+003d ffeb 000b fff8
+ffa7 0015 0002 000c
+001d ffe5 fff5 0005
+0000 ffe2 001a ff99
+ffff fffb fff9 fffd
+0012 000f ffe3 ffd5

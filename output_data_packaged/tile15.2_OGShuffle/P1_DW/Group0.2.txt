@@ -1,0 +1,19 @@
+0000 785e 0000 0000
+002d ffeb 001f 0000
+ffda fe2b ffc0 0000
+002d ffdd 001e 0000
+
+ffff def5 0000 0000
+ff9f ff7c ffa1 0000
+006e 01bd ffd0 0000
+ffa6 ff78 ffa7 0000
+
+ffff f42e 0000 0000
+ffaf ffcb 0055 0000
+fee2 0083 0143 0000
+ffb0 ffce 005e 0000
+
+0000 4f3f 0000 0000
+ff6a ff37 ffb5 0000
+0086 ffa1 fe4a 0000
+ff72 ff3f ffac 0000

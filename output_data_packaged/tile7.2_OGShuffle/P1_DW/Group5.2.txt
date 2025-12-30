@@ -1,0 +1,9 @@
+0001 30af 0000 0000
+ffee ffd2 0012 0000
+ffb4 fe44 ffa4 0000
+fffa ff8a ffe5 0000
+
+0000 61c2 0000 0000
+000d ff9a 0002 0000
+ffde fed9 ffa5 0000
+0009 ff61 ffdd 0000

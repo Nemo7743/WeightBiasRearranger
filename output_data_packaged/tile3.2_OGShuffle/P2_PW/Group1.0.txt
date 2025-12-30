@@ -1,0 +1,7 @@
+0000 a376 0000 0000
+ffd8 001e 0000 0004
+0047 fffc 0000 ffe7
+ff86 ffda 000b fffb
+0024 ffeb 0005 000e
+0001 ffea ffe5 0007
+fff7 0006 003f ffda
