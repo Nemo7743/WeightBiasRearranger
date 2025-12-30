@@ -778,3 +778,8 @@
 打包完成。
 --- 打包 Tile18 結束 ---
 --- [Step 2] 結束權重與資料打包流程 ---
+已確認輸出目錄：output_data_packaged\tile18_FC
+正在將 2 個過濾器分散處理為 2 組...
+  已生成 Group0.0.txt   包含 Filter: [0]
+  已生成 Group0.1.txt   包含 Filter: [1]
+打包完成。
