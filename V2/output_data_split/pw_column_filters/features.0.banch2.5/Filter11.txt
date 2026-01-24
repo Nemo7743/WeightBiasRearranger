@@ -1,0 +1,6 @@
+fff9 0012 ffe6 ffc8
+ffd7 fffe 0010 fffb
+0000 0002 0014 ffe8
+0000 fff9 0003 ffe0
+ffff 0000 fff1 ff72
+0005 0006 0027 ffe1

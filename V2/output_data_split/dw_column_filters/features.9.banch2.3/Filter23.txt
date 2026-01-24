@@ -1,0 +1,3 @@
+ffd2 ffca fff3 0000
+fec4 0207 006d 0000
+ffe3 ffd1 ffe9 0000

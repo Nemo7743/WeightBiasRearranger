@@ -1,0 +1,3 @@
+ffdb ff82 ff95 0000
+ff9d fec0 ffbd 0000
+ffdb ff74 ff87 0000

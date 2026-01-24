@@ -1,0 +1,3 @@
+ffee fff0 ffec 0000
+ffdb fee4 ff6d 0000
+ffee ffc6 ffbc 0000

@@ -1,0 +1,3 @@
+ff82 ffde ff40 0000
+ff12 ff39 fec6 0000
+ff85 ffcf ff4c 0000

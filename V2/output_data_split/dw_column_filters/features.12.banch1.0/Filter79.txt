@@ -1,0 +1,3 @@
+0080 ffc8 ffac 0000
+ffa7 fef9 ff23 0000
+ffa3 ff1c ff4b 0000

@@ -1,0 +1,3 @@
+ffff ff6b 0015 0000
+ffbe 007c ff05 0000
+ffd5 ff67 ffc6 0000

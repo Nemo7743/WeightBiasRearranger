@@ -1,0 +1,3 @@
+ffd2 ffaf ffdd 0000
+ffba 0224 ffe7 0000
+ffe1 ffed ffd0 0000
