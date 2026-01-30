@@ -4,7 +4,7 @@ def package_tile_downSampling_R(layer_num: int):
     """
     修改後的 Right Branch DownSampling 打包邏輯：
     1. Filter: 總共輸出 24 個 Group (Group0.0 - Group5.3)。
-    2. Bias: 總共輸出 6 個 Group (Bias0 - Bias5)，使用 Row-Base 順序。
+    2. Bias:   已修改為與 Filter 相同，輸出 24 個 Group (Bias0.0 - Bias5.3)，使用 Column-Base。
     3. 合併儲存: 每個檔案內依序包含 PW1 -> DW -> PW2 的內容。
     
     參數:
@@ -113,57 +113,50 @@ def package_tile_downSampling_R(layer_num: int):
             print(f"  已生成 {output_filename} \t包含 Filter: [{indices_str}]")
 
     # ==========================================
-    # --- 6. 處理 Bias (6 Major Groups) - [修改為 Row Base] ---
+    # --- 6. 處理 Bias (24 Groups) - [修改為 Column Base] ---
     # ==========================================
-    print("\n--- 正在處理 Bias (6 Major Groups - Row Base) ---")
+    print("\n--- 正在處理 Bias (24 Groups - Column Base) ---")
     
-    # 計算最大深度 (例如 76 個檔案 -> 76/24 = 3...4 -> max_depth = 4)
-    max_depth = (total_files + 23) // 24
+    # [修改邏輯]: 使用與 Filter 完全相同的 24 Groups 邏輯
+    for slot_idx in range(24):
+        # 計算 Group 名稱 (使用 BiasX.Y 格式以區分)
+        major_group = slot_idx // 4
+        minor_group = slot_idx % 4
+        output_filename = f"Bias{major_group}.{minor_group}.txt"
 
-    for major_group in range(6):
-        output_filename = f"Bias{major_group}.txt"
+        # 找出屬於這個 Slot 的所有 Filter Index (間隔 24，Column Base)
+        target_indices = [idx for idx in filter_indices if idx % 24 == slot_idx]
         
         content_pw1 = []
         content_dw  = []
         content_pw2 = []
+        
+        # 收集成功讀取的 index 以便顯示
         collected_indices = []
 
-        # 該 Major Group 包含的基礎 Slot (例如 Group 0 -> [0, 1, 2, 3])
-        base_slots = [major_group * 4 + i for i in range(4)]
-
-        # [核心修改]: 巢狀迴圈順序改變
-        # 1. 外層 Loop: Depth (0, 1, 2...) 對應偏移量 (0, 24, 48...)
-        # 2. 內層 Loop: Slot (0, 1, 2, 3)
-        # 這樣就能達成 [0, 1, 2, 3, 24, 25, 26, 27...] 的順序
-        
-        for depth in range(max_depth):
-            offset = depth * 24
-            for slot_idx in base_slots:
-                target_idx = offset + slot_idx
-                
-                # 確認此 index 是否存在於原始檔案清單中
-                if target_idx in filter_indices_set:
-                    collected_indices.append(target_idx)
-                    
-                    fname = f"Bias{target_idx}.txt" # 注意這裡是讀取 Bias 檔名
-                    
-                    p_pw1 = os.path.join(src_pw1, fname)
-                    p_dw  = os.path.join(src_dw, fname)
-                    p_pw2 = os.path.join(src_pw2, fname)
-                    
-                    try:
-                        with open(p_pw1, 'r', encoding='utf-8') as f: content_pw1.append(f.read().strip())
-                        with open(p_dw,  'r', encoding='utf-8') as f: content_dw.append(f.read().strip())
-                        with open(p_pw2, 'r', encoding='utf-8') as f: content_pw2.append(f.read().strip())
-                    except FileNotFoundError:
-                        # Bias 檔案有時可能不存在，選擇忽略
-                        pass
+        for idx in target_indices:
+            fname = f"Bias{idx}.txt" # 讀取 Bias 檔名
+            
+            p_pw1 = os.path.join(src_pw1, fname)
+            p_dw  = os.path.join(src_dw, fname)
+            p_pw2 = os.path.join(src_pw2, fname)
+            
+            try:
+                # 嘗試讀取三個檔案
+                with open(p_pw1, 'r', encoding='utf-8') as f: content_pw1.append(f.read().strip())
+                with open(p_dw,  'r', encoding='utf-8') as f: content_dw.append(f.read().strip())
+                with open(p_pw2, 'r', encoding='utf-8') as f: content_pw2.append(f.read().strip())
+                collected_indices.append(idx)
+            except FileNotFoundError:
+                # Bias 檔案有時可能不存在，選擇忽略
+                pass
 
         # 寫入 Bias 輸出檔案
         if content_pw1:
-            text_pw1 = "\n".join(content_pw1)
-            text_dw  = "\n".join(content_dw)
-            text_pw2 = "\n".join(content_pw2)
+            # 為了與 Weight 邏輯保持一致，這裡使用 \n\n 拼接 (若需緊湊可用 \n)
+            text_pw1 = "\n\n".join(content_pw1)
+            text_dw  = "\n\n".join(content_dw)
+            text_pw2 = "\n\n".join(content_pw2)
             
             with open(os.path.join(base_output_dir, output_filename), 'w', encoding='utf-8') as f:
                 f.write(text_pw1)
@@ -173,11 +166,8 @@ def package_tile_downSampling_R(layer_num: int):
                 f.write(text_pw2)
                 f.write("\n")
             
-            # 顯示前幾個 Index 驗證順序
-            display_indices = collected_indices[:16]
-            indices_str = ", ".join(map(str, display_indices))
-            if len(collected_indices) > 16:
-                indices_str += " ..."
+            # 顯示進度
+            indices_str = ", ".join(map(str, collected_indices))
             print(f"  已生成 {output_filename} \t包含 Bias: [{indices_str}]")
 
     print("全部打包完成。")
@@ -185,7 +175,7 @@ def package_tile_downSampling_R(layer_num: int):
 # --- 測試執行區塊 ---
 if __name__ == "__main__":
     try:
-        # 測試 layer 12
+        # 測試 layer 4
         package_tile_downSampling_R(4)
     except Exception as e:
         print(f"執行錯誤: {e}")
