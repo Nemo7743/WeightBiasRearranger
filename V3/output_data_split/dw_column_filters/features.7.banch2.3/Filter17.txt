@@ -1,0 +1,3 @@
+fffd ff9f ffe6 0000
+ff9f 03dc 006e 0000
+fff9 0037 ffe8 0000

@@ -1,0 +1,34 @@
+0026 0047 0008 0000
+002c fffb ffd2 0000
+ffdc ffbb fffc 0000
+
+ffff 00f7 0106 0000
+0023 000f fffc 0000
+ffea fefa fefa 0000
+
+
+ffaa 0001 fff8 fff5
+0000 0000 fffd ffff
+0006 0003 0005 0003
+0003 ffff 000e 0001
+fff4 0009 fffa 0003
+000a 0002 0006 000f
+ffff 0005 0025 000e
+fffe fffc fff3 fffe
+0000 fffe 0006 fff3
+ffff fffd fff5 0009
+0027 fffd 004e fff8
+fff7 ffff 0006 fff7
+
+fffb fffd 0003 000e
+ffef 0009 ffee fffc
+0005 0006 0004 fff9
+fffd ffff 0000 fff9
+0005 fffa 001a fff8
+0001 fffd 000d 0005
+ffc8 0008 0006 0001
+0001 fffe fffd 0000
+00ce fffd 0007 fffb
+fffb 0001 0009 fff4
+0010 fff6 fffd 0007
+fffd fff5 fffe fffa

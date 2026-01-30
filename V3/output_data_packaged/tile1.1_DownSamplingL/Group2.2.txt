@@ -1,0 +1,11 @@
+0244 ff7a 00d8 0000
+01ae fff4 ffcf 0000
+0246 02ce 01b6 0000
+
+
+000b 0000 000b ffce
+ff9e 00f5 0000 ffec
+fffe fffe 0001 000b
+ffff fffd ffed fff6
+0000 0014 0000 ffe4
+001e 0004 ffe8 0000

@@ -1,0 +1,3 @@
+ff9b ff95 ffd9 0000
+ff7f ff6f 007d 0000
+fffe 0123 004d 0000

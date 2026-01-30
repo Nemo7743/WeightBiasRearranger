@@ -1,0 +1,34 @@
+0011 0033 0026 0000
+0039 009f 0087 0000
+003e 00a4 0069 0000
+
+0026 0054 0041 0000
+005b 00db 00a8 0000
+0049 00b3 007f 0000
+
+
+0009 fff4 fffb 000c
+ffef 001c 0019 fffb
+fff7 fffd ffd5 ffed
+000e 000d ffea fffa
+0011 ffea 0014 ffe2
+fff5 ffda 001c ffc9
+0004 0001 0002 0039
+ffd6 ffd5 0005 0005
+fffe fff3 fff0 ffc8
+ffed fff8 0003 ffd1
+fff4 0003 000e 000c
+ffee 0000 000a 0006
+
+fff8 fff9 000b 0008
+0002 0005 ffeb 000a
+000c 0003 fffe fffb
+0000 fffe fff9 fffa
+ffe5 fffe 0017 fffe
+0003 ffff 0007 0004
+0036 0006 0000 0004
+0003 fffc 000c 0001
+ff63 fff5 0012 fffa
+fffb fffe 0013 fffc
+000b fff7 fffe ffff
+fffd fff7 ffeb fffb

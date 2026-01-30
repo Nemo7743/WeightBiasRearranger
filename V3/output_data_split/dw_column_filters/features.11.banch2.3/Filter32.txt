@@ -1,0 +1,3 @@
+ffe2 ff42 ffd7 0000
+ffa8 03ae ff80 0000
+ffd8 ff6c ffda 0000

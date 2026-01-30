@@ -1,0 +1,3 @@
+ffdd 0066 fff5 0000
+ffd1 0167 fff4 0000
+ffd3 010d ffdf 0000

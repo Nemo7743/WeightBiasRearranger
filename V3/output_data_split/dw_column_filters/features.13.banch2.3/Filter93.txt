@@ -1,0 +1,3 @@
+ffd8 ff6e ffdd 0000
+ff40 ff14 ffd8 0000
+ffd3 ff64 ffde 0000

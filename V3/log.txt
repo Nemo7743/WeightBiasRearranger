@@ -1,0 +1,983 @@
+--- [Step 0] 開始組合語言組譯流程 ---
+--- 開始組譯與檢查 ---
+
+組譯成功！沒有發現語法錯誤。
+結果已儲存至 data_instructions/instruction_output.txt
+--- [Step 0] 結束組合語言組譯流程 ---
+
+
+--- [Step 1] 開始權重與資料切分流程 ---
+開始處理 24 組 Filter，轉換為 Column-major 格式...
+處理完成！檔案已輸出至: c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\conv1_column_filters
+偵測到 24 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 24 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.0.banch1.0
+偵測到 24 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 24 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.0.banch2.3
+偵測到 24 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 24 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.1.banch2.3
+偵測到 24 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 24 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.2.banch2.3
+偵測到 24 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 24 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.3.banch2.3
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.4.banch1.0
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.4.banch2.3
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.5.banch2.3
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.6.banch2.3
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.7.banch2.3
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.8.banch2.3
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.9.banch2.3
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.10.banch2.3
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.11.banch2.3
+偵測到 96 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 96 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.12.banch1.0
+偵測到 96 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 96 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.12.banch2.3
+偵測到 96 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 96 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.13.banch2.3
+偵測到 96 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 96 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.14.banch2.3
+偵測到 96 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 96 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_split\dw_column_filters\features.15.banch2.3
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.0.banch1.2'。
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.0.banch2.0'。
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.0.banch2.5'。
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.1.banch2.0'。
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.1.banch2.5'。
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.2.banch2.0'。
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.2.banch2.5'。
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.3.banch2.0'。
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.3.banch2.5'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.4.banch1.2'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.4.banch2.0'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.4.banch2.5'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.5.banch2.0'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.5.banch2.5'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.6.banch2.0'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.6.banch2.5'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.7.banch2.0'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.7.banch2.5'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.8.banch2.0'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.8.banch2.5'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.9.banch2.0'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.9.banch2.5'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.10.banch2.0'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.10.banch2.5'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.11.banch2.0'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.11.banch2.5'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.12.banch1.2'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.12.banch2.0'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.12.banch2.5'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.13.banch2.0'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.13.banch2.5'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.14.banch2.0'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.14.banch2.5'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.15.banch2.0'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.15.banch2.5'。
+偵測到 1024 組 ConvLast Filter 資料，開始轉換...
+轉換完成！共生成 1024*2 個檔案於 'output_data_split/conv_last_filters'。
+偵測到 2 組 FC Filter 資料，開始轉換...
+轉換完成！共生成 2*2 個檔案於 'output_data_split/fc_filters'。
+--- [Step 1] 結束權重與資料切分流程 ---
+
+
+--- [Step 2] 開始權重與資料打包流程 ---
+--- 打包 Tile0 ---
+已確認輸出目錄：output_data_packaged\tile0_Conv1\P0_Conv1
+正在將 24 個 Filter 轉換為 GroupX.Y 格式 (共 24 包)...
+  已生成 Group0.0.txt  包含 Filter: [0]
+  已生成 Group0.1.txt  包含 Filter: [1]
+  已生成 Group0.2.txt  包含 Filter: [2]
+  已生成 Group0.3.txt  包含 Filter: [3]
+  已生成 Group1.0.txt  包含 Filter: [4]
+  已生成 Group1.1.txt  包含 Filter: [5]
+  已生成 Group1.2.txt  包含 Filter: [6]
+  已生成 Group1.3.txt  包含 Filter: [7]
+  已生成 Group2.0.txt  包含 Filter: [8]
+  已生成 Group2.1.txt  包含 Filter: [9]
+  已生成 Group2.2.txt  包含 Filter: [10]
+  已生成 Group2.3.txt  包含 Filter: [11]
+  已生成 Group3.0.txt  包含 Filter: [12]
+  已生成 Group3.1.txt  包含 Filter: [13]
+  已生成 Group3.2.txt  包含 Filter: [14]
+  已生成 Group3.3.txt  包含 Filter: [15]
+  已生成 Group4.0.txt  包含 Filter: [16]
+  已生成 Group4.1.txt  包含 Filter: [17]
+  已生成 Group4.2.txt  包含 Filter: [18]
+  已生成 Group4.3.txt  包含 Filter: [19]
+  已生成 Group5.0.txt  包含 Filter: [20]
+  已生成 Group5.1.txt  包含 Filter: [21]
+  已生成 Group5.2.txt  包含 Filter: [22]
+  已生成 Group5.3.txt  包含 Filter: [23]
+  已生成 Bias0.txt  包含 Bias: [0, 1, 2, 3]
+  已生成 Bias1.txt  包含 Bias: [4, 5, 6, 7]
+  已生成 Bias2.txt  包含 Bias: [8, 9, 10, 11]
+  已生成 Bias3.txt  包含 Bias: [12, 13, 14, 15]
+  已生成 Bias4.txt  包含 Bias: [16, 17, 18, 19]
+  已生成 Bias5.txt  包含 Bias: [20, 21, 22, 23]
+------------------------------
+打包完成
+--- 打包 Tile0 結束 ---
+--- 打包 Tile1 ---
+已確認輸出目錄：
+  Main -> output_data_packaged\tile1.1_DownSamplingL
+偵測到 24 個 Filter，開始打包...
+--- Processing Filters (Column Base) ---
+  已生成 Group0.0.txt 	包含 Filter: [0]
+  已生成 Group0.1.txt 	包含 Filter: [1]
+  已生成 Group0.2.txt 	包含 Filter: [2]
+  已生成 Group0.3.txt 	包含 Filter: [3]
+  已生成 Group1.0.txt 	包含 Filter: [4]
+  已生成 Group1.1.txt 	包含 Filter: [5]
+  已生成 Group1.2.txt 	包含 Filter: [6]
+  已生成 Group1.3.txt 	包含 Filter: [7]
+  已生成 Group2.0.txt 	包含 Filter: [8]
+  已生成 Group2.1.txt 	包含 Filter: [9]
+  已生成 Group2.2.txt 	包含 Filter: [10]
+  已生成 Group2.3.txt 	包含 Filter: [11]
+  已生成 Group3.0.txt 	包含 Filter: [12]
+  已生成 Group3.1.txt 	包含 Filter: [13]
+  已生成 Group3.2.txt 	包含 Filter: [14]
+  已生成 Group3.3.txt 	包含 Filter: [15]
+  已生成 Group4.0.txt 	包含 Filter: [16]
+  已生成 Group4.1.txt 	包含 Filter: [17]
+  已生成 Group4.2.txt 	包含 Filter: [18]
+  已生成 Group4.3.txt 	包含 Filter: [19]
+  已生成 Group5.0.txt 	包含 Filter: [20]
+  已生成 Group5.1.txt 	包含 Filter: [21]
+  已生成 Group5.2.txt 	包含 Filter: [22]
+  已生成 Group5.3.txt 	包含 Filter: [23]
+
+--- Processing Biases (Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23]
+打包完成。
+已確認輸出目錄：output_data_packaged\tile1.2_DownSamplingR
+偵測到 24 個 Filter，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Group0.0.txt 	包含 Filter: [0]
+  已生成 Group0.1.txt 	包含 Filter: [1]
+  已生成 Group0.2.txt 	包含 Filter: [2]
+  已生成 Group0.3.txt 	包含 Filter: [3]
+  已生成 Group1.0.txt 	包含 Filter: [4]
+  已生成 Group1.1.txt 	包含 Filter: [5]
+  已生成 Group1.2.txt 	包含 Filter: [6]
+  已生成 Group1.3.txt 	包含 Filter: [7]
+  已生成 Group2.0.txt 	包含 Filter: [8]
+  已生成 Group2.1.txt 	包含 Filter: [9]
+  已生成 Group2.2.txt 	包含 Filter: [10]
+  已生成 Group2.3.txt 	包含 Filter: [11]
+  已生成 Group3.0.txt 	包含 Filter: [12]
+  已生成 Group3.1.txt 	包含 Filter: [13]
+  已生成 Group3.2.txt 	包含 Filter: [14]
+  已生成 Group3.3.txt 	包含 Filter: [15]
+  已生成 Group4.0.txt 	包含 Filter: [16]
+  已生成 Group4.1.txt 	包含 Filter: [17]
+  已生成 Group4.2.txt 	包含 Filter: [18]
+  已生成 Group4.3.txt 	包含 Filter: [19]
+  已生成 Group5.0.txt 	包含 Filter: [20]
+  已生成 Group5.1.txt 	包含 Filter: [21]
+  已生成 Group5.2.txt 	包含 Filter: [22]
+  已生成 Group5.3.txt 	包含 Filter: [23]
+
+--- 正在處理 Bias (6 Major Groups - Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23]
+全部打包完成。
+--- 打包 Tile1 結束 ---
+--- 打包 Tile2 ---
+已確認輸出目錄：output_data_packaged\tile2.2_OGShuffle
+偵測到 24 個 Filter，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Group0.0.txt 	包含 Filter: [0]
+  已生成 Group0.1.txt 	包含 Filter: [1]
+  已生成 Group0.2.txt 	包含 Filter: [2]
+  已生成 Group0.3.txt 	包含 Filter: [3]
+  已生成 Group1.0.txt 	包含 Filter: [4]
+  已生成 Group1.1.txt 	包含 Filter: [5]
+  已生成 Group1.2.txt 	包含 Filter: [6]
+  已生成 Group1.3.txt 	包含 Filter: [7]
+  已生成 Group2.0.txt 	包含 Filter: [8]
+  已生成 Group2.1.txt 	包含 Filter: [9]
+  已生成 Group2.2.txt 	包含 Filter: [10]
+  已生成 Group2.3.txt 	包含 Filter: [11]
+  已生成 Group3.0.txt 	包含 Filter: [12]
+  已生成 Group3.1.txt 	包含 Filter: [13]
+  已生成 Group3.2.txt 	包含 Filter: [14]
+  已生成 Group3.3.txt 	包含 Filter: [15]
+  已生成 Group4.0.txt 	包含 Filter: [16]
+  已生成 Group4.1.txt 	包含 Filter: [17]
+  已生成 Group4.2.txt 	包含 Filter: [18]
+  已生成 Group4.3.txt 	包含 Filter: [19]
+  已生成 Group5.0.txt 	包含 Filter: [20]
+  已生成 Group5.1.txt 	包含 Filter: [21]
+  已生成 Group5.2.txt 	包含 Filter: [22]
+  已生成 Group5.3.txt 	包含 Filter: [23]
+
+--- 正在處理 Bias (6 Major Groups - Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23]
+全部打包完成。
+--- 打包 Tile2 結束 ---
+--- 打包 Tile3 ---
+已確認輸出目錄：output_data_packaged\tile3.2_OGShuffle
+偵測到 24 個 Filter，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Group0.0.txt 	包含 Filter: [0]
+  已生成 Group0.1.txt 	包含 Filter: [1]
+  已生成 Group0.2.txt 	包含 Filter: [2]
+  已生成 Group0.3.txt 	包含 Filter: [3]
+  已生成 Group1.0.txt 	包含 Filter: [4]
+  已生成 Group1.1.txt 	包含 Filter: [5]
+  已生成 Group1.2.txt 	包含 Filter: [6]
+  已生成 Group1.3.txt 	包含 Filter: [7]
+  已生成 Group2.0.txt 	包含 Filter: [8]
+  已生成 Group2.1.txt 	包含 Filter: [9]
+  已生成 Group2.2.txt 	包含 Filter: [10]
+  已生成 Group2.3.txt 	包含 Filter: [11]
+  已生成 Group3.0.txt 	包含 Filter: [12]
+  已生成 Group3.1.txt 	包含 Filter: [13]
+  已生成 Group3.2.txt 	包含 Filter: [14]
+  已生成 Group3.3.txt 	包含 Filter: [15]
+  已生成 Group4.0.txt 	包含 Filter: [16]
+  已生成 Group4.1.txt 	包含 Filter: [17]
+  已生成 Group4.2.txt 	包含 Filter: [18]
+  已生成 Group4.3.txt 	包含 Filter: [19]
+  已生成 Group5.0.txt 	包含 Filter: [20]
+  已生成 Group5.1.txt 	包含 Filter: [21]
+  已生成 Group5.2.txt 	包含 Filter: [22]
+  已生成 Group5.3.txt 	包含 Filter: [23]
+
+--- 正在處理 Bias (6 Major Groups - Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23]
+全部打包完成。
+--- 打包 Tile3 結束 ---
+--- 打包 Tile4 ---
+已確認輸出目錄：output_data_packaged\tile4.2_OGShuffle
+偵測到 24 個 Filter，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Group0.0.txt 	包含 Filter: [0]
+  已生成 Group0.1.txt 	包含 Filter: [1]
+  已生成 Group0.2.txt 	包含 Filter: [2]
+  已生成 Group0.3.txt 	包含 Filter: [3]
+  已生成 Group1.0.txt 	包含 Filter: [4]
+  已生成 Group1.1.txt 	包含 Filter: [5]
+  已生成 Group1.2.txt 	包含 Filter: [6]
+  已生成 Group1.3.txt 	包含 Filter: [7]
+  已生成 Group2.0.txt 	包含 Filter: [8]
+  已生成 Group2.1.txt 	包含 Filter: [9]
+  已生成 Group2.2.txt 	包含 Filter: [10]
+  已生成 Group2.3.txt 	包含 Filter: [11]
+  已生成 Group3.0.txt 	包含 Filter: [12]
+  已生成 Group3.1.txt 	包含 Filter: [13]
+  已生成 Group3.2.txt 	包含 Filter: [14]
+  已生成 Group3.3.txt 	包含 Filter: [15]
+  已生成 Group4.0.txt 	包含 Filter: [16]
+  已生成 Group4.1.txt 	包含 Filter: [17]
+  已生成 Group4.2.txt 	包含 Filter: [18]
+  已生成 Group4.3.txt 	包含 Filter: [19]
+  已生成 Group5.0.txt 	包含 Filter: [20]
+  已生成 Group5.1.txt 	包含 Filter: [21]
+  已生成 Group5.2.txt 	包含 Filter: [22]
+  已生成 Group5.3.txt 	包含 Filter: [23]
+
+--- 正在處理 Bias (6 Major Groups - Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23]
+全部打包完成。
+--- 打包 Tile4 結束 ---
+--- 打包 Tile5 ---
+已確認輸出目錄：
+  Main -> output_data_packaged\tile5.1_DownSamplingL
+偵測到 48 個 Filter，開始打包...
+--- Processing Filters (Column Base) ---
+  已生成 Group0.0.txt 	包含 Filter: [0, 24]
+  已生成 Group0.1.txt 	包含 Filter: [1, 25]
+  已生成 Group0.2.txt 	包含 Filter: [2, 26]
+  已生成 Group0.3.txt 	包含 Filter: [3, 27]
+  已生成 Group1.0.txt 	包含 Filter: [4, 28]
+  已生成 Group1.1.txt 	包含 Filter: [5, 29]
+  已生成 Group1.2.txt 	包含 Filter: [6, 30]
+  已生成 Group1.3.txt 	包含 Filter: [7, 31]
+  已生成 Group2.0.txt 	包含 Filter: [8, 32]
+  已生成 Group2.1.txt 	包含 Filter: [9, 33]
+  已生成 Group2.2.txt 	包含 Filter: [10, 34]
+  已生成 Group2.3.txt 	包含 Filter: [11, 35]
+  已生成 Group3.0.txt 	包含 Filter: [12, 36]
+  已生成 Group3.1.txt 	包含 Filter: [13, 37]
+  已生成 Group3.2.txt 	包含 Filter: [14, 38]
+  已生成 Group3.3.txt 	包含 Filter: [15, 39]
+  已生成 Group4.0.txt 	包含 Filter: [16, 40]
+  已生成 Group4.1.txt 	包含 Filter: [17, 41]
+  已生成 Group4.2.txt 	包含 Filter: [18, 42]
+  已生成 Group4.3.txt 	包含 Filter: [19, 43]
+  已生成 Group5.0.txt 	包含 Filter: [20, 44]
+  已生成 Group5.1.txt 	包含 Filter: [21, 45]
+  已生成 Group5.2.txt 	包含 Filter: [22, 46]
+  已生成 Group5.3.txt 	包含 Filter: [23, 47]
+
+--- Processing Biases (Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3, 24, 25, 26, 27]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7, 28, 29, 30, 31]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11, 32, 33, 34, 35]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15, 36, 37, 38, 39]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19, 40, 41, 42, 43]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23, 44, 45, 46, 47]
+打包完成。
+已確認輸出目錄：output_data_packaged\tile5.2_DownSamplingR
+偵測到 48 個 Filter，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Group0.0.txt 	包含 Filter: [0, 24]
+  已生成 Group0.1.txt 	包含 Filter: [1, 25]
+  已生成 Group0.2.txt 	包含 Filter: [2, 26]
+  已生成 Group0.3.txt 	包含 Filter: [3, 27]
+  已生成 Group1.0.txt 	包含 Filter: [4, 28]
+  已生成 Group1.1.txt 	包含 Filter: [5, 29]
+  已生成 Group1.2.txt 	包含 Filter: [6, 30]
+  已生成 Group1.3.txt 	包含 Filter: [7, 31]
+  已生成 Group2.0.txt 	包含 Filter: [8, 32]
+  已生成 Group2.1.txt 	包含 Filter: [9, 33]
+  已生成 Group2.2.txt 	包含 Filter: [10, 34]
+  已生成 Group2.3.txt 	包含 Filter: [11, 35]
+  已生成 Group3.0.txt 	包含 Filter: [12, 36]
+  已生成 Group3.1.txt 	包含 Filter: [13, 37]
+  已生成 Group3.2.txt 	包含 Filter: [14, 38]
+  已生成 Group3.3.txt 	包含 Filter: [15, 39]
+  已生成 Group4.0.txt 	包含 Filter: [16, 40]
+  已生成 Group4.1.txt 	包含 Filter: [17, 41]
+  已生成 Group4.2.txt 	包含 Filter: [18, 42]
+  已生成 Group4.3.txt 	包含 Filter: [19, 43]
+  已生成 Group5.0.txt 	包含 Filter: [20, 44]
+  已生成 Group5.1.txt 	包含 Filter: [21, 45]
+  已生成 Group5.2.txt 	包含 Filter: [22, 46]
+  已生成 Group5.3.txt 	包含 Filter: [23, 47]
+
+--- 正在處理 Bias (6 Major Groups - Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3, 24, 25, 26, 27]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7, 28, 29, 30, 31]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11, 32, 33, 34, 35]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15, 36, 37, 38, 39]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19, 40, 41, 42, 43]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23, 44, 45, 46, 47]
+全部打包完成。
+--- 打包 Tile5 結束 ---
+--- 打包 Tile6 ---
+已確認輸出目錄：output_data_packaged\tile6.2_OGShuffle
+偵測到 48 個 Filter，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Group0.0.txt 	包含 Filter: [0, 24]
+  已生成 Group0.1.txt 	包含 Filter: [1, 25]
+  已生成 Group0.2.txt 	包含 Filter: [2, 26]
+  已生成 Group0.3.txt 	包含 Filter: [3, 27]
+  已生成 Group1.0.txt 	包含 Filter: [4, 28]
+  已生成 Group1.1.txt 	包含 Filter: [5, 29]
+  已生成 Group1.2.txt 	包含 Filter: [6, 30]
+  已生成 Group1.3.txt 	包含 Filter: [7, 31]
+  已生成 Group2.0.txt 	包含 Filter: [8, 32]
+  已生成 Group2.1.txt 	包含 Filter: [9, 33]
+  已生成 Group2.2.txt 	包含 Filter: [10, 34]
+  已生成 Group2.3.txt 	包含 Filter: [11, 35]
+  已生成 Group3.0.txt 	包含 Filter: [12, 36]
+  已生成 Group3.1.txt 	包含 Filter: [13, 37]
+  已生成 Group3.2.txt 	包含 Filter: [14, 38]
+  已生成 Group3.3.txt 	包含 Filter: [15, 39]
+  已生成 Group4.0.txt 	包含 Filter: [16, 40]
+  已生成 Group4.1.txt 	包含 Filter: [17, 41]
+  已生成 Group4.2.txt 	包含 Filter: [18, 42]
+  已生成 Group4.3.txt 	包含 Filter: [19, 43]
+  已生成 Group5.0.txt 	包含 Filter: [20, 44]
+  已生成 Group5.1.txt 	包含 Filter: [21, 45]
+  已生成 Group5.2.txt 	包含 Filter: [22, 46]
+  已生成 Group5.3.txt 	包含 Filter: [23, 47]
+
+--- 正在處理 Bias (6 Major Groups - Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3, 24, 25, 26, 27]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7, 28, 29, 30, 31]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11, 32, 33, 34, 35]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15, 36, 37, 38, 39]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19, 40, 41, 42, 43]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23, 44, 45, 46, 47]
+全部打包完成。
+--- 打包 Tile6 結束 ---
+--- 打包 Tile7 ---
+已確認輸出目錄：output_data_packaged\tile7.2_OGShuffle
+偵測到 48 個 Filter，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Group0.0.txt 	包含 Filter: [0, 24]
+  已生成 Group0.1.txt 	包含 Filter: [1, 25]
+  已生成 Group0.2.txt 	包含 Filter: [2, 26]
+  已生成 Group0.3.txt 	包含 Filter: [3, 27]
+  已生成 Group1.0.txt 	包含 Filter: [4, 28]
+  已生成 Group1.1.txt 	包含 Filter: [5, 29]
+  已生成 Group1.2.txt 	包含 Filter: [6, 30]
+  已生成 Group1.3.txt 	包含 Filter: [7, 31]
+  已生成 Group2.0.txt 	包含 Filter: [8, 32]
+  已生成 Group2.1.txt 	包含 Filter: [9, 33]
+  已生成 Group2.2.txt 	包含 Filter: [10, 34]
+  已生成 Group2.3.txt 	包含 Filter: [11, 35]
+  已生成 Group3.0.txt 	包含 Filter: [12, 36]
+  已生成 Group3.1.txt 	包含 Filter: [13, 37]
+  已生成 Group3.2.txt 	包含 Filter: [14, 38]
+  已生成 Group3.3.txt 	包含 Filter: [15, 39]
+  已生成 Group4.0.txt 	包含 Filter: [16, 40]
+  已生成 Group4.1.txt 	包含 Filter: [17, 41]
+  已生成 Group4.2.txt 	包含 Filter: [18, 42]
+  已生成 Group4.3.txt 	包含 Filter: [19, 43]
+  已生成 Group5.0.txt 	包含 Filter: [20, 44]
+  已生成 Group5.1.txt 	包含 Filter: [21, 45]
+  已生成 Group5.2.txt 	包含 Filter: [22, 46]
+  已生成 Group5.3.txt 	包含 Filter: [23, 47]
+
+--- 正在處理 Bias (6 Major Groups - Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3, 24, 25, 26, 27]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7, 28, 29, 30, 31]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11, 32, 33, 34, 35]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15, 36, 37, 38, 39]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19, 40, 41, 42, 43]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23, 44, 45, 46, 47]
+全部打包完成。
+--- 打包 Tile7 結束 ---
+--- 打包 Tile8 ---
+已確認輸出目錄：output_data_packaged\tile8.2_OGShuffle
+偵測到 48 個 Filter，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Group0.0.txt 	包含 Filter: [0, 24]
+  已生成 Group0.1.txt 	包含 Filter: [1, 25]
+  已生成 Group0.2.txt 	包含 Filter: [2, 26]
+  已生成 Group0.3.txt 	包含 Filter: [3, 27]
+  已生成 Group1.0.txt 	包含 Filter: [4, 28]
+  已生成 Group1.1.txt 	包含 Filter: [5, 29]
+  已生成 Group1.2.txt 	包含 Filter: [6, 30]
+  已生成 Group1.3.txt 	包含 Filter: [7, 31]
+  已生成 Group2.0.txt 	包含 Filter: [8, 32]
+  已生成 Group2.1.txt 	包含 Filter: [9, 33]
+  已生成 Group2.2.txt 	包含 Filter: [10, 34]
+  已生成 Group2.3.txt 	包含 Filter: [11, 35]
+  已生成 Group3.0.txt 	包含 Filter: [12, 36]
+  已生成 Group3.1.txt 	包含 Filter: [13, 37]
+  已生成 Group3.2.txt 	包含 Filter: [14, 38]
+  已生成 Group3.3.txt 	包含 Filter: [15, 39]
+  已生成 Group4.0.txt 	包含 Filter: [16, 40]
+  已生成 Group4.1.txt 	包含 Filter: [17, 41]
+  已生成 Group4.2.txt 	包含 Filter: [18, 42]
+  已生成 Group4.3.txt 	包含 Filter: [19, 43]
+  已生成 Group5.0.txt 	包含 Filter: [20, 44]
+  已生成 Group5.1.txt 	包含 Filter: [21, 45]
+  已生成 Group5.2.txt 	包含 Filter: [22, 46]
+  已生成 Group5.3.txt 	包含 Filter: [23, 47]
+
+--- 正在處理 Bias (6 Major Groups - Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3, 24, 25, 26, 27]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7, 28, 29, 30, 31]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11, 32, 33, 34, 35]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15, 36, 37, 38, 39]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19, 40, 41, 42, 43]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23, 44, 45, 46, 47]
+全部打包完成。
+--- 打包 Tile8 結束 ---
+--- 打包 Tile9 ---
+已確認輸出目錄：output_data_packaged\tile9.2_OGShuffle
+偵測到 48 個 Filter，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Group0.0.txt 	包含 Filter: [0, 24]
+  已生成 Group0.1.txt 	包含 Filter: [1, 25]
+  已生成 Group0.2.txt 	包含 Filter: [2, 26]
+  已生成 Group0.3.txt 	包含 Filter: [3, 27]
+  已生成 Group1.0.txt 	包含 Filter: [4, 28]
+  已生成 Group1.1.txt 	包含 Filter: [5, 29]
+  已生成 Group1.2.txt 	包含 Filter: [6, 30]
+  已生成 Group1.3.txt 	包含 Filter: [7, 31]
+  已生成 Group2.0.txt 	包含 Filter: [8, 32]
+  已生成 Group2.1.txt 	包含 Filter: [9, 33]
+  已生成 Group2.2.txt 	包含 Filter: [10, 34]
+  已生成 Group2.3.txt 	包含 Filter: [11, 35]
+  已生成 Group3.0.txt 	包含 Filter: [12, 36]
+  已生成 Group3.1.txt 	包含 Filter: [13, 37]
+  已生成 Group3.2.txt 	包含 Filter: [14, 38]
+  已生成 Group3.3.txt 	包含 Filter: [15, 39]
+  已生成 Group4.0.txt 	包含 Filter: [16, 40]
+  已生成 Group4.1.txt 	包含 Filter: [17, 41]
+  已生成 Group4.2.txt 	包含 Filter: [18, 42]
+  已生成 Group4.3.txt 	包含 Filter: [19, 43]
+  已生成 Group5.0.txt 	包含 Filter: [20, 44]
+  已生成 Group5.1.txt 	包含 Filter: [21, 45]
+  已生成 Group5.2.txt 	包含 Filter: [22, 46]
+  已生成 Group5.3.txt 	包含 Filter: [23, 47]
+
+--- 正在處理 Bias (6 Major Groups - Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3, 24, 25, 26, 27]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7, 28, 29, 30, 31]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11, 32, 33, 34, 35]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15, 36, 37, 38, 39]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19, 40, 41, 42, 43]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23, 44, 45, 46, 47]
+全部打包完成。
+--- 打包 Tile9 結束 ---
+--- 打包 Tile10 ---
+已確認輸出目錄：output_data_packaged\tile10.2_OGShuffle
+偵測到 48 個 Filter，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Group0.0.txt 	包含 Filter: [0, 24]
+  已生成 Group0.1.txt 	包含 Filter: [1, 25]
+  已生成 Group0.2.txt 	包含 Filter: [2, 26]
+  已生成 Group0.3.txt 	包含 Filter: [3, 27]
+  已生成 Group1.0.txt 	包含 Filter: [4, 28]
+  已生成 Group1.1.txt 	包含 Filter: [5, 29]
+  已生成 Group1.2.txt 	包含 Filter: [6, 30]
+  已生成 Group1.3.txt 	包含 Filter: [7, 31]
+  已生成 Group2.0.txt 	包含 Filter: [8, 32]
+  已生成 Group2.1.txt 	包含 Filter: [9, 33]
+  已生成 Group2.2.txt 	包含 Filter: [10, 34]
+  已生成 Group2.3.txt 	包含 Filter: [11, 35]
+  已生成 Group3.0.txt 	包含 Filter: [12, 36]
+  已生成 Group3.1.txt 	包含 Filter: [13, 37]
+  已生成 Group3.2.txt 	包含 Filter: [14, 38]
+  已生成 Group3.3.txt 	包含 Filter: [15, 39]
+  已生成 Group4.0.txt 	包含 Filter: [16, 40]
+  已生成 Group4.1.txt 	包含 Filter: [17, 41]
+  已生成 Group4.2.txt 	包含 Filter: [18, 42]
+  已生成 Group4.3.txt 	包含 Filter: [19, 43]
+  已生成 Group5.0.txt 	包含 Filter: [20, 44]
+  已生成 Group5.1.txt 	包含 Filter: [21, 45]
+  已生成 Group5.2.txt 	包含 Filter: [22, 46]
+  已生成 Group5.3.txt 	包含 Filter: [23, 47]
+
+--- 正在處理 Bias (6 Major Groups - Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3, 24, 25, 26, 27]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7, 28, 29, 30, 31]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11, 32, 33, 34, 35]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15, 36, 37, 38, 39]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19, 40, 41, 42, 43]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23, 44, 45, 46, 47]
+全部打包完成。
+--- 打包 Tile10 結束 ---
+--- 打包 Tile11 ---
+已確認輸出目錄：output_data_packaged\tile11.2_OGShuffle
+偵測到 48 個 Filter，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Group0.0.txt 	包含 Filter: [0, 24]
+  已生成 Group0.1.txt 	包含 Filter: [1, 25]
+  已生成 Group0.2.txt 	包含 Filter: [2, 26]
+  已生成 Group0.3.txt 	包含 Filter: [3, 27]
+  已生成 Group1.0.txt 	包含 Filter: [4, 28]
+  已生成 Group1.1.txt 	包含 Filter: [5, 29]
+  已生成 Group1.2.txt 	包含 Filter: [6, 30]
+  已生成 Group1.3.txt 	包含 Filter: [7, 31]
+  已生成 Group2.0.txt 	包含 Filter: [8, 32]
+  已生成 Group2.1.txt 	包含 Filter: [9, 33]
+  已生成 Group2.2.txt 	包含 Filter: [10, 34]
+  已生成 Group2.3.txt 	包含 Filter: [11, 35]
+  已生成 Group3.0.txt 	包含 Filter: [12, 36]
+  已生成 Group3.1.txt 	包含 Filter: [13, 37]
+  已生成 Group3.2.txt 	包含 Filter: [14, 38]
+  已生成 Group3.3.txt 	包含 Filter: [15, 39]
+  已生成 Group4.0.txt 	包含 Filter: [16, 40]
+  已生成 Group4.1.txt 	包含 Filter: [17, 41]
+  已生成 Group4.2.txt 	包含 Filter: [18, 42]
+  已生成 Group4.3.txt 	包含 Filter: [19, 43]
+  已生成 Group5.0.txt 	包含 Filter: [20, 44]
+  已生成 Group5.1.txt 	包含 Filter: [21, 45]
+  已生成 Group5.2.txt 	包含 Filter: [22, 46]
+  已生成 Group5.3.txt 	包含 Filter: [23, 47]
+
+--- 正在處理 Bias (6 Major Groups - Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3, 24, 25, 26, 27]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7, 28, 29, 30, 31]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11, 32, 33, 34, 35]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15, 36, 37, 38, 39]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19, 40, 41, 42, 43]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23, 44, 45, 46, 47]
+全部打包完成。
+--- 打包 Tile11 結束 ---
+--- 打包 Tile12 ---
+已確認輸出目錄：output_data_packaged\tile12.2_OGShuffle
+偵測到 48 個 Filter，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Group0.0.txt 	包含 Filter: [0, 24]
+  已生成 Group0.1.txt 	包含 Filter: [1, 25]
+  已生成 Group0.2.txt 	包含 Filter: [2, 26]
+  已生成 Group0.3.txt 	包含 Filter: [3, 27]
+  已生成 Group1.0.txt 	包含 Filter: [4, 28]
+  已生成 Group1.1.txt 	包含 Filter: [5, 29]
+  已生成 Group1.2.txt 	包含 Filter: [6, 30]
+  已生成 Group1.3.txt 	包含 Filter: [7, 31]
+  已生成 Group2.0.txt 	包含 Filter: [8, 32]
+  已生成 Group2.1.txt 	包含 Filter: [9, 33]
+  已生成 Group2.2.txt 	包含 Filter: [10, 34]
+  已生成 Group2.3.txt 	包含 Filter: [11, 35]
+  已生成 Group3.0.txt 	包含 Filter: [12, 36]
+  已生成 Group3.1.txt 	包含 Filter: [13, 37]
+  已生成 Group3.2.txt 	包含 Filter: [14, 38]
+  已生成 Group3.3.txt 	包含 Filter: [15, 39]
+  已生成 Group4.0.txt 	包含 Filter: [16, 40]
+  已生成 Group4.1.txt 	包含 Filter: [17, 41]
+  已生成 Group4.2.txt 	包含 Filter: [18, 42]
+  已生成 Group4.3.txt 	包含 Filter: [19, 43]
+  已生成 Group5.0.txt 	包含 Filter: [20, 44]
+  已生成 Group5.1.txt 	包含 Filter: [21, 45]
+  已生成 Group5.2.txt 	包含 Filter: [22, 46]
+  已生成 Group5.3.txt 	包含 Filter: [23, 47]
+
+--- 正在處理 Bias (6 Major Groups - Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3, 24, 25, 26, 27]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7, 28, 29, 30, 31]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11, 32, 33, 34, 35]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15, 36, 37, 38, 39]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19, 40, 41, 42, 43]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23, 44, 45, 46, 47]
+全部打包完成。
+--- 打包 Tile12 結束 ---
+--- 打包 Tile13 ---
+已確認輸出目錄：
+  Main -> output_data_packaged\tile13.1_DownSamplingL
+偵測到 96 個 Filter，開始打包...
+--- Processing Filters (Column Base) ---
+  已生成 Group0.0.txt 	包含 Filter: [0, 24, 48, 72]
+  已生成 Group0.1.txt 	包含 Filter: [1, 25, 49, 73]
+  已生成 Group0.2.txt 	包含 Filter: [2, 26, 50, 74]
+  已生成 Group0.3.txt 	包含 Filter: [3, 27, 51, 75]
+  已生成 Group1.0.txt 	包含 Filter: [4, 28, 52, 76]
+  已生成 Group1.1.txt 	包含 Filter: [5, 29, 53, 77]
+  已生成 Group1.2.txt 	包含 Filter: [6, 30, 54, 78]
+  已生成 Group1.3.txt 	包含 Filter: [7, 31, 55, 79]
+  已生成 Group2.0.txt 	包含 Filter: [8, 32, 56, 80]
+  已生成 Group2.1.txt 	包含 Filter: [9, 33, 57, 81]
+  已生成 Group2.2.txt 	包含 Filter: [10, 34, 58, 82]
+  已生成 Group2.3.txt 	包含 Filter: [11, 35, 59, 83]
+  已生成 Group3.0.txt 	包含 Filter: [12, 36, 60, 84]
+  已生成 Group3.1.txt 	包含 Filter: [13, 37, 61, 85]
+  已生成 Group3.2.txt 	包含 Filter: [14, 38, 62, 86]
+  已生成 Group3.3.txt 	包含 Filter: [15, 39, 63, 87]
+  已生成 Group4.0.txt 	包含 Filter: [16, 40, 64, 88]
+  已生成 Group4.1.txt 	包含 Filter: [17, 41, 65, 89]
+  已生成 Group4.2.txt 	包含 Filter: [18, 42, 66, 90]
+  已生成 Group4.3.txt 	包含 Filter: [19, 43, 67, 91]
+  已生成 Group5.0.txt 	包含 Filter: [20, 44, 68, 92]
+  已生成 Group5.1.txt 	包含 Filter: [21, 45, 69, 93]
+  已生成 Group5.2.txt 	包含 Filter: [22, 46, 70, 94]
+  已生成 Group5.3.txt 	包含 Filter: [23, 47, 71, 95]
+
+--- Processing Biases (Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3, 24, 25, 26, 27, 48, 49, 50, 51, 72, 73, 74, 75]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7, 28, 29, 30, 31, 52, 53, 54, 55, 76, 77, 78, 79]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11, 32, 33, 34, 35, 56, 57, 58, 59, 80, 81, 82, 83]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15, 36, 37, 38, 39, 60, 61, 62, 63, 84, 85, 86, 87]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19, 40, 41, 42, 43, 64, 65, 66, 67, 88, 89, 90, 91]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23, 44, 45, 46, 47, 68, 69, 70, 71, 92, 93, 94, 95]
+打包完成。
+已確認輸出目錄：output_data_packaged\tile13.2_DownSamplingR
+偵測到 96 個 Filter，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Group0.0.txt 	包含 Filter: [0, 24, 48, 72]
+  已生成 Group0.1.txt 	包含 Filter: [1, 25, 49, 73]
+  已生成 Group0.2.txt 	包含 Filter: [2, 26, 50, 74]
+  已生成 Group0.3.txt 	包含 Filter: [3, 27, 51, 75]
+  已生成 Group1.0.txt 	包含 Filter: [4, 28, 52, 76]
+  已生成 Group1.1.txt 	包含 Filter: [5, 29, 53, 77]
+  已生成 Group1.2.txt 	包含 Filter: [6, 30, 54, 78]
+  已生成 Group1.3.txt 	包含 Filter: [7, 31, 55, 79]
+  已生成 Group2.0.txt 	包含 Filter: [8, 32, 56, 80]
+  已生成 Group2.1.txt 	包含 Filter: [9, 33, 57, 81]
+  已生成 Group2.2.txt 	包含 Filter: [10, 34, 58, 82]
+  已生成 Group2.3.txt 	包含 Filter: [11, 35, 59, 83]
+  已生成 Group3.0.txt 	包含 Filter: [12, 36, 60, 84]
+  已生成 Group3.1.txt 	包含 Filter: [13, 37, 61, 85]
+  已生成 Group3.2.txt 	包含 Filter: [14, 38, 62, 86]
+  已生成 Group3.3.txt 	包含 Filter: [15, 39, 63, 87]
+  已生成 Group4.0.txt 	包含 Filter: [16, 40, 64, 88]
+  已生成 Group4.1.txt 	包含 Filter: [17, 41, 65, 89]
+  已生成 Group4.2.txt 	包含 Filter: [18, 42, 66, 90]
+  已生成 Group4.3.txt 	包含 Filter: [19, 43, 67, 91]
+  已生成 Group5.0.txt 	包含 Filter: [20, 44, 68, 92]
+  已生成 Group5.1.txt 	包含 Filter: [21, 45, 69, 93]
+  已生成 Group5.2.txt 	包含 Filter: [22, 46, 70, 94]
+  已生成 Group5.3.txt 	包含 Filter: [23, 47, 71, 95]
+
+--- 正在處理 Bias (6 Major Groups - Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3, 24, 25, 26, 27, 48, 49, 50, 51, 72, 73, 74, 75]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7, 28, 29, 30, 31, 52, 53, 54, 55, 76, 77, 78, 79]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11, 32, 33, 34, 35, 56, 57, 58, 59, 80, 81, 82, 83]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15, 36, 37, 38, 39, 60, 61, 62, 63, 84, 85, 86, 87]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19, 40, 41, 42, 43, 64, 65, 66, 67, 88, 89, 90, 91]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23, 44, 45, 46, 47, 68, 69, 70, 71, 92, 93, 94, 95]
+全部打包完成。
+--- 打包 Tile13 結束 ---
+--- 打包 Tile14 ---
+已確認輸出目錄：output_data_packaged\tile14.2_OGShuffle
+偵測到 96 個 Filter，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Group0.0.txt 	包含 Filter: [0, 24, 48, 72]
+  已生成 Group0.1.txt 	包含 Filter: [1, 25, 49, 73]
+  已生成 Group0.2.txt 	包含 Filter: [2, 26, 50, 74]
+  已生成 Group0.3.txt 	包含 Filter: [3, 27, 51, 75]
+  已生成 Group1.0.txt 	包含 Filter: [4, 28, 52, 76]
+  已生成 Group1.1.txt 	包含 Filter: [5, 29, 53, 77]
+  已生成 Group1.2.txt 	包含 Filter: [6, 30, 54, 78]
+  已生成 Group1.3.txt 	包含 Filter: [7, 31, 55, 79]
+  已生成 Group2.0.txt 	包含 Filter: [8, 32, 56, 80]
+  已生成 Group2.1.txt 	包含 Filter: [9, 33, 57, 81]
+  已生成 Group2.2.txt 	包含 Filter: [10, 34, 58, 82]
+  已生成 Group2.3.txt 	包含 Filter: [11, 35, 59, 83]
+  已生成 Group3.0.txt 	包含 Filter: [12, 36, 60, 84]
+  已生成 Group3.1.txt 	包含 Filter: [13, 37, 61, 85]
+  已生成 Group3.2.txt 	包含 Filter: [14, 38, 62, 86]
+  已生成 Group3.3.txt 	包含 Filter: [15, 39, 63, 87]
+  已生成 Group4.0.txt 	包含 Filter: [16, 40, 64, 88]
+  已生成 Group4.1.txt 	包含 Filter: [17, 41, 65, 89]
+  已生成 Group4.2.txt 	包含 Filter: [18, 42, 66, 90]
+  已生成 Group4.3.txt 	包含 Filter: [19, 43, 67, 91]
+  已生成 Group5.0.txt 	包含 Filter: [20, 44, 68, 92]
+  已生成 Group5.1.txt 	包含 Filter: [21, 45, 69, 93]
+  已生成 Group5.2.txt 	包含 Filter: [22, 46, 70, 94]
+  已生成 Group5.3.txt 	包含 Filter: [23, 47, 71, 95]
+
+--- 正在處理 Bias (6 Major Groups - Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3, 24, 25, 26, 27, 48, 49, 50, 51, 72, 73, 74, 75]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7, 28, 29, 30, 31, 52, 53, 54, 55, 76, 77, 78, 79]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11, 32, 33, 34, 35, 56, 57, 58, 59, 80, 81, 82, 83]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15, 36, 37, 38, 39, 60, 61, 62, 63, 84, 85, 86, 87]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19, 40, 41, 42, 43, 64, 65, 66, 67, 88, 89, 90, 91]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23, 44, 45, 46, 47, 68, 69, 70, 71, 92, 93, 94, 95]
+全部打包完成。
+--- 打包 Tile14 結束 ---
+--- 打包 Tile15 ---
+已確認輸出目錄：output_data_packaged\tile15.2_OGShuffle
+偵測到 96 個 Filter，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Group0.0.txt 	包含 Filter: [0, 24, 48, 72]
+  已生成 Group0.1.txt 	包含 Filter: [1, 25, 49, 73]
+  已生成 Group0.2.txt 	包含 Filter: [2, 26, 50, 74]
+  已生成 Group0.3.txt 	包含 Filter: [3, 27, 51, 75]
+  已生成 Group1.0.txt 	包含 Filter: [4, 28, 52, 76]
+  已生成 Group1.1.txt 	包含 Filter: [5, 29, 53, 77]
+  已生成 Group1.2.txt 	包含 Filter: [6, 30, 54, 78]
+  已生成 Group1.3.txt 	包含 Filter: [7, 31, 55, 79]
+  已生成 Group2.0.txt 	包含 Filter: [8, 32, 56, 80]
+  已生成 Group2.1.txt 	包含 Filter: [9, 33, 57, 81]
+  已生成 Group2.2.txt 	包含 Filter: [10, 34, 58, 82]
+  已生成 Group2.3.txt 	包含 Filter: [11, 35, 59, 83]
+  已生成 Group3.0.txt 	包含 Filter: [12, 36, 60, 84]
+  已生成 Group3.1.txt 	包含 Filter: [13, 37, 61, 85]
+  已生成 Group3.2.txt 	包含 Filter: [14, 38, 62, 86]
+  已生成 Group3.3.txt 	包含 Filter: [15, 39, 63, 87]
+  已生成 Group4.0.txt 	包含 Filter: [16, 40, 64, 88]
+  已生成 Group4.1.txt 	包含 Filter: [17, 41, 65, 89]
+  已生成 Group4.2.txt 	包含 Filter: [18, 42, 66, 90]
+  已生成 Group4.3.txt 	包含 Filter: [19, 43, 67, 91]
+  已生成 Group5.0.txt 	包含 Filter: [20, 44, 68, 92]
+  已生成 Group5.1.txt 	包含 Filter: [21, 45, 69, 93]
+  已生成 Group5.2.txt 	包含 Filter: [22, 46, 70, 94]
+  已生成 Group5.3.txt 	包含 Filter: [23, 47, 71, 95]
+
+--- 正在處理 Bias (6 Major Groups - Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3, 24, 25, 26, 27, 48, 49, 50, 51, 72, 73, 74, 75]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7, 28, 29, 30, 31, 52, 53, 54, 55, 76, 77, 78, 79]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11, 32, 33, 34, 35, 56, 57, 58, 59, 80, 81, 82, 83]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15, 36, 37, 38, 39, 60, 61, 62, 63, 84, 85, 86, 87]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19, 40, 41, 42, 43, 64, 65, 66, 67, 88, 89, 90, 91]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23, 44, 45, 46, 47, 68, 69, 70, 71, 92, 93, 94, 95]
+全部打包完成。
+--- 打包 Tile15 結束 ---
+--- 打包 Tile16 ---
+已確認輸出目錄：output_data_packaged\tile16.2_OGShuffle
+偵測到 96 個 Filter，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Group0.0.txt 	包含 Filter: [0, 24, 48, 72]
+  已生成 Group0.1.txt 	包含 Filter: [1, 25, 49, 73]
+  已生成 Group0.2.txt 	包含 Filter: [2, 26, 50, 74]
+  已生成 Group0.3.txt 	包含 Filter: [3, 27, 51, 75]
+  已生成 Group1.0.txt 	包含 Filter: [4, 28, 52, 76]
+  已生成 Group1.1.txt 	包含 Filter: [5, 29, 53, 77]
+  已生成 Group1.2.txt 	包含 Filter: [6, 30, 54, 78]
+  已生成 Group1.3.txt 	包含 Filter: [7, 31, 55, 79]
+  已生成 Group2.0.txt 	包含 Filter: [8, 32, 56, 80]
+  已生成 Group2.1.txt 	包含 Filter: [9, 33, 57, 81]
+  已生成 Group2.2.txt 	包含 Filter: [10, 34, 58, 82]
+  已生成 Group2.3.txt 	包含 Filter: [11, 35, 59, 83]
+  已生成 Group3.0.txt 	包含 Filter: [12, 36, 60, 84]
+  已生成 Group3.1.txt 	包含 Filter: [13, 37, 61, 85]
+  已生成 Group3.2.txt 	包含 Filter: [14, 38, 62, 86]
+  已生成 Group3.3.txt 	包含 Filter: [15, 39, 63, 87]
+  已生成 Group4.0.txt 	包含 Filter: [16, 40, 64, 88]
+  已生成 Group4.1.txt 	包含 Filter: [17, 41, 65, 89]
+  已生成 Group4.2.txt 	包含 Filter: [18, 42, 66, 90]
+  已生成 Group4.3.txt 	包含 Filter: [19, 43, 67, 91]
+  已生成 Group5.0.txt 	包含 Filter: [20, 44, 68, 92]
+  已生成 Group5.1.txt 	包含 Filter: [21, 45, 69, 93]
+  已生成 Group5.2.txt 	包含 Filter: [22, 46, 70, 94]
+  已生成 Group5.3.txt 	包含 Filter: [23, 47, 71, 95]
+
+--- 正在處理 Bias (6 Major Groups - Row Base) ---
+  已生成 Bias0.txt 	包含 Bias: [0, 1, 2, 3, 24, 25, 26, 27, 48, 49, 50, 51, 72, 73, 74, 75]
+  已生成 Bias1.txt 	包含 Bias: [4, 5, 6, 7, 28, 29, 30, 31, 52, 53, 54, 55, 76, 77, 78, 79]
+  已生成 Bias2.txt 	包含 Bias: [8, 9, 10, 11, 32, 33, 34, 35, 56, 57, 58, 59, 80, 81, 82, 83]
+  已生成 Bias3.txt 	包含 Bias: [12, 13, 14, 15, 36, 37, 38, 39, 60, 61, 62, 63, 84, 85, 86, 87]
+  已生成 Bias4.txt 	包含 Bias: [16, 17, 18, 19, 40, 41, 42, 43, 64, 65, 66, 67, 88, 89, 90, 91]
+  已生成 Bias5.txt 	包含 Bias: [20, 21, 22, 23, 44, 45, 46, 47, 68, 69, 70, 71, 92, 93, 94, 95]
+全部打包完成。
+--- 打包 Tile16 結束 ---
+--- 打包 Tile17 ---
+已確認輸出目錄：c:\Users\legoa\NCU\專題\專題內容\WeightBiasRearranger-main_V2\output_data_packaged\tile17_ConvLast
+正在處理 1032 個單元 (實體 1024 + 補零 8)...
+--- 正在處理 Filter (Column Base) ---
+  已生成 Group0.0.txt    包含 Filter: [0, 24, ..., 1008] 
+  已生成 Group0.1.txt    包含 Filter: [1, 25, ..., 1009] 
+  已生成 Group0.2.txt    包含 Filter: [2, 26, ..., 1010] 
+  已生成 Group0.3.txt    包含 Filter: [3, 27, ..., 1011] 
+  已生成 Group1.0.txt    包含 Filter: [4, 28, ..., 1012] 
+  已生成 Group1.1.txt    包含 Filter: [5, 29, ..., 1013] 
+  已生成 Group1.2.txt    包含 Filter: [6, 30, ..., 1014] 
+  已生成 Group1.3.txt    包含 Filter: [7, 31, ..., 1015] 
+  已生成 Group2.0.txt    包含 Filter: [8, 32, ..., 1016] 
+  已生成 Group2.1.txt    包含 Filter: [9, 33, ..., 1017] 
+  已生成 Group2.2.txt    包含 Filter: [10, 34, ..., 1018] 
+  已生成 Group2.3.txt    包含 Filter: [11, 35, ..., 1019] 
+  已生成 Group3.0.txt    包含 Filter: [12, 36, ..., 1020] 
+  已生成 Group3.1.txt    包含 Filter: [13, 37, ..., 1021] 
+  已生成 Group3.2.txt    包含 Filter: [14, 38, ..., 1022] 
+  已生成 Group3.3.txt    包含 Filter: [15, 39, ..., 1023] 
+  已生成 Group4.0.txt    包含 Filter: [16, 40, ..., 1024] (含補零)
+  已生成 Group4.1.txt    包含 Filter: [17, 41, ..., 1025] (含補零)
+  已生成 Group4.2.txt    包含 Filter: [18, 42, ..., 1026] (含補零)
+  已生成 Group4.3.txt    包含 Filter: [19, 43, ..., 1027] (含補零)
+  已生成 Group5.0.txt    包含 Filter: [20, 44, ..., 1028] (含補零)
+  已生成 Group5.1.txt    包含 Filter: [21, 45, ..., 1029] (含補零)
+  已生成 Group5.2.txt    包含 Filter: [22, 46, ..., 1030] (含補零)
+  已生成 Group5.3.txt    包含 Filter: [23, 47, ..., 1031] (含補零)
+
+--- 正在處理 Bias (Row Base) ---
+  已生成 Bias0.txt       包含 Bias:   [0, 1, 2, 3, 24, 25, 26, 27 ... 1011] 
+  已生成 Bias1.txt       包含 Bias:   [4, 5, 6, 7, 28, 29, 30, 31 ... 1015] 
+  已生成 Bias2.txt       包含 Bias:   [8, 9, 10, 11, 32, 33, 34, 35 ... 1019] 
+  已生成 Bias3.txt       包含 Bias:   [12, 13, 14, 15, 36, 37, 38, 39 ... 1023] 
+  已生成 Bias4.txt       包含 Bias:   [16, 17, 18, 19, 40, 41, 42, 43 ... 1027] (含補零)
+  已生成 Bias5.txt       包含 Bias:   [20, 21, 22, 23, 44, 45, 46, 47 ... 1031] (含補零)
+打包完成。
+--- 打包 Tile17 結束 ---
+--- 打包 Tile18 ---
+已確認輸出目錄：output_data_packaged\tile18_FC
+正在將 2 個過濾器分散處理為 2 組...
+  已生成 Group0.0.txt   包含 Filter: [0]
+  已生成 Group0.1.txt   包含 Filter: [1]
+  已生成 Bias0.txt   包含 Bias: [0]
+  已生成 Bias1.txt   包含 Bias: [1]
+打包完成。
+--- 打包 Tile18 結束 ---
+--- [Step 2] 結束權重與資料打包流程 ---
+已確認輸出目錄：output_data_packaged\tile0_Conv1
+正在將 24 個 Filter 轉換為 GroupX.Y 格式 (共 24 包)...
+  已生成 Group0.0.txt  包含 Filter: [0]
+  已生成 Group0.1.txt  包含 Filter: [1]
+  已生成 Group0.2.txt  包含 Filter: [2]
+  已生成 Group0.3.txt  包含 Filter: [3]
+  已生成 Group1.0.txt  包含 Filter: [4]
+  已生成 Group1.1.txt  包含 Filter: [5]
+  已生成 Group1.2.txt  包含 Filter: [6]
+  已生成 Group1.3.txt  包含 Filter: [7]
+  已生成 Group2.0.txt  包含 Filter: [8]
+  已生成 Group2.1.txt  包含 Filter: [9]
+  已生成 Group2.2.txt  包含 Filter: [10]
+  已生成 Group2.3.txt  包含 Filter: [11]
+  已生成 Group3.0.txt  包含 Filter: [12]
+  已生成 Group3.1.txt  包含 Filter: [13]
+  已生成 Group3.2.txt  包含 Filter: [14]
+  已生成 Group3.3.txt  包含 Filter: [15]
+  已生成 Group4.0.txt  包含 Filter: [16]
+  已生成 Group4.1.txt  包含 Filter: [17]
+  已生成 Group4.2.txt  包含 Filter: [18]
+  已生成 Group4.3.txt  包含 Filter: [19]
+  已生成 Group5.0.txt  包含 Filter: [20]
+  已生成 Group5.1.txt  包含 Filter: [21]
+  已生成 Group5.2.txt  包含 Filter: [22]
+  已生成 Group5.3.txt  包含 Filter: [23]
+  已生成 Bias0.txt  包含 Bias: [0, 1, 2, 3]
+  已生成 Bias1.txt  包含 Bias: [4, 5, 6, 7]
+  已生成 Bias2.txt  包含 Bias: [8, 9, 10, 11]
+  已生成 Bias3.txt  包含 Bias: [12, 13, 14, 15]
+  已生成 Bias4.txt  包含 Bias: [16, 17, 18, 19]
+  已生成 Bias5.txt  包含 Bias: [20, 21, 22, 23]
+------------------------------
+打包完成

@@ -1,0 +1,3 @@
+ff87 ff38 ff8f 0000
+ffc0 0357 ffba 0000
+ff74 ff58 ff78 0000
