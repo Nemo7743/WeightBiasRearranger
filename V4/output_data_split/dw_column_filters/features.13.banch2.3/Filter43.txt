@@ -1,0 +1,3 @@
+ffd2 ff19 ffa4 0000
+ff3e ff04 ff08 0000
+ffd9 ff07 ffa5 0000

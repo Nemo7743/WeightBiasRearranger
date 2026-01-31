@@ -1,0 +1,3 @@
+ffdd ff3a ffd1 0000
+ff2d fd6d ff15 0000
+00b8 02a1 0093 0000

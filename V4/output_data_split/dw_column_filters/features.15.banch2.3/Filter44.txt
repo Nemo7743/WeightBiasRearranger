@@ -1,0 +1,3 @@
+ffe5 ffa9 fff4 0000
+ff9c feda ff94 0000
+ffef ff95 ffff 0000

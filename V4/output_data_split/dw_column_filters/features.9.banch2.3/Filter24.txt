@@ -1,0 +1,3 @@
+fffe fede fff0 0000
+ffdf 0091 ffdc 0000
+0045 0109 005d 0000

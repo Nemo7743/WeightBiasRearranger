@@ -1,0 +1,3 @@
+ffd9 0061 ffac 0000
+fff2 01bc ff27 0000
+fffd 0082 ff95 0000

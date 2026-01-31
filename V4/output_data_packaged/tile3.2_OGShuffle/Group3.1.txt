@@ -1,0 +1,19 @@
+0021 0016 ff9e ffeb
+fffa ffff 0013 0019
+0018 0051 0021 002e
+0026 000a 001b ffc9
+ffeb 000e 0000 0008
+fffd fffd fff9 0025
+
+
+fff3 ff85 ffdc 0000
+ff86 02a6 0017 0000
+ffa2 0080 ffc4 0000
+
+
+ffff 0005 0003 ffff
+002c 0012 fff4 0005
+0007 ffff fffd 001c
+fff8 fff7 fff1 0006
+fffd 002f 0022 ffe2
+0004 002c fffa 0014

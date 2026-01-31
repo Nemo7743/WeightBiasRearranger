@@ -1,0 +1,3 @@
+ffe6 ffac ffad 0000
+ffc7 ff5c ff77 0000
+ffd2 ff87 ff8a 0000

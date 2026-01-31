@@ -1,0 +1,3 @@
+ffd0 ffdf 002e 0000
+ff75 fe2f 005f 0000
+ffd5 ffe7 003b 0000

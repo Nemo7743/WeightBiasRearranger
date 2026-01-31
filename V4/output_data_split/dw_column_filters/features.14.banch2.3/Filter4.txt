@@ -1,0 +1,3 @@
+0014 ff55 ff6a 0000
+ffaa fef6 ff7b 0000
+000f ff44 ff66 0000

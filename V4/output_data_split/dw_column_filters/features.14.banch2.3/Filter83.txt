@@ -1,0 +1,3 @@
+ffa9 ff56 ff7c 0000
+0042 02bd ff1e 0000
+ffa7 ff52 ff84 0000

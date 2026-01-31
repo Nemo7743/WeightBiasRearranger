@@ -1,0 +1,3 @@
+ffe0 ffc2 ffd6 0000
+ffa3 fee8 fef7 0000
+ffa9 fef3 fef8 0000
