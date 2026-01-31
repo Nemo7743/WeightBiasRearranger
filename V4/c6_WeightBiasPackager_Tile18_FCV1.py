@@ -18,8 +18,8 @@ def package_tile18_FC():
 
     # 3. 定義具體的檔案操作任務 (來源檔名 -> 目標檔名)
     tasks = [
-        ('Filter0.txt', 'Group0.0.txt'),
-        ('Filter1.txt', 'Group0.1.txt'),
+        ('Filter0.txt', 'Weight0.0.txt'),
+        ('Filter1.txt', 'Weight0.1.txt'),
         ('Bias0.txt', 'Bias0.0.txt'),
         ('Bias1.txt', 'Bias0.1.txt')
     ]
@@ -43,8 +43,8 @@ def package_tile18_FC():
     
     print(f"已確認輸出目錄：{display_path}")
     print("正在將 2 個過濾器分散處理為 2 組...")
-    print(f"  已生成 Group0.0.txt   包含 Filter: [0]")
-    print(f"  已生成 Group0.1.txt   包含 Filter: [1]")
+    print(f"  已生成 Weight0.0.txt   包含 Filter: [0]")
+    print(f"  已生成 Weight0.1.txt   包含 Filter: [1]")
     print(f"  已生成 Bias0.0.txt   包含 Bias: [0]")
     print(f"  已生成 Bias0.1.txt   包含 Bias: [1]")
     print("打包完成。")

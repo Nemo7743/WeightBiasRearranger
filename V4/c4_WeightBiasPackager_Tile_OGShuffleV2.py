@@ -3,8 +3,9 @@ import os
 def package_tile_OGshuffle(layer_num):
     """
     修改後的 ShuffleNet (OG Shuffle) 打包邏輯：
-    1. Filter: 輸出 24 個 Group，維持 Column-based (0, 24, 48...)。
-    2. Bias:   已修改為與 Filter 相同，輸出 24 個 Group (Bias0.0 - Bias5.3)，使用 Column-based。
+    1. Filter: 輸出 24 個 Group。
+       邏輯變更：平均分配總數後，採 Block Base 方式 (每 4 個 Group 一組填滿後再填下一組)。
+    2. Bias:   已修改為與 Filter 相同，輸出 24 個 Group (Bias0.0 - Bias5.3)，邏輯同上。
     3. 合併儲存: 每個檔案內依序包含 PW1 -> DW -> PW2 的內容，不分資料夾。
     
     參數:
@@ -62,21 +63,43 @@ def package_tile_OGshuffle(layer_num):
     filter_indices_set = set(filter_indices)
     
     total_files = len(filter_indices)
-    print(f"偵測到 {total_files} 個 Filter，開始打包...")
+    
+    # [新增] 計算分組參數
+    TOTAL_GROUPS = 24
+    if total_files > 0:
+        items_per_group = total_files // TOTAL_GROUPS
+    else:
+        items_per_group = 0
+
+    print(f"偵測到 {total_files} 個 Filter，共 24 組，每組分配 {items_per_group} 個檔案，開始打包...")
 
     # ==========================================
-    # --- 5. 處理 Filter (24 Groups) - [維持 Column Base] ---
+    # --- 5. 處理 Filter (24 Groups) - [修改為 Block Base] ---
     # ==========================================
     print("--- 正在處理 Filter (24 Groups) ---")
     
-    for slot_idx in range(24):
+    for slot_idx in range(TOTAL_GROUPS):
         # 計算 Group 名稱
-        major_group = slot_idx // 4  # 0~5
-        minor_group = slot_idx % 4   # 0~3
-        output_filename = f"Group{major_group}.{minor_group}.txt"
+        major_group = slot_idx // 4  # 0~5 (Row)
+        minor_group = slot_idx % 4   # 0~3 (Column)
+        output_filename = f"Weight{major_group}.{minor_group}.txt"
 
-        # 找出屬於這個 Slot 的所有 Filter Index (間隔 24)
-        target_indices = [idx for idx in filter_indices if idx % 24 == slot_idx]
+        # [修改邏輯] 計算目標索引 (Block Base + Local Stride 4)
+        # 1. 每個 Row (Major Group) 負責處理的數量 = items_per_group * 4
+        # 2. 該 Row 的起始位置 (base_index_pos) = major_group * row_capacity
+        # 3. 加上 minor_group 偏移，並在區塊內以 4 為間隔取值
+        
+        row_capacity = items_per_group * 4
+        base_index_pos = (major_group * row_capacity) + minor_group
+        
+        target_indices = []
+        for k in range(items_per_group):
+            # 計算在 filter_indices 列表中的位置
+            list_pos = base_index_pos + (k * 4)
+            
+            # 確保不超出範圍
+            if list_pos < total_files:
+                target_indices.append(filter_indices[list_pos])
         
         # 準備容器
         content_pw1 = []
@@ -117,19 +140,26 @@ def package_tile_OGshuffle(layer_num):
             print(f"  已生成 {output_filename} \t包含 Filter: [{indices_str}]")
 
     # ==========================================
-    # --- 6. 處理 Bias (24 Groups) - [修改為 Column Base] ---
+    # --- 6. 處理 Bias (24 Groups) - [修改為 Block Base] ---
     # ==========================================
     print("\n--- 正在處理 Bias (24 Groups - Column Base) ---")
     
     # [修改邏輯]: Bias 使用與 Filter 完全相同的 24 Group 邏輯
-    for slot_idx in range(24):
+    for slot_idx in range(TOTAL_GROUPS):
         # 計算 Group 名稱 (BiasX.Y)
         major_group = slot_idx // 4
         minor_group = slot_idx % 4
         output_filename = f"Bias{major_group}.{minor_group}.txt"
 
-        # [核心修改]: 使用 Column Base 順序 (間隔 24)
-        target_indices = [idx for idx in filter_indices if idx % 24 == slot_idx]
+        # [修改邏輯]: 重複使用 Filter 的索引計算方式
+        row_capacity = items_per_group * 4
+        base_index_pos = (major_group * row_capacity) + minor_group
+        
+        target_indices = []
+        for k in range(items_per_group):
+            list_pos = base_index_pos + (k * 4)
+            if list_pos < total_files:
+                target_indices.append(filter_indices[list_pos])
         
         content_pw1 = []
         content_dw  = []
@@ -155,7 +185,7 @@ def package_tile_OGshuffle(layer_num):
 
         # 合併寫入同一個檔案
         if content_pw1:
-            # 這裡為了與 Filter 邏輯保持一致，使用相同的拼接符 (若 Bias 內容很短，可視需求改為 \n)
+            # 這裡為了與 Filter 邏輯保持一致，使用相同的拼接符
             text_pw1 = "\n\n".join(content_pw1)
             text_dw  = "\n\n".join(content_dw)
             text_pw2 = "\n\n".join(content_pw2)
