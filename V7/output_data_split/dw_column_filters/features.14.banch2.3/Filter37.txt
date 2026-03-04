@@ -1,0 +1,3 @@
+ffd0 ff2c ffe0 0000
+0076 0245 00ce 0000
+ffd4 ff41 ffec 0000

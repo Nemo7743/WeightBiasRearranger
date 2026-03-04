@@ -1,0 +1,3 @@
+ffe5 ffbb ffd0 0000
+ffb1 ff4b ff86 0000
+ffbf ff76 ffa7 0000

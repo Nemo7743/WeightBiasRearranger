@@ -1,0 +1,6 @@
+0047 0006 0004 fffc
+ffeb fff8 fff7 0006
+fffb fff5 fff4 000b
+0060 0004 0002 0007
+0065 fffb 0000 0012
+000f fff1 fffc 0000

@@ -1,0 +1,3 @@
+ffcb ff91 ffbc 0000
+ff90 ff33 ff79 0000
+ffbc ff79 ffb5 0000

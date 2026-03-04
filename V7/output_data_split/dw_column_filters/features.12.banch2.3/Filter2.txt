@@ -1,0 +1,3 @@
+ffcb ff80 ff82 0000
+ff94 ff00 ff23 0000
+ffa2 ff2e ff3d 0000

@@ -1,0 +1,3 @@
+ffd3 ffce ffc7 0000
+ffcd ff71 ff86 0000
+ffd0 ff83 ff99 0000

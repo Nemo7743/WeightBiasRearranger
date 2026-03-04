@@ -1,0 +1,3 @@
+ffc8 ffd2 ffe0 0000
+ff84 fe8d ffc8 0000
+ffc1 ffc2 ffde 0000

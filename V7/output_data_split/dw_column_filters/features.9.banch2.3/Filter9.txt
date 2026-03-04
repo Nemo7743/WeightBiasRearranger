@@ -1,0 +1,3 @@
+0074 01af 0066 0000
+ffe7 000a ff9e 0000
+ffed ffcd fffc 0000

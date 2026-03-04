@@ -1,0 +1,3 @@
+ffb7 ff84 ffce 0000
+ffb1 ff50 ffd5 0000
+0027 01ec 001b 0000

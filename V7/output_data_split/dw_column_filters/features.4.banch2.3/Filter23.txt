@@ -1,0 +1,3 @@
+ffd1 ff93 ffb1 0000
+ff88 ff1f ff70 0000
+ffb8 ff4d ff7a 0000

@@ -1,0 +1,3 @@
+ffc1 ffa4 ff94 0000
+006e 02e9 ff1c 0000
+ffbe ffb7 ff91 0000

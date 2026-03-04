@@ -1,0 +1,3 @@
+00a5 00df 00b7 0000
+fef8 fefa feac 0000
+00bf 00df 00cc 0000

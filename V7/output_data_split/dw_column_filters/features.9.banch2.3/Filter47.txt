@@ -1,0 +1,3 @@
+ffdd fffe ff86 0000
+00b8 ffae ff0a 0000
+ffaa ffb6 ff41 0000

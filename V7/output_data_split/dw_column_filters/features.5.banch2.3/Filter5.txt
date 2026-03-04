@@ -1,0 +1,3 @@
+ffd2 fdef ffe4 0000
+ffdb 0062 ffb7 0000
+004a 01db 004d 0000

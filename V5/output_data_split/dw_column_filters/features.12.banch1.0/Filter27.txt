@@ -1,0 +1,3 @@
+ffe2 ffba ffda 0000
+ffb8 ff6e ff9f 0000
+ffd3 ff9b ffbf 0000

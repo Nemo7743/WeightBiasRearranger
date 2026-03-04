@@ -1,0 +1,3 @@
+ff8a ff50 ff52 0000
+ffbe ffad fef9 0000
+ff8a ff49 ff42 0000

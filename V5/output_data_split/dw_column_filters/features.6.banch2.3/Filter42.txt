@@ -1,0 +1,3 @@
+ffbc 00bb ffed 0000
+000b 02b8 fed6 0000
+ffed fe30 ffed 0000

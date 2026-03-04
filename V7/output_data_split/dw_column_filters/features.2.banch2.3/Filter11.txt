@@ -1,0 +1,3 @@
+fffa ffd6 fffd 0000
+0017 fe34 ff10 0000
+ffb2 ff3a ff6f 0000

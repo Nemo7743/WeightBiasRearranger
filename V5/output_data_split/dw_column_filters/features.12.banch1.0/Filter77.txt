@@ -1,0 +1,3 @@
+ffed ffc1 ffd1 0000
+ffce ff7b ff99 0000
+ffe3 ff98 ffb2 0000

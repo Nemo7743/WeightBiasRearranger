@@ -1,0 +1,3 @@
+ffd8 ff5f fffc 0000
+0060 fe4e 002d 0000
+ffde ff4c fffb 0000

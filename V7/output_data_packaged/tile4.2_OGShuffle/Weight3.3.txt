@@ -1,0 +1,19 @@
+0074 0022 0019 ffdb
+ffc9 000a ffec fff5
+0000 fff2 fff0 001e
+ffe8 0000 fffa ffea
+ffd7 002e fffb 0019
+0037 0000 0006 fff4
+
+
+0079 fff1 006d 0000
+003d fea5 ff3c 0000
+005d ff40 003e 0000
+
+
+0011 0009 fffd fff2
+0007 0013 fffb ffee
+fffc 000e 0002 000f
+ffff 0002 0009 0013
+000e ff88 ffdc fffe
+fffe 0048 ffbb 000b

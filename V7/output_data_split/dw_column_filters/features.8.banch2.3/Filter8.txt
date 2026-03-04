@@ -1,0 +1,3 @@
+ffe8 005c fffd 0000
+ffde 0132 fff9 0000
+ffe2 00ec ffeb 0000

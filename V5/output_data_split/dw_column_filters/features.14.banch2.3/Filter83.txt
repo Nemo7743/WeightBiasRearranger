@@ -1,0 +1,3 @@
+ffa0 ff4a ff72 0000
+0045 02ed ff0f 0000
+ffa0 ff47 ff7c 0000

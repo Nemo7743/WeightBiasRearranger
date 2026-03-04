@@ -1,0 +1,3 @@
+ffa6 ff98 ffa2 0000
+ffd6 0319 ffb9 0000
+ffa9 ffb8 ff9b 0000

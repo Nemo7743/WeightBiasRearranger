@@ -1,0 +1,3 @@
+ffef ff96 000a 0000
+fff1 ff4d 007a 0000
+ffee ff3f ff60 0000
