@@ -1,0 +1,6 @@
+ffea 0024 fffd 0019
+ffef 003b fff3 0022
+fff5 0006 ffe9 0009
+fffe ffee fffb fff4
+ffe9 ffd5 ffff ffef
+000a 0003 ffe1 0009

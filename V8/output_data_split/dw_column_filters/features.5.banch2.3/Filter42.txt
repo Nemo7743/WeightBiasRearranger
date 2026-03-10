@@ -1,0 +1,3 @@
+fff0 ffdf ffe1 0000
+ffdb ffab ffcc 0000
+ffd0 fe29 ffdd 0000

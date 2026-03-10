@@ -1,0 +1,3 @@
+ffc2 0002 ffd5 0000
+ffb6 fe57 ffef 0000
+ffd7 ffca ffe2 0000

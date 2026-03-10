@@ -1,0 +1,6 @@
+0016 0000 000c ffe8
+ffec ffea fff6 000b
+0000 0074 ffeb 0031
+0000 fff6 fff7 ffc3
+000b 0000 fffd fff9
+fff7 ffec ffd1 fff9

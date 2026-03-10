@@ -1,0 +1,6 @@
+ffa8 0019 0019 ffda
+0078 0029 fffd ffe1
+0064 ffcd 0017 ffe8
+000c 002f ffa6 0012
+ffb9 0058 ff7a 0056
+002c 0041 0054 ffe1

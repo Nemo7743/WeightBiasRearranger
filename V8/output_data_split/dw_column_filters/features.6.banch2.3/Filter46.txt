@@ -1,0 +1,3 @@
+0019 ffa4 0000 0000
+ffdc fedc ffa7 0000
+000a ff6a ffdd 0000

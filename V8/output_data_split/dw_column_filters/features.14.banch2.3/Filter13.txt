@@ -1,0 +1,3 @@
+ffd7 ff6c ff85 0000
+ff93 fe8e ffac 0000
+ffdc ff60 ff79 0000

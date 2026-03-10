@@ -1,0 +1,3 @@
+ff52 ff75 fff0 0000
+ff05 015e 0095 0000
+ff5a ff8a fffe 0000

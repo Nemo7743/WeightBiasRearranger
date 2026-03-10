@@ -1,0 +1,3 @@
+0006 ff6d ffe0 0000
+ff2c 034f ffac 0000
+fffa ff72 ffe8 0000

@@ -1,0 +1,34 @@
+0034 0077 0062 0000
+005d 00e7 00c1 0000
+0039 008c 006b 0000
+
+0034 0060 0048 0000
+000e 000b ffdd 0000
+fff6 ffaf ff82 0000
+
+
+0009 000c ffce 0024
+fff9 ffff 0012 ffee
+0017 fff1 ffec fff4
+0016 0010 0005 000c
+0002 ffff fff0 0005
+0006 0001 ffcc fffb
+0001 0016 0007 0004
+ffed 000f 000d fffa
+fff8 000d ffea fff5
+0006 ffeb fff8 0021
+fff6 ffee fff8 fff6
+fff9 fffc fffa ffc0
+
+0018 0012 0009 0008
+0002 fff1 fffa fff1
+fffd fff0 fff7 ffee
+ffeb 001e fff7 fff4
+fff0 0011 fff6 000a
+fff7 0003 000c fff3
+0005 0027 fffd ffeb
+ffb3 ffbf 0014 fff5
+0004 0003 ffed ffd5
+fffe fff2 fff4 003f
+fffa 0005 fffe 0001
+000d 000f 0011 000e
