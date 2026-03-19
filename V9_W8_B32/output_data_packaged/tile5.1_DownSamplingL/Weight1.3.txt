@@ -1,0 +1,34 @@
+3f 67 2d 00
+4f 87 48 00
+0b 30 2d 00
+
+db 9a a9 00
+a2 f4 18 00
+ab 13 3a 00
+
+
+07 f9 09 00
+05 08 07 fd
+fb f7 15 07
+0c f6 0e 04
+f8 05 fd f3
+fa fd 05 e2
+00 05 0b ff
+04 0e 0b fc
+00 f6 0e 06
+01 ff 02 15
+44 f5 c6 0b
+f5 0c 07 06
+
+f3 df 01 03
+f7 34 f8 11
+fa e7 d5 fb
+e6 21 ff 15
+09 1b 10 d7
+fb 2d f2 e6
+fe 3c 0b 65
+0a fd 10 ef
+05 fa 08 0c
+fc 11 03 c2
+fe cb 0d ef
+f1 ed ff e6

@@ -1,0 +1,34 @@
+42 69 39 00
+7c da 83 00
+4f a0 56 00
+
+d4 b1 cb 00
+a7 50 95 00
+c4 88 b9 00
+
+
+12 24 ea 1c
+f2 ec 21 f8
+fb fe fa 05
+e1 f9 0d 20
+fe 32 01 16
+04 01 15 ea
+ff 02 0b 28
+16 fb 0c e4
+f2 f3 ef 25
+c8 2c f5 13
+07 fd fe 0f
+c2 02 f3 04
+
+11 0a f2 ea
+ac fb 07 01
+14 2e 1e 04
+14 f5 15 ef
+0b e6 e6 03
+fd c6 10 fc
+e7 fa 0a ea
+11 06 18 14
+fd fd fc 18
+d2 19 f3 da
+f2 04 f7 e4
+d6 dc 0a df

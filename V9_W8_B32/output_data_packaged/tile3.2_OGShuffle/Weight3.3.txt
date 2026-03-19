@@ -1,0 +1,19 @@
+00 09 db dc
+03 27 05 02
+ff e5 eb f8
+fb 0f ef 03
+12 09 00 f3
+fb 1c 13 f5
+
+
+b9 01 83 00
+d2 3a 90 00
+e1 7d 98 00
+
+
+fc fe 03 0b
+ea ef 17 d5
+05 e8 d9 fb
+eb d6 17 ef
+67 d2 fb 65
+02 02 e1 23

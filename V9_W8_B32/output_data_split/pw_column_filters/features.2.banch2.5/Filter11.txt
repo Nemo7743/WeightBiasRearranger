@@ -1,0 +1,6 @@
+05 26 00 88
+fa 02 f6 04
+0c f9 f9 05
+05 fb ff fd
+fd 02 fb fa
+05 f3 07 fe

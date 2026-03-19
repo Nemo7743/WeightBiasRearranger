@@ -1,0 +1,153 @@
+stage1:
+conv1.0_b.txt
+conv1.0_w.txt
+
+stage2:
+降採樣
+features.0.banch1.0_b.txt => DW
+features.0.banch1.0_w.txt => DW
+features.0.banch1.2_b.txt => PW
+features.0.banch1.2_w.txt => PW
+features.0.banch2.0_b.txt => PW
+features.0.banch2.0_w.txt => PW
+features.0.banch2.3_b.txt => DW
+features.0.banch2.3_w.txt => DW
+features.0.banch2.5_b.txt => PW
+features.0.banch2.5_w.txt => PW
+
+普通shuffle
+features.1.banch2.0_b.txt => PW
+features.1.banch2.0_w.txt => PW
+features.1.banch2.3_b.txt => DW
+features.1.banch2.3_w.txt => DW
+features.1.banch2.5_b.txt => PW
+features.1.banch2.5_w.txt => PW
+
+普通shuffle
+features.2.banch2.0_b.txt => PW
+features.2.banch2.0_w.txt => PW
+features.2.banch2.3_b.txt => DW
+features.2.banch2.3_w.txt => DW
+features.2.banch2.5_b.txt => PW
+features.2.banch2.5_w.txt => PW
+
+普通shuffle
+features.3.banch2.0_b.txt => PW
+features.3.banch2.0_w.txt => PW
+features.3.banch2.3_b.txt => DW
+features.3.banch2.3_w.txt => DW
+features.3.banch2.5_b.txt => PW
+features.3.banch2.5_w.txt => PW
+
+
+stage3:
+降採樣
+features.4.banch1.0_b.txt => DW
+features.4.banch1.0_w.txt => DW
+features.4.banch1.2_b.txt => PW
+features.4.banch1.2_w.txt => PW
+features.4.banch2.0_b.txt => PW
+features.4.banch2.0_w.txt => PW
+features.4.banch2.3_b.txt => DW
+features.4.banch2.3_w.txt => DW
+features.4.banch2.5_b.txt => PW
+features.4.banch2.5_w.txt => PW
+
+普通shuffle
+features.5.banch2.0_b.txt => PW
+features.5.banch2.0_w.txt => PW
+features.5.banch2.3_b.txt => DW
+features.5.banch2.3_w.txt => DW
+features.5.banch2.5_b.txt => PW
+features.5.banch2.5_w.txt => PW
+
+普通shuffle
+features.6.banch2.0_b.txt => PW
+features.6.banch2.0_w.txt => PW
+features.6.banch2.3_b.txt => DW
+features.6.banch2.3_w.txt => DW
+features.6.banch2.5_b.txt => PW
+features.6.banch2.5_w.txt => PW
+
+普通shuffle
+features.7.banch2.0_b.txt => PW
+features.7.banch2.0_w.txt => PW
+features.7.banch2.3_b.txt => DW
+features.7.banch2.3_w.txt => DW
+features.7.banch2.5_b.txt => PW
+features.7.banch2.5_w.txt => PW
+
+普通shuffle
+features.8.banch2.0_b.txt => PW
+features.8.banch2.0_w.txt => PW
+features.8.banch2.3_b.txt => DW
+features.8.banch2.3_w.txt => DW
+features.8.banch2.5_b.txt => PW
+features.8.banch2.5_w.txt => PW
+
+普通shuffle
+features.9.banch2.0_b.txt => PW
+features.9.banch2.0_w.txt => PW
+features.9.banch2.3_b.txt => DW
+features.9.banch2.3_w.txt => DW
+features.9.banch2.5_b.txt => PW
+features.9.banch2.5_w.txt => PW
+
+普通shuffle
+features.10.banch2.0_b.txt => PW
+features.10.banch2.0_w.txt => PW
+features.10.banch2.3_b.txt => DW
+features.10.banch2.3_w.txt => DW
+features.10.banch2.5_b.txt => PW
+features.10.banch2.5_w.txt => PW
+
+普通shuffle
+features.11.banch2.0_b.txt => PW
+features.11.banch2.0_w.txt => PW
+features.11.banch2.3_b.txt => DW
+features.11.banch2.3_w.txt => DW
+features.11.banch2.5_b.txt => PW
+features.11.banch2.5_w.txt => PW
+
+stage4:
+降採樣
+features.12.banch1.0_b.txt => DW
+features.12.banch1.0_w.txt => DW
+features.12.banch1.2_b.txt => PW
+features.12.banch1.2_w.txt => PW
+features.12.banch2.0_b.txt => PW
+features.12.banch2.0_w.txt => PW
+features.12.banch2.3_b.txt => DW
+features.12.banch2.3_w.txt => DW
+features.12.banch2.5_b.txt => PW
+features.12.banch2.5_w.txt => PW
+
+普通shuffle
+features.13.banch2.0_b.txt => PW
+features.13.banch2.0_w.txt => PW
+features.13.banch2.3_b.txt => DW
+features.13.banch2.3_w.txt => DW
+features.13.banch2.5_b.txt => PW
+features.13.banch2.5_w.txt => PW
+
+普通shuffle
+features.14.banch2.0_b.txt => PW
+features.14.banch2.0_w.txt => PW
+features.14.banch2.3_b.txt => DW
+features.14.banch2.3_w.txt => DW
+features.14.banch2.5_b.txt => PW
+features.14.banch2.5_w.txt => PW
+
+普通shuffle
+features.15.banch2.0_b.txt => PW
+features.15.banch2.0_w.txt => PW
+features.15.banch2.3_b.txt => DW
+features.15.banch2.3_w.txt => DW
+features.15.banch2.5_b.txt => PW
+features.15.banch2.5_w.txt => PW
+
+conv_last.0_b.txt
+conv_last.0_w.txt
+
+classifier.1_b.txt
+classifier.1_w.txt

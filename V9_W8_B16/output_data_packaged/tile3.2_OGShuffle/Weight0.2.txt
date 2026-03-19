@@ -1,0 +1,19 @@
+ff fd 00 00
+00 fb 01 fe
+00 ff 05 ff
+00 fe 02 04
+ff 01 00 fe
+00 03 ff fc
+
+
+58 11 9d 00
+d7 23 69 00
+ea 74 6c 00
+
+
+07 fe fc fe
+ec ff fa 0e
+eb 06 fd f0
+fd 63 03 ca
+ea 11 f4 3d
+28 10 19 15

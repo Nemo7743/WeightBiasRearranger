@@ -1,0 +1,6 @@
+fc f4 0e f7
+01 f7 d8 f6
+00 fc 3b f1
+fd 00 f8 f7
+fb 07 00 04
+fd 00 00 f6

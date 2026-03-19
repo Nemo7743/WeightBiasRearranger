@@ -1,0 +1,34 @@
+b5 4e 8d 00
+de 04 36 00
+44 53 31 00
+
+f2 c8 e3 00
+ad 66 a5 00
+b3 7c c1 00
+
+
+0c f8 f4 e3
+03 3e ec 08
+06 03 1b 0b
+7a 00 04 0b
+f1 ea 0a e8
+d8 f7 37 13
+02 e6 e0 19
+e6 f6 fa ea
+01 17 0a d6
+02 04 f3 e4
+49 ea 8e 1c
+bd f8 e5 1c
+
+fb 1f 0f e3
+fc aa e0 fa
+ff ec 13 ed
+db bc 02 5b
+01 3c f9 e7
+ec f7 26 e9
+fd 04 fd 0f
+14 f2 ff 21
+f8 f8 05 12
+fe 0a f9 0f
+11 0c 01 18
+16 12 ff 30

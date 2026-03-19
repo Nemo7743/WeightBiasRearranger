@@ -1,0 +1,6 @@
+fc ff df fe
+01 06 12 f6
+d5 1c 14 9a
+f6 51 d6 fe
+fc 04 e9 f5
+c1 f0 e4 f0

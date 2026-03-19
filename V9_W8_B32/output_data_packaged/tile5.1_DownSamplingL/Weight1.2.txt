@@ -1,0 +1,34 @@
+eb c9 d5 00
+d2 82 95 00
+d6 8e 9d 00
+
+4e 84 71 00
+23 22 29 00
+e1 79 85 00
+
+
+ed fe 06 05
+fd 05 0d eb
+ff fa 10 fb
+01 05 06 fc
+6f f3 f2 fd
+03 fb 02 01
+f7 e2 08 0b
+f9 05 f8 04
+f5 53 02 fd
+0f fc 25 01
+11 2f f2 00
+fe ff a1 f6
+
+04 13 09 e1
+70 e6 12 e0
+01 2e fe f8
+f2 ee e0 08
+e5 f9 06 00
+ef e6 de 09
+06 fd fa df
+23 0e ff fe
+fa fb 0b 03
+0b 00 e9 ff
+ff ed 0c 3a
+fb 04 1e ed

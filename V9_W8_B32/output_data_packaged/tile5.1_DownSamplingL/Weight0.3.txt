@@ -1,0 +1,34 @@
+34 77 62 00
+5d e7 c1 00
+39 8c 6b 00
+
+34 60 48 00
+0e 0b dd 00
+f6 af 82 00
+
+
+09 0c ce 24
+f9 ff 12 ee
+17 f1 ec f4
+16 10 05 0c
+02 ff f0 05
+06 01 cc fb
+01 16 07 04
+ed 0f 0d fa
+f8 0d ea f5
+06 eb f8 21
+f6 ee f8 f6
+f9 fc fa c0
+
+18 12 09 08
+02 f1 fa f1
+fd f0 f7 ee
+eb 1e f7 f4
+f0 11 f6 0a
+f7 03 0c f3
+05 27 fd eb
+b3 bf 14 f5
+04 03 ed d5
+fe f2 f4 3f
+fa 05 fe 01
+0d 0f 11 0e

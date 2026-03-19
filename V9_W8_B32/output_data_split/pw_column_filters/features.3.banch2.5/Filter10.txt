@@ -1,0 +1,6 @@
+0b fd 0a 10
+12 3b fb f4
+0a fc 10 fc
+06 1e f6 0d
+0e 2a ac 09
+06 09 07 e5

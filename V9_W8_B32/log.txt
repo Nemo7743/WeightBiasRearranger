@@ -1,0 +1,1336 @@
+--- [Step 0] 開始組合語言組譯流程 ---
+--- 開始組譯與檢查 ---
+
+組譯成功！沒有發現語法錯誤。
+結果已儲存至 data_instructions/instruction_output.txt
+--- [Step 0] 結束組合語言組譯流程 ---
+
+
+--- [Step 1] 開始權重與資料切分流程 ---
+開始處理 24 組 Filter，轉換為 Column-major 格式...
+處理完成！檔案已輸出至: c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\conv1_column_filters
+偵測到 24 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 24 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.0.banch1.0
+偵測到 24 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 24 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.0.banch2.3
+偵測到 24 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 24 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.1.banch2.3
+偵測到 24 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 24 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.2.banch2.3
+偵測到 24 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 24 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.3.banch2.3
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.4.banch1.0
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.4.banch2.3
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.5.banch2.3
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.6.banch2.3
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.7.banch2.3
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.8.banch2.3
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.9.banch2.3
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.10.banch2.3
+偵測到 48 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 48 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.11.banch2.3
+偵測到 96 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 96 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.12.banch1.0
+偵測到 96 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 96 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.12.banch2.3
+偵測到 96 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 96 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.13.banch2.3
+偵測到 96 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 96 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.14.banch2.3
+偵測到 96 組 DW Filter，開始執行 Column-major 轉換...
+轉換完成！共生成 96 個檔案。
+輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\dw_column_filters\features.15.banch2.3
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.0.banch1.2'。
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.0.banch2.0'。
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.0.banch2.5'。
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.1.banch2.0'。
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.1.banch2.5'。
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.2.banch2.0'。
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.2.banch2.5'。
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.3.banch2.0'。
+偵測到 24 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 24 個檔案於 'output_data_split/pw_column_filters/features.3.banch2.5'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.4.banch1.2'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.4.banch2.0'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.4.banch2.5'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.5.banch2.0'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.5.banch2.5'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.6.banch2.0'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.6.banch2.5'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.7.banch2.0'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.7.banch2.5'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.8.banch2.0'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.8.banch2.5'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.9.banch2.0'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.9.banch2.5'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.10.banch2.0'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.10.banch2.5'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.11.banch2.0'。
+偵測到 48 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 48 個檔案於 'output_data_split/pw_column_filters/features.11.banch2.5'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.12.banch1.2'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.12.banch2.0'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.12.banch2.5'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.13.banch2.0'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.13.banch2.5'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.14.banch2.0'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.14.banch2.5'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.15.banch2.0'。
+偵測到 96 組 PointWise Filter 資料，開始轉換...
+轉換完成！共生成 96 個檔案於 'output_data_split/pw_column_filters/features.15.banch2.5'。
+偵測到 960 組 ConvLast Filter 資料，開始轉換...
+轉換完成！共生成 960*2 個檔案於 'output_data_split/conv_last_filters'。
+偵測到 4 組 FC Filter 資料，開始轉換...
+轉換完成！共生成 4*2 個檔案於 'output_data_split/fc_filters'。
+--- [Step 1] 結束權重與資料切分流程 ---
+
+
+--- [Step 2] 開始權重與資料打包流程 ---
+--- 打包 Tile0 ---
+已確認輸出目錄：output_data_packaged\tile0_Conv1
+正在將 24 個 Filter 轉換為 GroupX.Y 格式 (共 24 包)...
+  已生成 Weight0.0.txt  包含 Filter: [0]
+  已生成 Weight0.1.txt  包含 Filter: [1]
+  已生成 Weight0.2.txt  包含 Filter: [2]
+  已生成 Weight0.3.txt  包含 Filter: [3]
+  已生成 Weight1.0.txt  包含 Filter: [4]
+  已生成 Weight1.1.txt  包含 Filter: [5]
+  已生成 Weight1.2.txt  包含 Filter: [6]
+  已生成 Weight1.3.txt  包含 Filter: [7]
+  已生成 Weight2.0.txt  包含 Filter: [8]
+  已生成 Weight2.1.txt  包含 Filter: [9]
+  已生成 Weight2.2.txt  包含 Filter: [10]
+  已生成 Weight2.3.txt  包含 Filter: [11]
+  已生成 Weight3.0.txt  包含 Filter: [12]
+  已生成 Weight3.1.txt  包含 Filter: [13]
+  已生成 Weight3.2.txt  包含 Filter: [14]
+  已生成 Weight3.3.txt  包含 Filter: [15]
+  已生成 Weight4.0.txt  包含 Filter: [16]
+  已生成 Weight4.1.txt  包含 Filter: [17]
+  已生成 Weight4.2.txt  包含 Filter: [18]
+  已生成 Weight4.3.txt  包含 Filter: [19]
+  已生成 Weight5.0.txt  包含 Filter: [20]
+  已生成 Weight5.1.txt  包含 Filter: [21]
+  已生成 Weight5.2.txt  包含 Filter: [22]
+  已生成 Weight5.3.txt  包含 Filter: [23]
+正在將 24 個 Bias 轉換為 BiasGroupX.Y 格式 (共 24 包)...
+  已生成 Bias0.0.txt  包含 Bias: [0]
+  已生成 Bias0.1.txt  包含 Bias: [1]
+  已生成 Bias0.2.txt  包含 Bias: [2]
+  已生成 Bias0.3.txt  包含 Bias: [3]
+  已生成 Bias1.0.txt  包含 Bias: [4]
+  已生成 Bias1.1.txt  包含 Bias: [5]
+  已生成 Bias1.2.txt  包含 Bias: [6]
+  已生成 Bias1.3.txt  包含 Bias: [7]
+  已生成 Bias2.0.txt  包含 Bias: [8]
+  已生成 Bias2.1.txt  包含 Bias: [9]
+  已生成 Bias2.2.txt  包含 Bias: [10]
+  已生成 Bias2.3.txt  包含 Bias: [11]
+  已生成 Bias3.0.txt  包含 Bias: [12]
+  已生成 Bias3.1.txt  包含 Bias: [13]
+  已生成 Bias3.2.txt  包含 Bias: [14]
+  已生成 Bias3.3.txt  包含 Bias: [15]
+  已生成 Bias4.0.txt  包含 Bias: [16]
+  已生成 Bias4.1.txt  包含 Bias: [17]
+  已生成 Bias4.2.txt  包含 Bias: [18]
+  已生成 Bias4.3.txt  包含 Bias: [19]
+  已生成 Bias5.0.txt  包含 Bias: [20]
+  已生成 Bias5.1.txt  包含 Bias: [21]
+  已生成 Bias5.2.txt  包含 Bias: [22]
+  已生成 Bias5.3.txt  包含 Bias: [23]
+------------------------------
+打包完成
+--- 打包 Tile0 結束 ---
+--- 打包 Tile1 ---
+已確認輸出目錄：
+  Main -> output_data_packaged\tile1.1_DownSamplingL
+偵測到 24 個 Filter，共 24 個 Group，每組分配 1 個檔案。
+--- Processing Filters (Block Base) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0]
+  已生成 Weight0.1.txt 	包含 Filter: [1]
+  已生成 Weight0.2.txt 	包含 Filter: [2]
+  已生成 Weight0.3.txt 	包含 Filter: [3]
+  已生成 Weight1.0.txt 	包含 Filter: [4]
+  已生成 Weight1.1.txt 	包含 Filter: [5]
+  已生成 Weight1.2.txt 	包含 Filter: [6]
+  已生成 Weight1.3.txt 	包含 Filter: [7]
+  已生成 Weight2.0.txt 	包含 Filter: [8]
+  已生成 Weight2.1.txt 	包含 Filter: [9]
+  已生成 Weight2.2.txt 	包含 Filter: [10]
+  已生成 Weight2.3.txt 	包含 Filter: [11]
+  已生成 Weight3.0.txt 	包含 Filter: [12]
+  已生成 Weight3.1.txt 	包含 Filter: [13]
+  已生成 Weight3.2.txt 	包含 Filter: [14]
+  已生成 Weight3.3.txt 	包含 Filter: [15]
+  已生成 Weight4.0.txt 	包含 Filter: [16]
+  已生成 Weight4.1.txt 	包含 Filter: [17]
+  已生成 Weight4.2.txt 	包含 Filter: [18]
+  已生成 Weight4.3.txt 	包含 Filter: [19]
+  已生成 Weight5.0.txt 	包含 Filter: [20]
+  已生成 Weight5.1.txt 	包含 Filter: [21]
+  已生成 Weight5.2.txt 	包含 Filter: [22]
+  已生成 Weight5.3.txt 	包含 Filter: [23]
+
+--- Processing Biases (Block Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0]
+  已生成 Bias0.1.txt 	包含 Bias: [1]
+  已生成 Bias0.2.txt 	包含 Bias: [2]
+  已生成 Bias0.3.txt 	包含 Bias: [3]
+  已生成 Bias1.0.txt 	包含 Bias: [4]
+  已生成 Bias1.1.txt 	包含 Bias: [5]
+  已生成 Bias1.2.txt 	包含 Bias: [6]
+  已生成 Bias1.3.txt 	包含 Bias: [7]
+  已生成 Bias2.0.txt 	包含 Bias: [8]
+  已生成 Bias2.1.txt 	包含 Bias: [9]
+  已生成 Bias2.2.txt 	包含 Bias: [10]
+  已生成 Bias2.3.txt 	包含 Bias: [11]
+  已生成 Bias3.0.txt 	包含 Bias: [12]
+  已生成 Bias3.1.txt 	包含 Bias: [13]
+  已生成 Bias3.2.txt 	包含 Bias: [14]
+  已生成 Bias3.3.txt 	包含 Bias: [15]
+  已生成 Bias4.0.txt 	包含 Bias: [16]
+  已生成 Bias4.1.txt 	包含 Bias: [17]
+  已生成 Bias4.2.txt 	包含 Bias: [18]
+  已生成 Bias4.3.txt 	包含 Bias: [19]
+  已生成 Bias5.0.txt 	包含 Bias: [20]
+  已生成 Bias5.1.txt 	包含 Bias: [21]
+  已生成 Bias5.2.txt 	包含 Bias: [22]
+  已生成 Bias5.3.txt 	包含 Bias: [23]
+打包完成。
+已確認輸出目錄：output_data_packaged\tile1.2_DownSamplingR
+偵測到 24 個 Filter，共 24 組，每組分配 1 個檔案，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0]
+  已生成 Weight0.1.txt 	包含 Filter: [1]
+  已生成 Weight0.2.txt 	包含 Filter: [2]
+  已生成 Weight0.3.txt 	包含 Filter: [3]
+  已生成 Weight1.0.txt 	包含 Filter: [4]
+  已生成 Weight1.1.txt 	包含 Filter: [5]
+  已生成 Weight1.2.txt 	包含 Filter: [6]
+  已生成 Weight1.3.txt 	包含 Filter: [7]
+  已生成 Weight2.0.txt 	包含 Filter: [8]
+  已生成 Weight2.1.txt 	包含 Filter: [9]
+  已生成 Weight2.2.txt 	包含 Filter: [10]
+  已生成 Weight2.3.txt 	包含 Filter: [11]
+  已生成 Weight3.0.txt 	包含 Filter: [12]
+  已生成 Weight3.1.txt 	包含 Filter: [13]
+  已生成 Weight3.2.txt 	包含 Filter: [14]
+  已生成 Weight3.3.txt 	包含 Filter: [15]
+  已生成 Weight4.0.txt 	包含 Filter: [16]
+  已生成 Weight4.1.txt 	包含 Filter: [17]
+  已生成 Weight4.2.txt 	包含 Filter: [18]
+  已生成 Weight4.3.txt 	包含 Filter: [19]
+  已生成 Weight5.0.txt 	包含 Filter: [20]
+  已生成 Weight5.1.txt 	包含 Filter: [21]
+  已生成 Weight5.2.txt 	包含 Filter: [22]
+  已生成 Weight5.3.txt 	包含 Filter: [23]
+
+--- 正在處理 Bias (24 Groups - Column Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0]
+  已生成 Bias0.1.txt 	包含 Bias: [1]
+  已生成 Bias0.2.txt 	包含 Bias: [2]
+  已生成 Bias0.3.txt 	包含 Bias: [3]
+  已生成 Bias1.0.txt 	包含 Bias: [4]
+  已生成 Bias1.1.txt 	包含 Bias: [5]
+  已生成 Bias1.2.txt 	包含 Bias: [6]
+  已生成 Bias1.3.txt 	包含 Bias: [7]
+  已生成 Bias2.0.txt 	包含 Bias: [8]
+  已生成 Bias2.1.txt 	包含 Bias: [9]
+  已生成 Bias2.2.txt 	包含 Bias: [10]
+  已生成 Bias2.3.txt 	包含 Bias: [11]
+  已生成 Bias3.0.txt 	包含 Bias: [12]
+  已生成 Bias3.1.txt 	包含 Bias: [13]
+  已生成 Bias3.2.txt 	包含 Bias: [14]
+  已生成 Bias3.3.txt 	包含 Bias: [15]
+  已生成 Bias4.0.txt 	包含 Bias: [16]
+  已生成 Bias4.1.txt 	包含 Bias: [17]
+  已生成 Bias4.2.txt 	包含 Bias: [18]
+  已生成 Bias4.3.txt 	包含 Bias: [19]
+  已生成 Bias5.0.txt 	包含 Bias: [20]
+  已生成 Bias5.1.txt 	包含 Bias: [21]
+  已生成 Bias5.2.txt 	包含 Bias: [22]
+  已生成 Bias5.3.txt 	包含 Bias: [23]
+全部打包完成。
+--- 打包 Tile1 結束 ---
+--- 打包 Tile2 ---
+已確認輸出目錄：output_data_packaged\tile2.2_OGShuffle
+偵測到 24 個 Filter，共 24 組，每組分配 1 個檔案，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0]
+  已生成 Weight0.1.txt 	包含 Filter: [1]
+  已生成 Weight0.2.txt 	包含 Filter: [2]
+  已生成 Weight0.3.txt 	包含 Filter: [3]
+  已生成 Weight1.0.txt 	包含 Filter: [4]
+  已生成 Weight1.1.txt 	包含 Filter: [5]
+  已生成 Weight1.2.txt 	包含 Filter: [6]
+  已生成 Weight1.3.txt 	包含 Filter: [7]
+  已生成 Weight2.0.txt 	包含 Filter: [8]
+  已生成 Weight2.1.txt 	包含 Filter: [9]
+  已生成 Weight2.2.txt 	包含 Filter: [10]
+  已生成 Weight2.3.txt 	包含 Filter: [11]
+  已生成 Weight3.0.txt 	包含 Filter: [12]
+  已生成 Weight3.1.txt 	包含 Filter: [13]
+  已生成 Weight3.2.txt 	包含 Filter: [14]
+  已生成 Weight3.3.txt 	包含 Filter: [15]
+  已生成 Weight4.0.txt 	包含 Filter: [16]
+  已生成 Weight4.1.txt 	包含 Filter: [17]
+  已生成 Weight4.2.txt 	包含 Filter: [18]
+  已生成 Weight4.3.txt 	包含 Filter: [19]
+  已生成 Weight5.0.txt 	包含 Filter: [20]
+  已生成 Weight5.1.txt 	包含 Filter: [21]
+  已生成 Weight5.2.txt 	包含 Filter: [22]
+  已生成 Weight5.3.txt 	包含 Filter: [23]
+
+--- 正在處理 Bias (24 Groups - Column Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0]
+  已生成 Bias0.1.txt 	包含 Bias: [1]
+  已生成 Bias0.2.txt 	包含 Bias: [2]
+  已生成 Bias0.3.txt 	包含 Bias: [3]
+  已生成 Bias1.0.txt 	包含 Bias: [4]
+  已生成 Bias1.1.txt 	包含 Bias: [5]
+  已生成 Bias1.2.txt 	包含 Bias: [6]
+  已生成 Bias1.3.txt 	包含 Bias: [7]
+  已生成 Bias2.0.txt 	包含 Bias: [8]
+  已生成 Bias2.1.txt 	包含 Bias: [9]
+  已生成 Bias2.2.txt 	包含 Bias: [10]
+  已生成 Bias2.3.txt 	包含 Bias: [11]
+  已生成 Bias3.0.txt 	包含 Bias: [12]
+  已生成 Bias3.1.txt 	包含 Bias: [13]
+  已生成 Bias3.2.txt 	包含 Bias: [14]
+  已生成 Bias3.3.txt 	包含 Bias: [15]
+  已生成 Bias4.0.txt 	包含 Bias: [16]
+  已生成 Bias4.1.txt 	包含 Bias: [17]
+  已生成 Bias4.2.txt 	包含 Bias: [18]
+  已生成 Bias4.3.txt 	包含 Bias: [19]
+  已生成 Bias5.0.txt 	包含 Bias: [20]
+  已生成 Bias5.1.txt 	包含 Bias: [21]
+  已生成 Bias5.2.txt 	包含 Bias: [22]
+  已生成 Bias5.3.txt 	包含 Bias: [23]
+全部打包完成。
+--- 打包 Tile2 結束 ---
+--- 打包 Tile3 ---
+已確認輸出目錄：output_data_packaged\tile3.2_OGShuffle
+偵測到 24 個 Filter，共 24 組，每組分配 1 個檔案，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0]
+  已生成 Weight0.1.txt 	包含 Filter: [1]
+  已生成 Weight0.2.txt 	包含 Filter: [2]
+  已生成 Weight0.3.txt 	包含 Filter: [3]
+  已生成 Weight1.0.txt 	包含 Filter: [4]
+  已生成 Weight1.1.txt 	包含 Filter: [5]
+  已生成 Weight1.2.txt 	包含 Filter: [6]
+  已生成 Weight1.3.txt 	包含 Filter: [7]
+  已生成 Weight2.0.txt 	包含 Filter: [8]
+  已生成 Weight2.1.txt 	包含 Filter: [9]
+  已生成 Weight2.2.txt 	包含 Filter: [10]
+  已生成 Weight2.3.txt 	包含 Filter: [11]
+  已生成 Weight3.0.txt 	包含 Filter: [12]
+  已生成 Weight3.1.txt 	包含 Filter: [13]
+  已生成 Weight3.2.txt 	包含 Filter: [14]
+  已生成 Weight3.3.txt 	包含 Filter: [15]
+  已生成 Weight4.0.txt 	包含 Filter: [16]
+  已生成 Weight4.1.txt 	包含 Filter: [17]
+  已生成 Weight4.2.txt 	包含 Filter: [18]
+  已生成 Weight4.3.txt 	包含 Filter: [19]
+  已生成 Weight5.0.txt 	包含 Filter: [20]
+  已生成 Weight5.1.txt 	包含 Filter: [21]
+  已生成 Weight5.2.txt 	包含 Filter: [22]
+  已生成 Weight5.3.txt 	包含 Filter: [23]
+
+--- 正在處理 Bias (24 Groups - Column Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0]
+  已生成 Bias0.1.txt 	包含 Bias: [1]
+  已生成 Bias0.2.txt 	包含 Bias: [2]
+  已生成 Bias0.3.txt 	包含 Bias: [3]
+  已生成 Bias1.0.txt 	包含 Bias: [4]
+  已生成 Bias1.1.txt 	包含 Bias: [5]
+  已生成 Bias1.2.txt 	包含 Bias: [6]
+  已生成 Bias1.3.txt 	包含 Bias: [7]
+  已生成 Bias2.0.txt 	包含 Bias: [8]
+  已生成 Bias2.1.txt 	包含 Bias: [9]
+  已生成 Bias2.2.txt 	包含 Bias: [10]
+  已生成 Bias2.3.txt 	包含 Bias: [11]
+  已生成 Bias3.0.txt 	包含 Bias: [12]
+  已生成 Bias3.1.txt 	包含 Bias: [13]
+  已生成 Bias3.2.txt 	包含 Bias: [14]
+  已生成 Bias3.3.txt 	包含 Bias: [15]
+  已生成 Bias4.0.txt 	包含 Bias: [16]
+  已生成 Bias4.1.txt 	包含 Bias: [17]
+  已生成 Bias4.2.txt 	包含 Bias: [18]
+  已生成 Bias4.3.txt 	包含 Bias: [19]
+  已生成 Bias5.0.txt 	包含 Bias: [20]
+  已生成 Bias5.1.txt 	包含 Bias: [21]
+  已生成 Bias5.2.txt 	包含 Bias: [22]
+  已生成 Bias5.3.txt 	包含 Bias: [23]
+全部打包完成。
+--- 打包 Tile3 結束 ---
+--- 打包 Tile4 ---
+已確認輸出目錄：output_data_packaged\tile4.2_OGShuffle
+偵測到 24 個 Filter，共 24 組，每組分配 1 個檔案，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0]
+  已生成 Weight0.1.txt 	包含 Filter: [1]
+  已生成 Weight0.2.txt 	包含 Filter: [2]
+  已生成 Weight0.3.txt 	包含 Filter: [3]
+  已生成 Weight1.0.txt 	包含 Filter: [4]
+  已生成 Weight1.1.txt 	包含 Filter: [5]
+  已生成 Weight1.2.txt 	包含 Filter: [6]
+  已生成 Weight1.3.txt 	包含 Filter: [7]
+  已生成 Weight2.0.txt 	包含 Filter: [8]
+  已生成 Weight2.1.txt 	包含 Filter: [9]
+  已生成 Weight2.2.txt 	包含 Filter: [10]
+  已生成 Weight2.3.txt 	包含 Filter: [11]
+  已生成 Weight3.0.txt 	包含 Filter: [12]
+  已生成 Weight3.1.txt 	包含 Filter: [13]
+  已生成 Weight3.2.txt 	包含 Filter: [14]
+  已生成 Weight3.3.txt 	包含 Filter: [15]
+  已生成 Weight4.0.txt 	包含 Filter: [16]
+  已生成 Weight4.1.txt 	包含 Filter: [17]
+  已生成 Weight4.2.txt 	包含 Filter: [18]
+  已生成 Weight4.3.txt 	包含 Filter: [19]
+  已生成 Weight5.0.txt 	包含 Filter: [20]
+  已生成 Weight5.1.txt 	包含 Filter: [21]
+  已生成 Weight5.2.txt 	包含 Filter: [22]
+  已生成 Weight5.3.txt 	包含 Filter: [23]
+
+--- 正在處理 Bias (24 Groups - Column Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0]
+  已生成 Bias0.1.txt 	包含 Bias: [1]
+  已生成 Bias0.2.txt 	包含 Bias: [2]
+  已生成 Bias0.3.txt 	包含 Bias: [3]
+  已生成 Bias1.0.txt 	包含 Bias: [4]
+  已生成 Bias1.1.txt 	包含 Bias: [5]
+  已生成 Bias1.2.txt 	包含 Bias: [6]
+  已生成 Bias1.3.txt 	包含 Bias: [7]
+  已生成 Bias2.0.txt 	包含 Bias: [8]
+  已生成 Bias2.1.txt 	包含 Bias: [9]
+  已生成 Bias2.2.txt 	包含 Bias: [10]
+  已生成 Bias2.3.txt 	包含 Bias: [11]
+  已生成 Bias3.0.txt 	包含 Bias: [12]
+  已生成 Bias3.1.txt 	包含 Bias: [13]
+  已生成 Bias3.2.txt 	包含 Bias: [14]
+  已生成 Bias3.3.txt 	包含 Bias: [15]
+  已生成 Bias4.0.txt 	包含 Bias: [16]
+  已生成 Bias4.1.txt 	包含 Bias: [17]
+  已生成 Bias4.2.txt 	包含 Bias: [18]
+  已生成 Bias4.3.txt 	包含 Bias: [19]
+  已生成 Bias5.0.txt 	包含 Bias: [20]
+  已生成 Bias5.1.txt 	包含 Bias: [21]
+  已生成 Bias5.2.txt 	包含 Bias: [22]
+  已生成 Bias5.3.txt 	包含 Bias: [23]
+全部打包完成。
+--- 打包 Tile4 結束 ---
+--- 打包 Tile5 ---
+已確認輸出目錄：
+  Main -> output_data_packaged\tile5.1_DownSamplingL
+偵測到 48 個 Filter，共 24 個 Group，每組分配 2 個檔案。
+--- Processing Filters (Block Base) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0, 4]
+  已生成 Weight0.1.txt 	包含 Filter: [1, 5]
+  已生成 Weight0.2.txt 	包含 Filter: [2, 6]
+  已生成 Weight0.3.txt 	包含 Filter: [3, 7]
+  已生成 Weight1.0.txt 	包含 Filter: [8, 12]
+  已生成 Weight1.1.txt 	包含 Filter: [9, 13]
+  已生成 Weight1.2.txt 	包含 Filter: [10, 14]
+  已生成 Weight1.3.txt 	包含 Filter: [11, 15]
+  已生成 Weight2.0.txt 	包含 Filter: [16, 20]
+  已生成 Weight2.1.txt 	包含 Filter: [17, 21]
+  已生成 Weight2.2.txt 	包含 Filter: [18, 22]
+  已生成 Weight2.3.txt 	包含 Filter: [19, 23]
+  已生成 Weight3.0.txt 	包含 Filter: [24, 28]
+  已生成 Weight3.1.txt 	包含 Filter: [25, 29]
+  已生成 Weight3.2.txt 	包含 Filter: [26, 30]
+  已生成 Weight3.3.txt 	包含 Filter: [27, 31]
+  已生成 Weight4.0.txt 	包含 Filter: [32, 36]
+  已生成 Weight4.1.txt 	包含 Filter: [33, 37]
+  已生成 Weight4.2.txt 	包含 Filter: [34, 38]
+  已生成 Weight4.3.txt 	包含 Filter: [35, 39]
+  已生成 Weight5.0.txt 	包含 Filter: [40, 44]
+  已生成 Weight5.1.txt 	包含 Filter: [41, 45]
+  已生成 Weight5.2.txt 	包含 Filter: [42, 46]
+  已生成 Weight5.3.txt 	包含 Filter: [43, 47]
+
+--- Processing Biases (Block Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0, 4]
+  已生成 Bias0.1.txt 	包含 Bias: [1, 5]
+  已生成 Bias0.2.txt 	包含 Bias: [2, 6]
+  已生成 Bias0.3.txt 	包含 Bias: [3, 7]
+  已生成 Bias1.0.txt 	包含 Bias: [8, 12]
+  已生成 Bias1.1.txt 	包含 Bias: [9, 13]
+  已生成 Bias1.2.txt 	包含 Bias: [10, 14]
+  已生成 Bias1.3.txt 	包含 Bias: [11, 15]
+  已生成 Bias2.0.txt 	包含 Bias: [16, 20]
+  已生成 Bias2.1.txt 	包含 Bias: [17, 21]
+  已生成 Bias2.2.txt 	包含 Bias: [18, 22]
+  已生成 Bias2.3.txt 	包含 Bias: [19, 23]
+  已生成 Bias3.0.txt 	包含 Bias: [24, 28]
+  已生成 Bias3.1.txt 	包含 Bias: [25, 29]
+  已生成 Bias3.2.txt 	包含 Bias: [26, 30]
+  已生成 Bias3.3.txt 	包含 Bias: [27, 31]
+  已生成 Bias4.0.txt 	包含 Bias: [32, 36]
+  已生成 Bias4.1.txt 	包含 Bias: [33, 37]
+  已生成 Bias4.2.txt 	包含 Bias: [34, 38]
+  已生成 Bias4.3.txt 	包含 Bias: [35, 39]
+  已生成 Bias5.0.txt 	包含 Bias: [40, 44]
+  已生成 Bias5.1.txt 	包含 Bias: [41, 45]
+  已生成 Bias5.2.txt 	包含 Bias: [42, 46]
+  已生成 Bias5.3.txt 	包含 Bias: [43, 47]
+打包完成。
+已確認輸出目錄：output_data_packaged\tile5.2_DownSamplingR
+偵測到 48 個 Filter，共 24 組，每組分配 2 個檔案，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0, 4]
+  已生成 Weight0.1.txt 	包含 Filter: [1, 5]
+  已生成 Weight0.2.txt 	包含 Filter: [2, 6]
+  已生成 Weight0.3.txt 	包含 Filter: [3, 7]
+  已生成 Weight1.0.txt 	包含 Filter: [8, 12]
+  已生成 Weight1.1.txt 	包含 Filter: [9, 13]
+  已生成 Weight1.2.txt 	包含 Filter: [10, 14]
+  已生成 Weight1.3.txt 	包含 Filter: [11, 15]
+  已生成 Weight2.0.txt 	包含 Filter: [16, 20]
+  已生成 Weight2.1.txt 	包含 Filter: [17, 21]
+  已生成 Weight2.2.txt 	包含 Filter: [18, 22]
+  已生成 Weight2.3.txt 	包含 Filter: [19, 23]
+  已生成 Weight3.0.txt 	包含 Filter: [24, 28]
+  已生成 Weight3.1.txt 	包含 Filter: [25, 29]
+  已生成 Weight3.2.txt 	包含 Filter: [26, 30]
+  已生成 Weight3.3.txt 	包含 Filter: [27, 31]
+  已生成 Weight4.0.txt 	包含 Filter: [32, 36]
+  已生成 Weight4.1.txt 	包含 Filter: [33, 37]
+  已生成 Weight4.2.txt 	包含 Filter: [34, 38]
+  已生成 Weight4.3.txt 	包含 Filter: [35, 39]
+  已生成 Weight5.0.txt 	包含 Filter: [40, 44]
+  已生成 Weight5.1.txt 	包含 Filter: [41, 45]
+  已生成 Weight5.2.txt 	包含 Filter: [42, 46]
+  已生成 Weight5.3.txt 	包含 Filter: [43, 47]
+
+--- 正在處理 Bias (24 Groups - Column Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0, 4]
+  已生成 Bias0.1.txt 	包含 Bias: [1, 5]
+  已生成 Bias0.2.txt 	包含 Bias: [2, 6]
+  已生成 Bias0.3.txt 	包含 Bias: [3, 7]
+  已生成 Bias1.0.txt 	包含 Bias: [8, 12]
+  已生成 Bias1.1.txt 	包含 Bias: [9, 13]
+  已生成 Bias1.2.txt 	包含 Bias: [10, 14]
+  已生成 Bias1.3.txt 	包含 Bias: [11, 15]
+  已生成 Bias2.0.txt 	包含 Bias: [16, 20]
+  已生成 Bias2.1.txt 	包含 Bias: [17, 21]
+  已生成 Bias2.2.txt 	包含 Bias: [18, 22]
+  已生成 Bias2.3.txt 	包含 Bias: [19, 23]
+  已生成 Bias3.0.txt 	包含 Bias: [24, 28]
+  已生成 Bias3.1.txt 	包含 Bias: [25, 29]
+  已生成 Bias3.2.txt 	包含 Bias: [26, 30]
+  已生成 Bias3.3.txt 	包含 Bias: [27, 31]
+  已生成 Bias4.0.txt 	包含 Bias: [32, 36]
+  已生成 Bias4.1.txt 	包含 Bias: [33, 37]
+  已生成 Bias4.2.txt 	包含 Bias: [34, 38]
+  已生成 Bias4.3.txt 	包含 Bias: [35, 39]
+  已生成 Bias5.0.txt 	包含 Bias: [40, 44]
+  已生成 Bias5.1.txt 	包含 Bias: [41, 45]
+  已生成 Bias5.2.txt 	包含 Bias: [42, 46]
+  已生成 Bias5.3.txt 	包含 Bias: [43, 47]
+全部打包完成。
+--- 打包 Tile5 結束 ---
+--- 打包 Tile6 ---
+已確認輸出目錄：output_data_packaged\tile6.2_OGShuffle
+偵測到 48 個 Filter，共 24 組，每組分配 2 個檔案，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0, 4]
+  已生成 Weight0.1.txt 	包含 Filter: [1, 5]
+  已生成 Weight0.2.txt 	包含 Filter: [2, 6]
+  已生成 Weight0.3.txt 	包含 Filter: [3, 7]
+  已生成 Weight1.0.txt 	包含 Filter: [8, 12]
+  已生成 Weight1.1.txt 	包含 Filter: [9, 13]
+  已生成 Weight1.2.txt 	包含 Filter: [10, 14]
+  已生成 Weight1.3.txt 	包含 Filter: [11, 15]
+  已生成 Weight2.0.txt 	包含 Filter: [16, 20]
+  已生成 Weight2.1.txt 	包含 Filter: [17, 21]
+  已生成 Weight2.2.txt 	包含 Filter: [18, 22]
+  已生成 Weight2.3.txt 	包含 Filter: [19, 23]
+  已生成 Weight3.0.txt 	包含 Filter: [24, 28]
+  已生成 Weight3.1.txt 	包含 Filter: [25, 29]
+  已生成 Weight3.2.txt 	包含 Filter: [26, 30]
+  已生成 Weight3.3.txt 	包含 Filter: [27, 31]
+  已生成 Weight4.0.txt 	包含 Filter: [32, 36]
+  已生成 Weight4.1.txt 	包含 Filter: [33, 37]
+  已生成 Weight4.2.txt 	包含 Filter: [34, 38]
+  已生成 Weight4.3.txt 	包含 Filter: [35, 39]
+  已生成 Weight5.0.txt 	包含 Filter: [40, 44]
+  已生成 Weight5.1.txt 	包含 Filter: [41, 45]
+  已生成 Weight5.2.txt 	包含 Filter: [42, 46]
+  已生成 Weight5.3.txt 	包含 Filter: [43, 47]
+
+--- 正在處理 Bias (24 Groups - Column Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0, 4]
+  已生成 Bias0.1.txt 	包含 Bias: [1, 5]
+  已生成 Bias0.2.txt 	包含 Bias: [2, 6]
+  已生成 Bias0.3.txt 	包含 Bias: [3, 7]
+  已生成 Bias1.0.txt 	包含 Bias: [8, 12]
+  已生成 Bias1.1.txt 	包含 Bias: [9, 13]
+  已生成 Bias1.2.txt 	包含 Bias: [10, 14]
+  已生成 Bias1.3.txt 	包含 Bias: [11, 15]
+  已生成 Bias2.0.txt 	包含 Bias: [16, 20]
+  已生成 Bias2.1.txt 	包含 Bias: [17, 21]
+  已生成 Bias2.2.txt 	包含 Bias: [18, 22]
+  已生成 Bias2.3.txt 	包含 Bias: [19, 23]
+  已生成 Bias3.0.txt 	包含 Bias: [24, 28]
+  已生成 Bias3.1.txt 	包含 Bias: [25, 29]
+  已生成 Bias3.2.txt 	包含 Bias: [26, 30]
+  已生成 Bias3.3.txt 	包含 Bias: [27, 31]
+  已生成 Bias4.0.txt 	包含 Bias: [32, 36]
+  已生成 Bias4.1.txt 	包含 Bias: [33, 37]
+  已生成 Bias4.2.txt 	包含 Bias: [34, 38]
+  已生成 Bias4.3.txt 	包含 Bias: [35, 39]
+  已生成 Bias5.0.txt 	包含 Bias: [40, 44]
+  已生成 Bias5.1.txt 	包含 Bias: [41, 45]
+  已生成 Bias5.2.txt 	包含 Bias: [42, 46]
+  已生成 Bias5.3.txt 	包含 Bias: [43, 47]
+全部打包完成。
+--- 打包 Tile6 結束 ---
+--- 打包 Tile7 ---
+已確認輸出目錄：output_data_packaged\tile7.2_OGShuffle
+偵測到 48 個 Filter，共 24 組，每組分配 2 個檔案，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0, 4]
+  已生成 Weight0.1.txt 	包含 Filter: [1, 5]
+  已生成 Weight0.2.txt 	包含 Filter: [2, 6]
+  已生成 Weight0.3.txt 	包含 Filter: [3, 7]
+  已生成 Weight1.0.txt 	包含 Filter: [8, 12]
+  已生成 Weight1.1.txt 	包含 Filter: [9, 13]
+  已生成 Weight1.2.txt 	包含 Filter: [10, 14]
+  已生成 Weight1.3.txt 	包含 Filter: [11, 15]
+  已生成 Weight2.0.txt 	包含 Filter: [16, 20]
+  已生成 Weight2.1.txt 	包含 Filter: [17, 21]
+  已生成 Weight2.2.txt 	包含 Filter: [18, 22]
+  已生成 Weight2.3.txt 	包含 Filter: [19, 23]
+  已生成 Weight3.0.txt 	包含 Filter: [24, 28]
+  已生成 Weight3.1.txt 	包含 Filter: [25, 29]
+  已生成 Weight3.2.txt 	包含 Filter: [26, 30]
+  已生成 Weight3.3.txt 	包含 Filter: [27, 31]
+  已生成 Weight4.0.txt 	包含 Filter: [32, 36]
+  已生成 Weight4.1.txt 	包含 Filter: [33, 37]
+  已生成 Weight4.2.txt 	包含 Filter: [34, 38]
+  已生成 Weight4.3.txt 	包含 Filter: [35, 39]
+  已生成 Weight5.0.txt 	包含 Filter: [40, 44]
+  已生成 Weight5.1.txt 	包含 Filter: [41, 45]
+  已生成 Weight5.2.txt 	包含 Filter: [42, 46]
+  已生成 Weight5.3.txt 	包含 Filter: [43, 47]
+
+--- 正在處理 Bias (24 Groups - Column Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0, 4]
+  已生成 Bias0.1.txt 	包含 Bias: [1, 5]
+  已生成 Bias0.2.txt 	包含 Bias: [2, 6]
+  已生成 Bias0.3.txt 	包含 Bias: [3, 7]
+  已生成 Bias1.0.txt 	包含 Bias: [8, 12]
+  已生成 Bias1.1.txt 	包含 Bias: [9, 13]
+  已生成 Bias1.2.txt 	包含 Bias: [10, 14]
+  已生成 Bias1.3.txt 	包含 Bias: [11, 15]
+  已生成 Bias2.0.txt 	包含 Bias: [16, 20]
+  已生成 Bias2.1.txt 	包含 Bias: [17, 21]
+  已生成 Bias2.2.txt 	包含 Bias: [18, 22]
+  已生成 Bias2.3.txt 	包含 Bias: [19, 23]
+  已生成 Bias3.0.txt 	包含 Bias: [24, 28]
+  已生成 Bias3.1.txt 	包含 Bias: [25, 29]
+  已生成 Bias3.2.txt 	包含 Bias: [26, 30]
+  已生成 Bias3.3.txt 	包含 Bias: [27, 31]
+  已生成 Bias4.0.txt 	包含 Bias: [32, 36]
+  已生成 Bias4.1.txt 	包含 Bias: [33, 37]
+  已生成 Bias4.2.txt 	包含 Bias: [34, 38]
+  已生成 Bias4.3.txt 	包含 Bias: [35, 39]
+  已生成 Bias5.0.txt 	包含 Bias: [40, 44]
+  已生成 Bias5.1.txt 	包含 Bias: [41, 45]
+  已生成 Bias5.2.txt 	包含 Bias: [42, 46]
+  已生成 Bias5.3.txt 	包含 Bias: [43, 47]
+全部打包完成。
+--- 打包 Tile7 結束 ---
+--- 打包 Tile8 ---
+已確認輸出目錄：output_data_packaged\tile8.2_OGShuffle
+偵測到 48 個 Filter，共 24 組，每組分配 2 個檔案，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0, 4]
+  已生成 Weight0.1.txt 	包含 Filter: [1, 5]
+  已生成 Weight0.2.txt 	包含 Filter: [2, 6]
+  已生成 Weight0.3.txt 	包含 Filter: [3, 7]
+  已生成 Weight1.0.txt 	包含 Filter: [8, 12]
+  已生成 Weight1.1.txt 	包含 Filter: [9, 13]
+  已生成 Weight1.2.txt 	包含 Filter: [10, 14]
+  已生成 Weight1.3.txt 	包含 Filter: [11, 15]
+  已生成 Weight2.0.txt 	包含 Filter: [16, 20]
+  已生成 Weight2.1.txt 	包含 Filter: [17, 21]
+  已生成 Weight2.2.txt 	包含 Filter: [18, 22]
+  已生成 Weight2.3.txt 	包含 Filter: [19, 23]
+  已生成 Weight3.0.txt 	包含 Filter: [24, 28]
+  已生成 Weight3.1.txt 	包含 Filter: [25, 29]
+  已生成 Weight3.2.txt 	包含 Filter: [26, 30]
+  已生成 Weight3.3.txt 	包含 Filter: [27, 31]
+  已生成 Weight4.0.txt 	包含 Filter: [32, 36]
+  已生成 Weight4.1.txt 	包含 Filter: [33, 37]
+  已生成 Weight4.2.txt 	包含 Filter: [34, 38]
+  已生成 Weight4.3.txt 	包含 Filter: [35, 39]
+  已生成 Weight5.0.txt 	包含 Filter: [40, 44]
+  已生成 Weight5.1.txt 	包含 Filter: [41, 45]
+  已生成 Weight5.2.txt 	包含 Filter: [42, 46]
+  已生成 Weight5.3.txt 	包含 Filter: [43, 47]
+
+--- 正在處理 Bias (24 Groups - Column Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0, 4]
+  已生成 Bias0.1.txt 	包含 Bias: [1, 5]
+  已生成 Bias0.2.txt 	包含 Bias: [2, 6]
+  已生成 Bias0.3.txt 	包含 Bias: [3, 7]
+  已生成 Bias1.0.txt 	包含 Bias: [8, 12]
+  已生成 Bias1.1.txt 	包含 Bias: [9, 13]
+  已生成 Bias1.2.txt 	包含 Bias: [10, 14]
+  已生成 Bias1.3.txt 	包含 Bias: [11, 15]
+  已生成 Bias2.0.txt 	包含 Bias: [16, 20]
+  已生成 Bias2.1.txt 	包含 Bias: [17, 21]
+  已生成 Bias2.2.txt 	包含 Bias: [18, 22]
+  已生成 Bias2.3.txt 	包含 Bias: [19, 23]
+  已生成 Bias3.0.txt 	包含 Bias: [24, 28]
+  已生成 Bias3.1.txt 	包含 Bias: [25, 29]
+  已生成 Bias3.2.txt 	包含 Bias: [26, 30]
+  已生成 Bias3.3.txt 	包含 Bias: [27, 31]
+  已生成 Bias4.0.txt 	包含 Bias: [32, 36]
+  已生成 Bias4.1.txt 	包含 Bias: [33, 37]
+  已生成 Bias4.2.txt 	包含 Bias: [34, 38]
+  已生成 Bias4.3.txt 	包含 Bias: [35, 39]
+  已生成 Bias5.0.txt 	包含 Bias: [40, 44]
+  已生成 Bias5.1.txt 	包含 Bias: [41, 45]
+  已生成 Bias5.2.txt 	包含 Bias: [42, 46]
+  已生成 Bias5.3.txt 	包含 Bias: [43, 47]
+全部打包完成。
+--- 打包 Tile8 結束 ---
+--- 打包 Tile9 ---
+已確認輸出目錄：output_data_packaged\tile9.2_OGShuffle
+偵測到 48 個 Filter，共 24 組，每組分配 2 個檔案，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0, 4]
+  已生成 Weight0.1.txt 	包含 Filter: [1, 5]
+  已生成 Weight0.2.txt 	包含 Filter: [2, 6]
+  已生成 Weight0.3.txt 	包含 Filter: [3, 7]
+  已生成 Weight1.0.txt 	包含 Filter: [8, 12]
+  已生成 Weight1.1.txt 	包含 Filter: [9, 13]
+  已生成 Weight1.2.txt 	包含 Filter: [10, 14]
+  已生成 Weight1.3.txt 	包含 Filter: [11, 15]
+  已生成 Weight2.0.txt 	包含 Filter: [16, 20]
+  已生成 Weight2.1.txt 	包含 Filter: [17, 21]
+  已生成 Weight2.2.txt 	包含 Filter: [18, 22]
+  已生成 Weight2.3.txt 	包含 Filter: [19, 23]
+  已生成 Weight3.0.txt 	包含 Filter: [24, 28]
+  已生成 Weight3.1.txt 	包含 Filter: [25, 29]
+  已生成 Weight3.2.txt 	包含 Filter: [26, 30]
+  已生成 Weight3.3.txt 	包含 Filter: [27, 31]
+  已生成 Weight4.0.txt 	包含 Filter: [32, 36]
+  已生成 Weight4.1.txt 	包含 Filter: [33, 37]
+  已生成 Weight4.2.txt 	包含 Filter: [34, 38]
+  已生成 Weight4.3.txt 	包含 Filter: [35, 39]
+  已生成 Weight5.0.txt 	包含 Filter: [40, 44]
+  已生成 Weight5.1.txt 	包含 Filter: [41, 45]
+  已生成 Weight5.2.txt 	包含 Filter: [42, 46]
+  已生成 Weight5.3.txt 	包含 Filter: [43, 47]
+
+--- 正在處理 Bias (24 Groups - Column Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0, 4]
+  已生成 Bias0.1.txt 	包含 Bias: [1, 5]
+  已生成 Bias0.2.txt 	包含 Bias: [2, 6]
+  已生成 Bias0.3.txt 	包含 Bias: [3, 7]
+  已生成 Bias1.0.txt 	包含 Bias: [8, 12]
+  已生成 Bias1.1.txt 	包含 Bias: [9, 13]
+  已生成 Bias1.2.txt 	包含 Bias: [10, 14]
+  已生成 Bias1.3.txt 	包含 Bias: [11, 15]
+  已生成 Bias2.0.txt 	包含 Bias: [16, 20]
+  已生成 Bias2.1.txt 	包含 Bias: [17, 21]
+  已生成 Bias2.2.txt 	包含 Bias: [18, 22]
+  已生成 Bias2.3.txt 	包含 Bias: [19, 23]
+  已生成 Bias3.0.txt 	包含 Bias: [24, 28]
+  已生成 Bias3.1.txt 	包含 Bias: [25, 29]
+  已生成 Bias3.2.txt 	包含 Bias: [26, 30]
+  已生成 Bias3.3.txt 	包含 Bias: [27, 31]
+  已生成 Bias4.0.txt 	包含 Bias: [32, 36]
+  已生成 Bias4.1.txt 	包含 Bias: [33, 37]
+  已生成 Bias4.2.txt 	包含 Bias: [34, 38]
+  已生成 Bias4.3.txt 	包含 Bias: [35, 39]
+  已生成 Bias5.0.txt 	包含 Bias: [40, 44]
+  已生成 Bias5.1.txt 	包含 Bias: [41, 45]
+  已生成 Bias5.2.txt 	包含 Bias: [42, 46]
+  已生成 Bias5.3.txt 	包含 Bias: [43, 47]
+全部打包完成。
+--- 打包 Tile9 結束 ---
+--- 打包 Tile10 ---
+已確認輸出目錄：output_data_packaged\tile10.2_OGShuffle
+偵測到 48 個 Filter，共 24 組，每組分配 2 個檔案，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0, 4]
+  已生成 Weight0.1.txt 	包含 Filter: [1, 5]
+  已生成 Weight0.2.txt 	包含 Filter: [2, 6]
+  已生成 Weight0.3.txt 	包含 Filter: [3, 7]
+  已生成 Weight1.0.txt 	包含 Filter: [8, 12]
+  已生成 Weight1.1.txt 	包含 Filter: [9, 13]
+  已生成 Weight1.2.txt 	包含 Filter: [10, 14]
+  已生成 Weight1.3.txt 	包含 Filter: [11, 15]
+  已生成 Weight2.0.txt 	包含 Filter: [16, 20]
+  已生成 Weight2.1.txt 	包含 Filter: [17, 21]
+  已生成 Weight2.2.txt 	包含 Filter: [18, 22]
+  已生成 Weight2.3.txt 	包含 Filter: [19, 23]
+  已生成 Weight3.0.txt 	包含 Filter: [24, 28]
+  已生成 Weight3.1.txt 	包含 Filter: [25, 29]
+  已生成 Weight3.2.txt 	包含 Filter: [26, 30]
+  已生成 Weight3.3.txt 	包含 Filter: [27, 31]
+  已生成 Weight4.0.txt 	包含 Filter: [32, 36]
+  已生成 Weight4.1.txt 	包含 Filter: [33, 37]
+  已生成 Weight4.2.txt 	包含 Filter: [34, 38]
+  已生成 Weight4.3.txt 	包含 Filter: [35, 39]
+  已生成 Weight5.0.txt 	包含 Filter: [40, 44]
+  已生成 Weight5.1.txt 	包含 Filter: [41, 45]
+  已生成 Weight5.2.txt 	包含 Filter: [42, 46]
+  已生成 Weight5.3.txt 	包含 Filter: [43, 47]
+
+--- 正在處理 Bias (24 Groups - Column Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0, 4]
+  已生成 Bias0.1.txt 	包含 Bias: [1, 5]
+  已生成 Bias0.2.txt 	包含 Bias: [2, 6]
+  已生成 Bias0.3.txt 	包含 Bias: [3, 7]
+  已生成 Bias1.0.txt 	包含 Bias: [8, 12]
+  已生成 Bias1.1.txt 	包含 Bias: [9, 13]
+  已生成 Bias1.2.txt 	包含 Bias: [10, 14]
+  已生成 Bias1.3.txt 	包含 Bias: [11, 15]
+  已生成 Bias2.0.txt 	包含 Bias: [16, 20]
+  已生成 Bias2.1.txt 	包含 Bias: [17, 21]
+  已生成 Bias2.2.txt 	包含 Bias: [18, 22]
+  已生成 Bias2.3.txt 	包含 Bias: [19, 23]
+  已生成 Bias3.0.txt 	包含 Bias: [24, 28]
+  已生成 Bias3.1.txt 	包含 Bias: [25, 29]
+  已生成 Bias3.2.txt 	包含 Bias: [26, 30]
+  已生成 Bias3.3.txt 	包含 Bias: [27, 31]
+  已生成 Bias4.0.txt 	包含 Bias: [32, 36]
+  已生成 Bias4.1.txt 	包含 Bias: [33, 37]
+  已生成 Bias4.2.txt 	包含 Bias: [34, 38]
+  已生成 Bias4.3.txt 	包含 Bias: [35, 39]
+  已生成 Bias5.0.txt 	包含 Bias: [40, 44]
+  已生成 Bias5.1.txt 	包含 Bias: [41, 45]
+  已生成 Bias5.2.txt 	包含 Bias: [42, 46]
+  已生成 Bias5.3.txt 	包含 Bias: [43, 47]
+全部打包完成。
+--- 打包 Tile10 結束 ---
+--- 打包 Tile11 ---
+已確認輸出目錄：output_data_packaged\tile11.2_OGShuffle
+偵測到 48 個 Filter，共 24 組，每組分配 2 個檔案，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0, 4]
+  已生成 Weight0.1.txt 	包含 Filter: [1, 5]
+  已生成 Weight0.2.txt 	包含 Filter: [2, 6]
+  已生成 Weight0.3.txt 	包含 Filter: [3, 7]
+  已生成 Weight1.0.txt 	包含 Filter: [8, 12]
+  已生成 Weight1.1.txt 	包含 Filter: [9, 13]
+  已生成 Weight1.2.txt 	包含 Filter: [10, 14]
+  已生成 Weight1.3.txt 	包含 Filter: [11, 15]
+  已生成 Weight2.0.txt 	包含 Filter: [16, 20]
+  已生成 Weight2.1.txt 	包含 Filter: [17, 21]
+  已生成 Weight2.2.txt 	包含 Filter: [18, 22]
+  已生成 Weight2.3.txt 	包含 Filter: [19, 23]
+  已生成 Weight3.0.txt 	包含 Filter: [24, 28]
+  已生成 Weight3.1.txt 	包含 Filter: [25, 29]
+  已生成 Weight3.2.txt 	包含 Filter: [26, 30]
+  已生成 Weight3.3.txt 	包含 Filter: [27, 31]
+  已生成 Weight4.0.txt 	包含 Filter: [32, 36]
+  已生成 Weight4.1.txt 	包含 Filter: [33, 37]
+  已生成 Weight4.2.txt 	包含 Filter: [34, 38]
+  已生成 Weight4.3.txt 	包含 Filter: [35, 39]
+  已生成 Weight5.0.txt 	包含 Filter: [40, 44]
+  已生成 Weight5.1.txt 	包含 Filter: [41, 45]
+  已生成 Weight5.2.txt 	包含 Filter: [42, 46]
+  已生成 Weight5.3.txt 	包含 Filter: [43, 47]
+
+--- 正在處理 Bias (24 Groups - Column Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0, 4]
+  已生成 Bias0.1.txt 	包含 Bias: [1, 5]
+  已生成 Bias0.2.txt 	包含 Bias: [2, 6]
+  已生成 Bias0.3.txt 	包含 Bias: [3, 7]
+  已生成 Bias1.0.txt 	包含 Bias: [8, 12]
+  已生成 Bias1.1.txt 	包含 Bias: [9, 13]
+  已生成 Bias1.2.txt 	包含 Bias: [10, 14]
+  已生成 Bias1.3.txt 	包含 Bias: [11, 15]
+  已生成 Bias2.0.txt 	包含 Bias: [16, 20]
+  已生成 Bias2.1.txt 	包含 Bias: [17, 21]
+  已生成 Bias2.2.txt 	包含 Bias: [18, 22]
+  已生成 Bias2.3.txt 	包含 Bias: [19, 23]
+  已生成 Bias3.0.txt 	包含 Bias: [24, 28]
+  已生成 Bias3.1.txt 	包含 Bias: [25, 29]
+  已生成 Bias3.2.txt 	包含 Bias: [26, 30]
+  已生成 Bias3.3.txt 	包含 Bias: [27, 31]
+  已生成 Bias4.0.txt 	包含 Bias: [32, 36]
+  已生成 Bias4.1.txt 	包含 Bias: [33, 37]
+  已生成 Bias4.2.txt 	包含 Bias: [34, 38]
+  已生成 Bias4.3.txt 	包含 Bias: [35, 39]
+  已生成 Bias5.0.txt 	包含 Bias: [40, 44]
+  已生成 Bias5.1.txt 	包含 Bias: [41, 45]
+  已生成 Bias5.2.txt 	包含 Bias: [42, 46]
+  已生成 Bias5.3.txt 	包含 Bias: [43, 47]
+全部打包完成。
+--- 打包 Tile11 結束 ---
+--- 打包 Tile12 ---
+已確認輸出目錄：output_data_packaged\tile12.2_OGShuffle
+偵測到 48 個 Filter，共 24 組，每組分配 2 個檔案，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0, 4]
+  已生成 Weight0.1.txt 	包含 Filter: [1, 5]
+  已生成 Weight0.2.txt 	包含 Filter: [2, 6]
+  已生成 Weight0.3.txt 	包含 Filter: [3, 7]
+  已生成 Weight1.0.txt 	包含 Filter: [8, 12]
+  已生成 Weight1.1.txt 	包含 Filter: [9, 13]
+  已生成 Weight1.2.txt 	包含 Filter: [10, 14]
+  已生成 Weight1.3.txt 	包含 Filter: [11, 15]
+  已生成 Weight2.0.txt 	包含 Filter: [16, 20]
+  已生成 Weight2.1.txt 	包含 Filter: [17, 21]
+  已生成 Weight2.2.txt 	包含 Filter: [18, 22]
+  已生成 Weight2.3.txt 	包含 Filter: [19, 23]
+  已生成 Weight3.0.txt 	包含 Filter: [24, 28]
+  已生成 Weight3.1.txt 	包含 Filter: [25, 29]
+  已生成 Weight3.2.txt 	包含 Filter: [26, 30]
+  已生成 Weight3.3.txt 	包含 Filter: [27, 31]
+  已生成 Weight4.0.txt 	包含 Filter: [32, 36]
+  已生成 Weight4.1.txt 	包含 Filter: [33, 37]
+  已生成 Weight4.2.txt 	包含 Filter: [34, 38]
+  已生成 Weight4.3.txt 	包含 Filter: [35, 39]
+  已生成 Weight5.0.txt 	包含 Filter: [40, 44]
+  已生成 Weight5.1.txt 	包含 Filter: [41, 45]
+  已生成 Weight5.2.txt 	包含 Filter: [42, 46]
+  已生成 Weight5.3.txt 	包含 Filter: [43, 47]
+
+--- 正在處理 Bias (24 Groups - Column Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0, 4]
+  已生成 Bias0.1.txt 	包含 Bias: [1, 5]
+  已生成 Bias0.2.txt 	包含 Bias: [2, 6]
+  已生成 Bias0.3.txt 	包含 Bias: [3, 7]
+  已生成 Bias1.0.txt 	包含 Bias: [8, 12]
+  已生成 Bias1.1.txt 	包含 Bias: [9, 13]
+  已生成 Bias1.2.txt 	包含 Bias: [10, 14]
+  已生成 Bias1.3.txt 	包含 Bias: [11, 15]
+  已生成 Bias2.0.txt 	包含 Bias: [16, 20]
+  已生成 Bias2.1.txt 	包含 Bias: [17, 21]
+  已生成 Bias2.2.txt 	包含 Bias: [18, 22]
+  已生成 Bias2.3.txt 	包含 Bias: [19, 23]
+  已生成 Bias3.0.txt 	包含 Bias: [24, 28]
+  已生成 Bias3.1.txt 	包含 Bias: [25, 29]
+  已生成 Bias3.2.txt 	包含 Bias: [26, 30]
+  已生成 Bias3.3.txt 	包含 Bias: [27, 31]
+  已生成 Bias4.0.txt 	包含 Bias: [32, 36]
+  已生成 Bias4.1.txt 	包含 Bias: [33, 37]
+  已生成 Bias4.2.txt 	包含 Bias: [34, 38]
+  已生成 Bias4.3.txt 	包含 Bias: [35, 39]
+  已生成 Bias5.0.txt 	包含 Bias: [40, 44]
+  已生成 Bias5.1.txt 	包含 Bias: [41, 45]
+  已生成 Bias5.2.txt 	包含 Bias: [42, 46]
+  已生成 Bias5.3.txt 	包含 Bias: [43, 47]
+全部打包完成。
+--- 打包 Tile12 結束 ---
+--- 打包 Tile13 ---
+已確認輸出目錄：
+  Main -> output_data_packaged\tile13.1_DownSamplingL
+偵測到 96 個 Filter，共 24 個 Group，每組分配 4 個檔案。
+--- Processing Filters (Block Base) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0, 4, 8, 12]
+  已生成 Weight0.1.txt 	包含 Filter: [1, 5, 9, 13]
+  已生成 Weight0.2.txt 	包含 Filter: [2, 6, 10, 14]
+  已生成 Weight0.3.txt 	包含 Filter: [3, 7, 11, 15]
+  已生成 Weight1.0.txt 	包含 Filter: [16, 20, 24, 28]
+  已生成 Weight1.1.txt 	包含 Filter: [17, 21, 25, 29]
+  已生成 Weight1.2.txt 	包含 Filter: [18, 22, 26, 30]
+  已生成 Weight1.3.txt 	包含 Filter: [19, 23, 27, 31]
+  已生成 Weight2.0.txt 	包含 Filter: [32, 36, 40, 44]
+  已生成 Weight2.1.txt 	包含 Filter: [33, 37, 41, 45]
+  已生成 Weight2.2.txt 	包含 Filter: [34, 38, 42, 46]
+  已生成 Weight2.3.txt 	包含 Filter: [35, 39, 43, 47]
+  已生成 Weight3.0.txt 	包含 Filter: [48, 52, 56, 60]
+  已生成 Weight3.1.txt 	包含 Filter: [49, 53, 57, 61]
+  已生成 Weight3.2.txt 	包含 Filter: [50, 54, 58, 62]
+  已生成 Weight3.3.txt 	包含 Filter: [51, 55, 59, 63]
+  已生成 Weight4.0.txt 	包含 Filter: [64, 68, 72, 76]
+  已生成 Weight4.1.txt 	包含 Filter: [65, 69, 73, 77]
+  已生成 Weight4.2.txt 	包含 Filter: [66, 70, 74, 78]
+  已生成 Weight4.3.txt 	包含 Filter: [67, 71, 75, 79]
+  已生成 Weight5.0.txt 	包含 Filter: [80, 84, 88, 92]
+  已生成 Weight5.1.txt 	包含 Filter: [81, 85, 89, 93]
+  已生成 Weight5.2.txt 	包含 Filter: [82, 86, 90, 94]
+  已生成 Weight5.3.txt 	包含 Filter: [83, 87, 91, 95]
+
+--- Processing Biases (Block Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0, 4, 8, 12]
+  已生成 Bias0.1.txt 	包含 Bias: [1, 5, 9, 13]
+  已生成 Bias0.2.txt 	包含 Bias: [2, 6, 10, 14]
+  已生成 Bias0.3.txt 	包含 Bias: [3, 7, 11, 15]
+  已生成 Bias1.0.txt 	包含 Bias: [16, 20, 24, 28]
+  已生成 Bias1.1.txt 	包含 Bias: [17, 21, 25, 29]
+  已生成 Bias1.2.txt 	包含 Bias: [18, 22, 26, 30]
+  已生成 Bias1.3.txt 	包含 Bias: [19, 23, 27, 31]
+  已生成 Bias2.0.txt 	包含 Bias: [32, 36, 40, 44]
+  已生成 Bias2.1.txt 	包含 Bias: [33, 37, 41, 45]
+  已生成 Bias2.2.txt 	包含 Bias: [34, 38, 42, 46]
+  已生成 Bias2.3.txt 	包含 Bias: [35, 39, 43, 47]
+  已生成 Bias3.0.txt 	包含 Bias: [48, 52, 56, 60]
+  已生成 Bias3.1.txt 	包含 Bias: [49, 53, 57, 61]
+  已生成 Bias3.2.txt 	包含 Bias: [50, 54, 58, 62]
+  已生成 Bias3.3.txt 	包含 Bias: [51, 55, 59, 63]
+  已生成 Bias4.0.txt 	包含 Bias: [64, 68, 72, 76]
+  已生成 Bias4.1.txt 	包含 Bias: [65, 69, 73, 77]
+  已生成 Bias4.2.txt 	包含 Bias: [66, 70, 74, 78]
+  已生成 Bias4.3.txt 	包含 Bias: [67, 71, 75, 79]
+  已生成 Bias5.0.txt 	包含 Bias: [80, 84, 88, 92]
+  已生成 Bias5.1.txt 	包含 Bias: [81, 85, 89, 93]
+  已生成 Bias5.2.txt 	包含 Bias: [82, 86, 90, 94]
+  已生成 Bias5.3.txt 	包含 Bias: [83, 87, 91, 95]
+打包完成。
+已確認輸出目錄：output_data_packaged\tile13.2_DownSamplingR
+偵測到 96 個 Filter，共 24 組，每組分配 4 個檔案，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0, 4, 8, 12]
+  已生成 Weight0.1.txt 	包含 Filter: [1, 5, 9, 13]
+  已生成 Weight0.2.txt 	包含 Filter: [2, 6, 10, 14]
+  已生成 Weight0.3.txt 	包含 Filter: [3, 7, 11, 15]
+  已生成 Weight1.0.txt 	包含 Filter: [16, 20, 24, 28]
+  已生成 Weight1.1.txt 	包含 Filter: [17, 21, 25, 29]
+  已生成 Weight1.2.txt 	包含 Filter: [18, 22, 26, 30]
+  已生成 Weight1.3.txt 	包含 Filter: [19, 23, 27, 31]
+  已生成 Weight2.0.txt 	包含 Filter: [32, 36, 40, 44]
+  已生成 Weight2.1.txt 	包含 Filter: [33, 37, 41, 45]
+  已生成 Weight2.2.txt 	包含 Filter: [34, 38, 42, 46]
+  已生成 Weight2.3.txt 	包含 Filter: [35, 39, 43, 47]
+  已生成 Weight3.0.txt 	包含 Filter: [48, 52, 56, 60]
+  已生成 Weight3.1.txt 	包含 Filter: [49, 53, 57, 61]
+  已生成 Weight3.2.txt 	包含 Filter: [50, 54, 58, 62]
+  已生成 Weight3.3.txt 	包含 Filter: [51, 55, 59, 63]
+  已生成 Weight4.0.txt 	包含 Filter: [64, 68, 72, 76]
+  已生成 Weight4.1.txt 	包含 Filter: [65, 69, 73, 77]
+  已生成 Weight4.2.txt 	包含 Filter: [66, 70, 74, 78]
+  已生成 Weight4.3.txt 	包含 Filter: [67, 71, 75, 79]
+  已生成 Weight5.0.txt 	包含 Filter: [80, 84, 88, 92]
+  已生成 Weight5.1.txt 	包含 Filter: [81, 85, 89, 93]
+  已生成 Weight5.2.txt 	包含 Filter: [82, 86, 90, 94]
+  已生成 Weight5.3.txt 	包含 Filter: [83, 87, 91, 95]
+
+--- 正在處理 Bias (24 Groups - Column Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0, 4, 8, 12]
+  已生成 Bias0.1.txt 	包含 Bias: [1, 5, 9, 13]
+  已生成 Bias0.2.txt 	包含 Bias: [2, 6, 10, 14]
+  已生成 Bias0.3.txt 	包含 Bias: [3, 7, 11, 15]
+  已生成 Bias1.0.txt 	包含 Bias: [16, 20, 24, 28]
+  已生成 Bias1.1.txt 	包含 Bias: [17, 21, 25, 29]
+  已生成 Bias1.2.txt 	包含 Bias: [18, 22, 26, 30]
+  已生成 Bias1.3.txt 	包含 Bias: [19, 23, 27, 31]
+  已生成 Bias2.0.txt 	包含 Bias: [32, 36, 40, 44]
+  已生成 Bias2.1.txt 	包含 Bias: [33, 37, 41, 45]
+  已生成 Bias2.2.txt 	包含 Bias: [34, 38, 42, 46]
+  已生成 Bias2.3.txt 	包含 Bias: [35, 39, 43, 47]
+  已生成 Bias3.0.txt 	包含 Bias: [48, 52, 56, 60]
+  已生成 Bias3.1.txt 	包含 Bias: [49, 53, 57, 61]
+  已生成 Bias3.2.txt 	包含 Bias: [50, 54, 58, 62]
+  已生成 Bias3.3.txt 	包含 Bias: [51, 55, 59, 63]
+  已生成 Bias4.0.txt 	包含 Bias: [64, 68, 72, 76]
+  已生成 Bias4.1.txt 	包含 Bias: [65, 69, 73, 77]
+  已生成 Bias4.2.txt 	包含 Bias: [66, 70, 74, 78]
+  已生成 Bias4.3.txt 	包含 Bias: [67, 71, 75, 79]
+  已生成 Bias5.0.txt 	包含 Bias: [80, 84, 88, 92]
+  已生成 Bias5.1.txt 	包含 Bias: [81, 85, 89, 93]
+  已生成 Bias5.2.txt 	包含 Bias: [82, 86, 90, 94]
+  已生成 Bias5.3.txt 	包含 Bias: [83, 87, 91, 95]
+全部打包完成。
+--- 打包 Tile13 結束 ---
+--- 打包 Tile14 ---
+已確認輸出目錄：output_data_packaged\tile14.2_OGShuffle
+偵測到 96 個 Filter，共 24 組，每組分配 4 個檔案，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0, 4, 8, 12]
+  已生成 Weight0.1.txt 	包含 Filter: [1, 5, 9, 13]
+  已生成 Weight0.2.txt 	包含 Filter: [2, 6, 10, 14]
+  已生成 Weight0.3.txt 	包含 Filter: [3, 7, 11, 15]
+  已生成 Weight1.0.txt 	包含 Filter: [16, 20, 24, 28]
+  已生成 Weight1.1.txt 	包含 Filter: [17, 21, 25, 29]
+  已生成 Weight1.2.txt 	包含 Filter: [18, 22, 26, 30]
+  已生成 Weight1.3.txt 	包含 Filter: [19, 23, 27, 31]
+  已生成 Weight2.0.txt 	包含 Filter: [32, 36, 40, 44]
+  已生成 Weight2.1.txt 	包含 Filter: [33, 37, 41, 45]
+  已生成 Weight2.2.txt 	包含 Filter: [34, 38, 42, 46]
+  已生成 Weight2.3.txt 	包含 Filter: [35, 39, 43, 47]
+  已生成 Weight3.0.txt 	包含 Filter: [48, 52, 56, 60]
+  已生成 Weight3.1.txt 	包含 Filter: [49, 53, 57, 61]
+  已生成 Weight3.2.txt 	包含 Filter: [50, 54, 58, 62]
+  已生成 Weight3.3.txt 	包含 Filter: [51, 55, 59, 63]
+  已生成 Weight4.0.txt 	包含 Filter: [64, 68, 72, 76]
+  已生成 Weight4.1.txt 	包含 Filter: [65, 69, 73, 77]
+  已生成 Weight4.2.txt 	包含 Filter: [66, 70, 74, 78]
+  已生成 Weight4.3.txt 	包含 Filter: [67, 71, 75, 79]
+  已生成 Weight5.0.txt 	包含 Filter: [80, 84, 88, 92]
+  已生成 Weight5.1.txt 	包含 Filter: [81, 85, 89, 93]
+  已生成 Weight5.2.txt 	包含 Filter: [82, 86, 90, 94]
+  已生成 Weight5.3.txt 	包含 Filter: [83, 87, 91, 95]
+
+--- 正在處理 Bias (24 Groups - Column Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0, 4, 8, 12]
+  已生成 Bias0.1.txt 	包含 Bias: [1, 5, 9, 13]
+  已生成 Bias0.2.txt 	包含 Bias: [2, 6, 10, 14]
+  已生成 Bias0.3.txt 	包含 Bias: [3, 7, 11, 15]
+  已生成 Bias1.0.txt 	包含 Bias: [16, 20, 24, 28]
+  已生成 Bias1.1.txt 	包含 Bias: [17, 21, 25, 29]
+  已生成 Bias1.2.txt 	包含 Bias: [18, 22, 26, 30]
+  已生成 Bias1.3.txt 	包含 Bias: [19, 23, 27, 31]
+  已生成 Bias2.0.txt 	包含 Bias: [32, 36, 40, 44]
+  已生成 Bias2.1.txt 	包含 Bias: [33, 37, 41, 45]
+  已生成 Bias2.2.txt 	包含 Bias: [34, 38, 42, 46]
+  已生成 Bias2.3.txt 	包含 Bias: [35, 39, 43, 47]
+  已生成 Bias3.0.txt 	包含 Bias: [48, 52, 56, 60]
+  已生成 Bias3.1.txt 	包含 Bias: [49, 53, 57, 61]
+  已生成 Bias3.2.txt 	包含 Bias: [50, 54, 58, 62]
+  已生成 Bias3.3.txt 	包含 Bias: [51, 55, 59, 63]
+  已生成 Bias4.0.txt 	包含 Bias: [64, 68, 72, 76]
+  已生成 Bias4.1.txt 	包含 Bias: [65, 69, 73, 77]
+  已生成 Bias4.2.txt 	包含 Bias: [66, 70, 74, 78]
+  已生成 Bias4.3.txt 	包含 Bias: [67, 71, 75, 79]
+  已生成 Bias5.0.txt 	包含 Bias: [80, 84, 88, 92]
+  已生成 Bias5.1.txt 	包含 Bias: [81, 85, 89, 93]
+  已生成 Bias5.2.txt 	包含 Bias: [82, 86, 90, 94]
+  已生成 Bias5.3.txt 	包含 Bias: [83, 87, 91, 95]
+全部打包完成。
+--- 打包 Tile14 結束 ---
+--- 打包 Tile15 ---
+已確認輸出目錄：output_data_packaged\tile15.2_OGShuffle
+偵測到 96 個 Filter，共 24 組，每組分配 4 個檔案，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0, 4, 8, 12]
+  已生成 Weight0.1.txt 	包含 Filter: [1, 5, 9, 13]
+  已生成 Weight0.2.txt 	包含 Filter: [2, 6, 10, 14]
+  已生成 Weight0.3.txt 	包含 Filter: [3, 7, 11, 15]
+  已生成 Weight1.0.txt 	包含 Filter: [16, 20, 24, 28]
+  已生成 Weight1.1.txt 	包含 Filter: [17, 21, 25, 29]
+  已生成 Weight1.2.txt 	包含 Filter: [18, 22, 26, 30]
+  已生成 Weight1.3.txt 	包含 Filter: [19, 23, 27, 31]
+  已生成 Weight2.0.txt 	包含 Filter: [32, 36, 40, 44]
+  已生成 Weight2.1.txt 	包含 Filter: [33, 37, 41, 45]
+  已生成 Weight2.2.txt 	包含 Filter: [34, 38, 42, 46]
+  已生成 Weight2.3.txt 	包含 Filter: [35, 39, 43, 47]
+  已生成 Weight3.0.txt 	包含 Filter: [48, 52, 56, 60]
+  已生成 Weight3.1.txt 	包含 Filter: [49, 53, 57, 61]
+  已生成 Weight3.2.txt 	包含 Filter: [50, 54, 58, 62]
+  已生成 Weight3.3.txt 	包含 Filter: [51, 55, 59, 63]
+  已生成 Weight4.0.txt 	包含 Filter: [64, 68, 72, 76]
+  已生成 Weight4.1.txt 	包含 Filter: [65, 69, 73, 77]
+  已生成 Weight4.2.txt 	包含 Filter: [66, 70, 74, 78]
+  已生成 Weight4.3.txt 	包含 Filter: [67, 71, 75, 79]
+  已生成 Weight5.0.txt 	包含 Filter: [80, 84, 88, 92]
+  已生成 Weight5.1.txt 	包含 Filter: [81, 85, 89, 93]
+  已生成 Weight5.2.txt 	包含 Filter: [82, 86, 90, 94]
+  已生成 Weight5.3.txt 	包含 Filter: [83, 87, 91, 95]
+
+--- 正在處理 Bias (24 Groups - Column Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0, 4, 8, 12]
+  已生成 Bias0.1.txt 	包含 Bias: [1, 5, 9, 13]
+  已生成 Bias0.2.txt 	包含 Bias: [2, 6, 10, 14]
+  已生成 Bias0.3.txt 	包含 Bias: [3, 7, 11, 15]
+  已生成 Bias1.0.txt 	包含 Bias: [16, 20, 24, 28]
+  已生成 Bias1.1.txt 	包含 Bias: [17, 21, 25, 29]
+  已生成 Bias1.2.txt 	包含 Bias: [18, 22, 26, 30]
+  已生成 Bias1.3.txt 	包含 Bias: [19, 23, 27, 31]
+  已生成 Bias2.0.txt 	包含 Bias: [32, 36, 40, 44]
+  已生成 Bias2.1.txt 	包含 Bias: [33, 37, 41, 45]
+  已生成 Bias2.2.txt 	包含 Bias: [34, 38, 42, 46]
+  已生成 Bias2.3.txt 	包含 Bias: [35, 39, 43, 47]
+  已生成 Bias3.0.txt 	包含 Bias: [48, 52, 56, 60]
+  已生成 Bias3.1.txt 	包含 Bias: [49, 53, 57, 61]
+  已生成 Bias3.2.txt 	包含 Bias: [50, 54, 58, 62]
+  已生成 Bias3.3.txt 	包含 Bias: [51, 55, 59, 63]
+  已生成 Bias4.0.txt 	包含 Bias: [64, 68, 72, 76]
+  已生成 Bias4.1.txt 	包含 Bias: [65, 69, 73, 77]
+  已生成 Bias4.2.txt 	包含 Bias: [66, 70, 74, 78]
+  已生成 Bias4.3.txt 	包含 Bias: [67, 71, 75, 79]
+  已生成 Bias5.0.txt 	包含 Bias: [80, 84, 88, 92]
+  已生成 Bias5.1.txt 	包含 Bias: [81, 85, 89, 93]
+  已生成 Bias5.2.txt 	包含 Bias: [82, 86, 90, 94]
+  已生成 Bias5.3.txt 	包含 Bias: [83, 87, 91, 95]
+全部打包完成。
+--- 打包 Tile15 結束 ---
+--- 打包 Tile16 ---
+已確認輸出目錄：output_data_packaged\tile16.2_OGShuffle
+偵測到 96 個 Filter，共 24 組，每組分配 4 個檔案，開始打包...
+--- 正在處理 Filter (24 Groups) ---
+  已生成 Weight0.0.txt 	包含 Filter: [0, 4, 8, 12]
+  已生成 Weight0.1.txt 	包含 Filter: [1, 5, 9, 13]
+  已生成 Weight0.2.txt 	包含 Filter: [2, 6, 10, 14]
+  已生成 Weight0.3.txt 	包含 Filter: [3, 7, 11, 15]
+  已生成 Weight1.0.txt 	包含 Filter: [16, 20, 24, 28]
+  已生成 Weight1.1.txt 	包含 Filter: [17, 21, 25, 29]
+  已生成 Weight1.2.txt 	包含 Filter: [18, 22, 26, 30]
+  已生成 Weight1.3.txt 	包含 Filter: [19, 23, 27, 31]
+  已生成 Weight2.0.txt 	包含 Filter: [32, 36, 40, 44]
+  已生成 Weight2.1.txt 	包含 Filter: [33, 37, 41, 45]
+  已生成 Weight2.2.txt 	包含 Filter: [34, 38, 42, 46]
+  已生成 Weight2.3.txt 	包含 Filter: [35, 39, 43, 47]
+  已生成 Weight3.0.txt 	包含 Filter: [48, 52, 56, 60]
+  已生成 Weight3.1.txt 	包含 Filter: [49, 53, 57, 61]
+  已生成 Weight3.2.txt 	包含 Filter: [50, 54, 58, 62]
+  已生成 Weight3.3.txt 	包含 Filter: [51, 55, 59, 63]
+  已生成 Weight4.0.txt 	包含 Filter: [64, 68, 72, 76]
+  已生成 Weight4.1.txt 	包含 Filter: [65, 69, 73, 77]
+  已生成 Weight4.2.txt 	包含 Filter: [66, 70, 74, 78]
+  已生成 Weight4.3.txt 	包含 Filter: [67, 71, 75, 79]
+  已生成 Weight5.0.txt 	包含 Filter: [80, 84, 88, 92]
+  已生成 Weight5.1.txt 	包含 Filter: [81, 85, 89, 93]
+  已生成 Weight5.2.txt 	包含 Filter: [82, 86, 90, 94]
+  已生成 Weight5.3.txt 	包含 Filter: [83, 87, 91, 95]
+
+--- 正在處理 Bias (24 Groups - Column Base) ---
+  已生成 Bias0.0.txt 	包含 Bias: [0, 4, 8, 12]
+  已生成 Bias0.1.txt 	包含 Bias: [1, 5, 9, 13]
+  已生成 Bias0.2.txt 	包含 Bias: [2, 6, 10, 14]
+  已生成 Bias0.3.txt 	包含 Bias: [3, 7, 11, 15]
+  已生成 Bias1.0.txt 	包含 Bias: [16, 20, 24, 28]
+  已生成 Bias1.1.txt 	包含 Bias: [17, 21, 25, 29]
+  已生成 Bias1.2.txt 	包含 Bias: [18, 22, 26, 30]
+  已生成 Bias1.3.txt 	包含 Bias: [19, 23, 27, 31]
+  已生成 Bias2.0.txt 	包含 Bias: [32, 36, 40, 44]
+  已生成 Bias2.1.txt 	包含 Bias: [33, 37, 41, 45]
+  已生成 Bias2.2.txt 	包含 Bias: [34, 38, 42, 46]
+  已生成 Bias2.3.txt 	包含 Bias: [35, 39, 43, 47]
+  已生成 Bias3.0.txt 	包含 Bias: [48, 52, 56, 60]
+  已生成 Bias3.1.txt 	包含 Bias: [49, 53, 57, 61]
+  已生成 Bias3.2.txt 	包含 Bias: [50, 54, 58, 62]
+  已生成 Bias3.3.txt 	包含 Bias: [51, 55, 59, 63]
+  已生成 Bias4.0.txt 	包含 Bias: [64, 68, 72, 76]
+  已生成 Bias4.1.txt 	包含 Bias: [65, 69, 73, 77]
+  已生成 Bias4.2.txt 	包含 Bias: [66, 70, 74, 78]
+  已生成 Bias4.3.txt 	包含 Bias: [67, 71, 75, 79]
+  已生成 Bias5.0.txt 	包含 Bias: [80, 84, 88, 92]
+  已生成 Bias5.1.txt 	包含 Bias: [81, 85, 89, 93]
+  已生成 Bias5.2.txt 	包含 Bias: [82, 86, 90, 94]
+  已生成 Bias5.3.txt 	包含 Bias: [83, 87, 91, 95]
+全部打包完成。
+--- 打包 Tile16 結束 ---
+--- 打包 Tile17 ---
+已確認輸出目錄：c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_packaged\tile17_ConvLast_FC
+正在處理 960 個單元 (實體 960 + 補零 0)...
+每組 Group 分配 40 個檔案。
+--- 正在處理 Filter (Block Base) ---
+  已生成 Weight0.0.txt   包含 Filter: [0, 4, ..., 156] 
+  已生成 Weight0.1.txt   包含 Filter: [1, 5, ..., 157] 
+  已生成 Weight0.2.txt   包含 Filter: [2, 6, ..., 158] 
+  已生成 Weight0.3.txt   包含 Filter: [3, 7, ..., 159] 
+  已生成 Weight1.0.txt   包含 Filter: [160, 164, ..., 316] 
+  已生成 Weight1.1.txt   包含 Filter: [161, 165, ..., 317] 
+  已生成 Weight1.2.txt   包含 Filter: [162, 166, ..., 318] 
+  已生成 Weight1.3.txt   包含 Filter: [163, 167, ..., 319] 
+  已生成 Weight2.0.txt   包含 Filter: [320, 324, ..., 476] 
+  已生成 Weight2.1.txt   包含 Filter: [321, 325, ..., 477] 
+  已生成 Weight2.2.txt   包含 Filter: [322, 326, ..., 478] 
+  已生成 Weight2.3.txt   包含 Filter: [323, 327, ..., 479] 
+  已生成 Weight3.0.txt   包含 Filter: [480, 484, ..., 636] 
+  已生成 Weight3.1.txt   包含 Filter: [481, 485, ..., 637] 
+  已生成 Weight3.2.txt   包含 Filter: [482, 486, ..., 638] 
+  已生成 Weight3.3.txt   包含 Filter: [483, 487, ..., 639] 
+  已生成 Weight4.0.txt   包含 Filter: [640, 644, ..., 796] 
+  已生成 Weight4.1.txt   包含 Filter: [641, 645, ..., 797] 
+  已生成 Weight4.2.txt   包含 Filter: [642, 646, ..., 798] 
+  已生成 Weight4.3.txt   包含 Filter: [643, 647, ..., 799] 
+  已生成 Weight5.0.txt   包含 Filter: [800, 804, ..., 956] 
+  已生成 Weight5.1.txt   包含 Filter: [801, 805, ..., 957] 
+  已生成 Weight5.2.txt   包含 Filter: [802, 806, ..., 958] 
+  已生成 Weight5.3.txt   包含 Filter: [803, 807, ..., 959] 
+
+--- 正在處理 Bias (Block Base) ---
+  已生成 Bias0.0.txt     包含 Bias:   [0, 4, ..., 156] 
+  已生成 Bias0.1.txt     包含 Bias:   [1, 5, ..., 157] 
+  已生成 Bias0.2.txt     包含 Bias:   [2, 6, ..., 158] 
+  已生成 Bias0.3.txt     包含 Bias:   [3, 7, ..., 159] 
+  已生成 Bias1.0.txt     包含 Bias:   [160, 164, ..., 316] 
+  已生成 Bias1.1.txt     包含 Bias:   [161, 165, ..., 317] 
+  已生成 Bias1.2.txt     包含 Bias:   [162, 166, ..., 318] 
+  已生成 Bias1.3.txt     包含 Bias:   [163, 167, ..., 319] 
+  已生成 Bias2.0.txt     包含 Bias:   [320, 324, ..., 476] 
+  已生成 Bias2.1.txt     包含 Bias:   [321, 325, ..., 477] 
+  已生成 Bias2.2.txt     包含 Bias:   [322, 326, ..., 478] 
+  已生成 Bias2.3.txt     包含 Bias:   [323, 327, ..., 479] 
+  已生成 Bias3.0.txt     包含 Bias:   [480, 484, ..., 636] 
+  已生成 Bias3.1.txt     包含 Bias:   [481, 485, ..., 637] 
+  已生成 Bias3.2.txt     包含 Bias:   [482, 486, ..., 638] 
+  已生成 Bias3.3.txt     包含 Bias:   [483, 487, ..., 639] 
+  已生成 Bias4.0.txt     包含 Bias:   [640, 644, ..., 796] 
+  已生成 Bias4.1.txt     包含 Bias:   [641, 645, ..., 797] 
+  已生成 Bias4.2.txt     包含 Bias:   [642, 646, ..., 798] 
+  已生成 Bias4.3.txt     包含 Bias:   [643, 647, ..., 799] 
+  已生成 Bias5.0.txt     包含 Bias:   [800, 804, ..., 956] 
+  已生成 Bias5.1.txt     包含 Bias:   [801, 805, ..., 957] 
+  已生成 Bias5.2.txt     包含 Bias:   [802, 806, ..., 958] 
+  已生成 Bias5.3.txt     包含 Bias:   [803, 807, ..., 959] 
+打包完成。
+--- 打包 Tile17 結束 ---
+--- 打包 Tile18 ---
+來源目錄: c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_split\fc_filters
+目標目錄: c:\Users\legoa\NCU\專題\專題內容\組譯器\WeightBiasRearranger\V7\output_data_packaged\tile17_ConvLast_FC
+------------------------------
+[Success] 已將 Filter0.txt 附加至 Weight0.0.txt
+[Success] 已將 Filter1.txt 附加至 Weight0.1.txt
+[Success] 已將 Filter2.txt 附加至 Weight0.2.txt
+[Success] 已將 Filter3.txt 附加至 Weight0.3.txt
+[Success] 已將 Bias0.txt 附加至 Bias0.0.txt
+[Success] 已將 Bias1.txt 附加至 Bias0.1.txt
+[Success] 已將 Bias2.txt 附加至 Bias0.2.txt
+[Success] 已將 Bias3.txt 附加至 Bias0.3.txt
+------------------------------
+已更新目錄：output_data_packaged\tile17_ConvLast_FC
+操作完成：output_data_split 的資料已附加在 tile17 原始資料之後。
+--- 打包 Tile18 結束 ---
+--- [Step 2] 結束權重與資料打包流程 ---

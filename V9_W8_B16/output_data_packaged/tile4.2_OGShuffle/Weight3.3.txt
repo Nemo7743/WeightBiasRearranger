@@ -1,0 +1,19 @@
+77 1f 18 da
+c8 06 ee fd
+02 f3 f0 23
+ea 00 fb ec
+dc 2e 01 1a
+38 00 01 f5
+
+
+76 ef 6e 00
+3d a4 3b 00
+5d 3e 3c 00
+
+
+11 04 f8 f7
+0a 13 f8 f0
+f2 0e 05 0f
+02 fe 07 17
+0a 88 dd 07
+fe 48 c0 0d

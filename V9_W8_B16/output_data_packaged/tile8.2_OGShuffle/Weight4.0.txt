@@ -1,0 +1,61 @@
+0f 01 b0 c2
+e8 f2 e6 36
+e6 eb 16 1e
+fc f2 a2 06
+07 eb f3 09
+d9 f5 5c f4
+27 41 1a 08
+2f e8 df 07
+01 12 e5 0d
+fd 0b d8 15
+09 f4 eb 01
+f9 f9 fc 1a
+
+33 19 11 e9
+ea f0 54 29
+eb 08 12 24
+fb 06 c2 04
+29 ea e3 16
+66 fa ef 1a
+0f 10 32 03
+e2 e7 0a d4
+0a f2 3d f5
+de 04 d5 16
+ec 08 0e 0f
+0b f2 39 27
+
+
+0e 59 83 00
+5b 6d a9 00
+f4 c8 0d 00
+
+99 94 d8 00
+7a 68 85 00
+03 34 55 00
+
+
+f3 01 ed ba
+ac 1a db 02
+f8 47 f1 e0
+f6 fa 08 03
+f7 ff f5 16
+10 02 10 1f
+f1 37 06 18
+3f 21 e8 df
+f6 ec 03 2f
+2a 26 01 2b
+e5 19 c5 22
+fe fa 08 17
+
+2d fd e9 52
+e9 db ed f6
+e8 00 23 0e
+fe 0f 01 06
+f7 0b ef fe
+e1 f7 39 21
+30 14 f2 02
+fe 09 3b c3
+84 f3 f0 fd
+30 fa 08 1a
+f1 b3 12 55
+e3 f9 80 16

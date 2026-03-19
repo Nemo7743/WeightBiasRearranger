@@ -1,0 +1,19 @@
+fd f2 fd f3
+e6 fd 08 01
+f8 12 05 f5
+57 00 07 01
+01 06 0f fa
+c8 00 f0 09
+
+
+a2 c0 c4 00
+ce 48 8d 00
+be ad b3 00
+
+
+f2 06 11 bc
+07 8b f9 e4
+ee 14 0d f3
+0a 15 d9 ff
+b3 19 ec 9d
+08 3c 59 fc

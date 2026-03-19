@@ -1,0 +1,19 @@
+61 fd 1b fa
+6e 14 54 fe
+00 db f8 ea
+2e fa f6 0a
+01 e9 33 f8
+fe e3 ca 28
+
+
+19 f6 fa 00
+33 e1 0b 00
+00 7c 07 00
+
+
+0a eb fc f7
+05 f3 d8 f5
+ea f3 d8 5e
+ff f9 2f fe
+1a ff f9 bb
+2c 17 fb 4e
