@@ -1,0 +1,2 @@
+1.分析Unit0_1_PreP.xlsx
+2.將Unit0_1_PreP.xlsx中所有的Requant_Sel[3]欄位以文字的形式填上000，不要通用格式，因為011會變成11
