@@ -1,0 +1,10 @@
+根據以下要求設計計畫。
+
+閱讀"python_code"資料夾中的"python_code\M_Unit0_1_PreP.py"及"python_code\VLIW_Modify_Skill.md"以了解狀況。新建一個python程式碼"M_Unit0_2_Conv1_MaxPool.py"並參考"python_code\M_Unit0_1_PreP.py"的用法並新增以下要求：
+
+1.專門處理"Unit0_2_Conv1_MaxPool.xlsx"
+2."Unit0_2_Conv1_MaxPool.xlsx"中有很多條VLIW：
+(1)"input"那幾條一樣填文字"000"
+(2)"conv1"那幾條改為填文字"100"
+(3)"max"那幾條一樣填文字"000"
+(4)"output"那條一樣填文字"000"
