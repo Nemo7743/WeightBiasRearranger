@@ -1,0 +1,6 @@
+0040 0002 0005 000b
+0015 ffdb ffd3 fff2
+ffea ffbd 0026 fff1
+001e 000b 0012 0029
+ff83 0016 0011 fffc
+0028 ffda ffea ffee

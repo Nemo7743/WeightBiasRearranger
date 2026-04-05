@@ -1,0 +1,4 @@
+修改內容：修改了所有的 change buffer sel (4bit -> 6bit; 舉例：Stage 4 SU3: 1111 -> 110101)
+
+問題：不太清楚怎麼讓conv last提前傳權重。
+我猜：沒這次我猜不出來。

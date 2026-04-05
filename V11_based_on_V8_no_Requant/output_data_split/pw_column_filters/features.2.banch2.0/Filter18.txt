@@ -1,0 +1,6 @@
+0018 ffd3 ffe2 0048
+0000 000c fff0 ffc9
+0000 001d 007e ffb3
+0019 ffad 002b 0023
+fff0 0035 0000 0018
+fffd 0012 ffe3 ffcb

@@ -1,0 +1,3 @@
+ffd3 ff27 ffaa 0000
+ffbc ff5e ff64 0000
+0015 ffd5 ffe3 0000

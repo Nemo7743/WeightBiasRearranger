@@ -1,0 +1,61 @@
+ffeb 0000 ffe7 fff7
+ffe1 ffee 0012 fffc
+002a ffd9 002a fffa
+0021 0012 fffa 0004
+0002 0002 0012 001f
+ffe4 ffe2 fffc fffc
+ffe8 fff0 0001 001a
+0017 ffed 0023 000c
+0007 001c 0013 0022
+000f ffd3 002a 001e
+ffd3 fff5 ffeb fff1
+0020 fff7 fff1 0025
+
+004c fffa 002f fff3
+ffdd ffb1 0004 ffd8
+004e ffd1 ffea ffe4
+0004 001b 0008 0032
+001c ffe0 fff6 001f
+ffd9 ffdb 0001 0002
+0019 fff5 0010 ffd3
+ffff ffe2 0041 0012
+ffe9 0006 002b 000d
+0030 0027 ffe3 0009
+001e 001b 0025 0002
+0007 ffcc 001a 0005
+
+
+ffc8 ff86 ffce 0000
+ff9e fe4d 005d 0000
+ff99 ff50 ffc7 0000
+
+0033 007e 0043 0000
+0099 ffec 009f 0000
+0039 007c 004d 0000
+
+
+000c fffb ffe6 ffc4
+ffd5 001e 0007 fff6
+fff9 ffee 0020 ffe6
+0022 ffe2 fff9 ffe8
+ffff 0009 0009 ffef
+0005 ffdc 0008 fff3
+0004 0003 fff4 0001
+ffe4 fff6 fff9 fff5
+000b ffd0 000d fff5
+ffef 000e 0002 ffef
+fffd 000a 0008 ffed
+ffd9 0028 fff7 000e
+
+0003 000b 001f 0005
+0017 fffd fffd ffd6
+ffed 002f 0048 002d
+fffb ffe9 fff8 0005
+0000 ffc4 fff4 ffe9
+ffdc ffd0 0008 001f
+0000 000b 0002 0007
+000c ffc1 fffe ffcd
+000f ffed 0015 0012
+ffe6 0004 0008 001d
+ffdd ffc6 ffef 0022
+ffe6 0024 ffcc ffe4

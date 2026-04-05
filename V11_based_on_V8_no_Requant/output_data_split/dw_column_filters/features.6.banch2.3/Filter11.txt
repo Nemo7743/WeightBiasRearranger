@@ -1,0 +1,3 @@
+0014 ffcb fff2 0000
+ffad ff47 ffbf 0000
+fff1 fe41 ff97 0000

@@ -1,0 +1,3 @@
+00cd 00bb 00c5 0000
+0041 ffed 002d 0000
+ffa6 ffac ffe5 0000

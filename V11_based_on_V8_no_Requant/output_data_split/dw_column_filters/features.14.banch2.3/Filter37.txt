@@ -1,0 +1,3 @@
+ffd3 ff2f ffdc 0000
+0078 0248 00cd 0000
+ffd5 ff41 ffe9 0000

@@ -1,0 +1,19 @@
+0002 0000 0000 000d
+0001 000a 0000 ffee
+0047 000d 0000 ffff
+0000 000e ffe5 fff6
+0000 003b 0000 fff6
+fffa 0047 ffe7 0000
+
+
+fff7 ffef ffe0 0000
+ffdc ff82 ff80 0000
+ffe7 ff9f ff9c 0000
+
+
+fff7 0012 ffe4 ffc8
+ffd4 fffe 000d 0001
+0000 fffc 000f ffeb
+0000 fff9 0005 ffdf
+fffa 0000 fff0 ff6f
+000b 0006 0023 ffe3

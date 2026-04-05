@@ -1,0 +1,3 @@
+ffde fed4 ffa6 0000
+ffe1 ff0b ffed 0000
+0019 006b 0024 0000

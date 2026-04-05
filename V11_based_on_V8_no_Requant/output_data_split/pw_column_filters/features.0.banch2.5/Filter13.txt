@@ -1,0 +1,6 @@
+0021 fff8 0008 0005
+ffa0 ffe1 000b ffe8
+0000 ff82 ffb3 0064
+0000 ffbf fff5 0010
+fffe 0000 000a ffe5
+fffd ffe2 ffc1 fffe

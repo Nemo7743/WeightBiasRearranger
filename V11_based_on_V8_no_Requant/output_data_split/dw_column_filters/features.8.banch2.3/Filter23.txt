@@ -1,0 +1,3 @@
+ffad fe7c ffcb 0000
+ffe4 000d ffdd 0000
+ffef 0041 ffdd 0000

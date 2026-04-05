@@ -1,0 +1,3 @@
+ffdd ff80 ffe4 0000
+ff5a ff30 ffdc 0000
+ffd4 ff70 ffde 0000
