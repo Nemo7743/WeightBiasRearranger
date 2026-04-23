@@ -1,0 +1,3 @@
+ffed ffda 0069 0000
+ff4a fda2 0015 0000
+ffed ffe1 006e 0000

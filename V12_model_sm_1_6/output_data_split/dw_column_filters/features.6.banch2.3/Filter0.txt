@@ -1,0 +1,3 @@
+0006 000f fff2 0000
+000c fefa ff59 0000
+ffe0 ff53 ffdd 0000

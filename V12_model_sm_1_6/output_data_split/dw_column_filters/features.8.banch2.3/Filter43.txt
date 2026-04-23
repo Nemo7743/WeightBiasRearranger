@@ -1,0 +1,3 @@
+ffd7 000f ffc4 0000
+fff9 0370 ff41 0000
+ffd3 ffe2 ff9d 0000

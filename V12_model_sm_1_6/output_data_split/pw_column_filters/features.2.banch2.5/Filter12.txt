@@ -1,0 +1,6 @@
+000e 001a 0003 fff7
+ffed 001e ffec ffe3
+0018 ffff ffe8 000d
+ffd0 0009 0009 ffe0
+ffdd ffe0 fff2 ffed
+ffc4 ffd8 0015 006c

@@ -1,0 +1,3 @@
+ffd0 ffa8 ffb8 0000
+ff99 ff5b ff73 0000
+ffb8 ff68 ff8c 0000

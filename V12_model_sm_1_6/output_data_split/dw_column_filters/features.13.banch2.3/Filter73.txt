@@ -1,0 +1,3 @@
+ffd3 ff65 ffd5 0000
+ff87 ff63 ff58 0000
+ffd2 ff55 ffc3 0000

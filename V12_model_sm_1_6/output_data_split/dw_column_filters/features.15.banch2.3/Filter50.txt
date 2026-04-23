@@ -1,0 +1,3 @@
+ffc5 ffbb ffd8 0000
+ff8f feaf ffdf 0000
+ffc8 ffaf ffd6 0000

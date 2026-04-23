@@ -1,0 +1,3 @@
+ff57 ff20 ff5f 0000
+00b4 02ec ffad 0000
+ff63 ff1a ff67 0000

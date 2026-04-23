@@ -1,0 +1,3 @@
+ffb2 fe14 ffac 0000
+fffa 0028 fffc 0000
+004f 01ac 0062 0000

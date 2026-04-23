@@ -1,0 +1,3 @@
+ffd0 ff90 ffb2 0000
+ff8d fef9 ff32 0000
+ffaa ff39 ff69 0000

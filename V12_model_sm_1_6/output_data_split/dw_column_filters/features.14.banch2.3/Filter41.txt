@@ -1,0 +1,3 @@
+ffd9 ff5f fffc 0000
+0062 fe4e 002c 0000
+ffdf ff4b fffa 0000

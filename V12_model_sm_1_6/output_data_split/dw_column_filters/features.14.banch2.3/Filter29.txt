@@ -1,0 +1,3 @@
+ff38 ff69 ff76 0000
+ff64 fedf ffc8 0000
+ff3a ff68 ff80 0000

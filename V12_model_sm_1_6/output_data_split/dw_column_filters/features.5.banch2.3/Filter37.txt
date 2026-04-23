@@ -1,0 +1,3 @@
+ffea ff80 ffc6 0000
+ff6d 02e4 ffa6 0000
+ffb0 0019 ffbd 0000

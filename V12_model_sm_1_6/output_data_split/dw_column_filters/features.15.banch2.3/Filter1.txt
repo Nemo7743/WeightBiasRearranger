@@ -1,0 +1,3 @@
+fffc 008d ffdc 0000
+00ac 0104 0098 0000
+fffe 008e ffec 0000
