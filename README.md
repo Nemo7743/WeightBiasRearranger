@@ -11,15 +11,25 @@
 | V8   | `V8/`              | 8-bit (原始) | 32-bit (原始) | 穩定版，直接使用 `data_model` 原始資料 |
 | V9   | `V9_W8_B16/`       | 8-bit        | 16-bit        | 在 V8 基礎上對 Bias 截短為 16-bit |
 | V10  | `V10_W8_B32/`      | 8-bit        | 32-bit        | 在 V8 基礎上重新整理 Bias，保留完整 32-bit |
+| V12  | `V12_model_sm_1_6/` | 8-bit       | 32-bit        | 使用 ShuffleNet sm1.6 新版模型，指令集 `change buffer sel` 擴展為 6-bit |
 
 ---
 
-## V8（穩定版）
+## V12（model\_sm\_1\_6，最新版）
+
+### 與 V8 的主要差異
+
+| 項目 | V8 | V12 |
+|------|----|-----|
+| 模型資料 | 原始 ShuffleNetV2 | ShuffleNet sm1.6（約 59 個 weight/bias 檔案不同） |
+| `change buffer sel` 欄位 | 4-bit（例：`1111`） | 6-bit（例：`110101`） |
+| 指令集 Excel | `IS_260301.xlsx` | `IS_260403_devan_Backup_2.xlsx` |
+| 額外輸出工具 | 無 | `COE_To_Bin.ipynb`（COE → Binary 轉換） |
 
 ### 資料夾結構
 
 ```
-V8/
+V12_model_sm_1_6/
 ├── main.py                        # 主程式入口
 ├── a0_InstructionAssemblerV1.py   # Step 0：組合語言組譯器
 ├── b0_WeightBiasRearranger_All.py # Step 1：權重重排（總入口）
@@ -27,12 +37,22 @@ V8/
 ├── c0_WeightBiasPackager.py       # Step 2：權重打包（總入口）
 ├── c1~c6_*.py                     # Step 2：各 Tile 打包子程式
 ├── T_COE_Tool.py                  # 輔助工具：txt → .coe 轉換
+├── COE_To_Bin.ipynb               # 輔助工具：.coe → Binary 轉換（V12 新增）
 ├── Calculate_Output_Folder.py     # 輔助工具：輸出資料夾統計
+├── sm1.6_all_layers_weight_bias_64b.txt  # 所有層彙整的 64-bit 權重/偏置（V12 新增）
+├── sm1.6_layers_weight_bias_64b.bin      # 上述的 Binary 輸出（V12 新增）
 ├── data_instructions/             # 指令集相關檔案
-│   ├── InstructionSet.csv         # 指令集定義
-│   ├── instruction_input.txt      # 組合語言輸入
-│   └── instruction_output.txt     # 組譯結果輸出
-├── data_model/                    # 原始模型權重與偏置（hex 格式 txt）
+│   ├── Top_IS/
+│   │   ├── IS_260403_devan_Backup_2.xlsx  # 最新指令集 Excel（目前使用版本）
+│   │   ├── IS_260403_devan.xlsx           # Devan 修改版本
+│   │   ├── IS_260403_devan_Backup_0.xlsx  # 備份 0
+│   │   ├── IS_260403_devan_Backup_1.xlsx  # 備份 1
+│   │   ├── IS_260301_stabel_backup.xlsx   # V8 穩定版備份
+│   │   └── to_COE.py                      # Excel → .coe 轉換腳本
+│   ├── InstructionSet.csv
+│   ├── instruction_input.txt
+│   └── instruction_output.txt
+├── data_model/                    # sm1.6 模型權重與偏置（hex 格式 txt）
 ├── output_data_split/             # Step 1 輸出：重排後的資料
 └── output_data_packaged/          # Step 2 輸出：打包後的資料
 ```
@@ -44,7 +64,7 @@ V8/
 **Step 0 ~ 2：執行主程式**
 
 ```bash
-cd V8
+cd V12_model_sm_1_6
 python main.py
 ```
 
@@ -68,7 +88,22 @@ output_folder = r'output_data_packaged_COE'  # 輸出資料夾
 - 檔名含 `Weight` → 64-bit COE（原樣合併）
 - 檔名含 `Bias`   → 64-bit COE（每兩個 32-bit 合併，高低位互換）
 
-**Step 4（選用）：查看輸出資料夾統計**
+**Step 3.5（選用）：將 .coe 轉換為 Binary**
+
+開啟 `COE_To_Bin.ipynb` 並執行，將 COE 格式輸出轉為 `.bin` 二進制檔案。
+
+**Step 4（選用）：更新指令集 .coe 檔**
+
+指令集 Excel 檔位於 `data_instructions/Top_IS/`，目前使用版本為：
+
+```
+data_instructions/Top_IS/IS_260403_devan_Backup_2.xlsx
+```
+
+> **注意：** 若需修改指令集，請編輯上述 Excel 後執行同資料夾下的 `to_COE.py` 重新產生 `IS.coe`。
+> 執行前請確認刪除 Excel 中的粉紅色儲存格，否則會導致轉換錯誤。
+
+**Step 5（選用）：查看輸出資料夾統計**
 
 ```bash
 python Calculate_Output_Folder.py
