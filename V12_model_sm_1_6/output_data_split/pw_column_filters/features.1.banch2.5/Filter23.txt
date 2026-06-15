@@ -1,0 +1,6 @@
+0068 0000 0004 000b
+ffcf fffd fffa 007e
+ffff 0003 ffe2 001a
+0000 0040 0002 ffea
+0045 0088 fffb 0014
+000b fffc ffdf fff7

@@ -1,0 +1,3 @@
+0045 fffc ffc8 0000
+0139 ff6c fef2 0000
+003e fffb ffcf 0000

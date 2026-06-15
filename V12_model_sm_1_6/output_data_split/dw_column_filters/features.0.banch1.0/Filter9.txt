@@ -1,0 +1,3 @@
+0000 fffa ffed 0000
+fffa ff18 fef2 0000
+0000 feec fed9 0000

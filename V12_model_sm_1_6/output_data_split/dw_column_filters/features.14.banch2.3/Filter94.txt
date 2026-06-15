@@ -1,0 +1,3 @@
+ffe0 ff45 000f 0000
+ff4c ff9f ff3d 0000
+ffea ff45 0007 0000

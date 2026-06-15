@@ -1,0 +1,3 @@
+ffbe ff60 ffbc 0000
+0030 fef9 fffc 0000
+ffdb 01a5 0019 0000

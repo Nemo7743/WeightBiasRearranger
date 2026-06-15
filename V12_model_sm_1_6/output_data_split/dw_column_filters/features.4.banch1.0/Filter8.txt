@@ -1,0 +1,3 @@
+002b 0050 000a 0000
+0033 fffc ffce 0000
+ffd8 ffb4 fffd 0000

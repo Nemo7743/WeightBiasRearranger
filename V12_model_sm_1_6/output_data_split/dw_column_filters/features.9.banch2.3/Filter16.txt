@@ -1,0 +1,3 @@
+0024 fffd fff8 0000
+002f fe1a ffcf 0000
+001f ffcd ffe8 0000

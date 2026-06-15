@@ -1,0 +1,11 @@
+ffab ffdf ffa0 0000
+ffcf 0014 000d 0000
+ffde 000c 0038 0000
+
+
+fffa 0000 ffd8 fff0
+ffea 0004 0000 0013
+ffe4 0003 0000 fff2
+0000 ffed fffc ffbe
+0000 000d 0000 fff8
+000b 0011 fffe 0000

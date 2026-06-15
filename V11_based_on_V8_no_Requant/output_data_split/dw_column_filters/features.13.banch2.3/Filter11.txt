@@ -1,3 +1,3 @@
-ffc7 ff9c ffc5 0000
-ff88 ff97 ffb0 0000
-ffc8 ff95 ffc5 0000
+ffc9 ff9e ffc3 0000
+ff86 ff9b ffae 0000
+ffc8 ff9a ffc5 0000

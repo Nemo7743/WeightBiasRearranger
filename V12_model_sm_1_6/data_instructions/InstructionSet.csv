@@ -1,0 +1,22 @@
+function,opcode (指令),opcode (Hex),num_1,num_2,num_3
+Change_data_flow,conv1,0X0000,,,
+,maxpool,0X0100,,,
+,DW,0X0200,,,
+,PW,0X0300,,,
+,GAP,0X0400,,,
+,FC,0X0500,,,
+Change_parameter,fmap,0X1002,w/c,ch,
+,channel,0X1101,rom_addr,,
+get_dram_data,fmap,0X2013,dram_addr,,length
+,weight,0X2113,dram_addr,,length
+glb_control,loop_counter,0X3001,initial,,
+,counter_minus,0X3101,minus_num,,
+,compare_count,0X3200,pc_addr,,
+,wait,0X3300,,,
+,ps_done,0X3400,,,
+,reset,0X3500,,,
+tile_control,load,0X4021,glb_iaddr,,
+,load_cal,0X4131,glb_iaddr,,
+,load_cal_out,0X4242,glb_iaddr,glb_oaddr,
+,cal_out,0X4351,glb_oaddr,,
+,out,0X4461,glb_oaddr,,

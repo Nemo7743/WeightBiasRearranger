@@ -1,3 +1,3 @@
-ffdd ffcc ffd2 0000
-ffce ff6d ff87 0000
-ffd1 ff81 ff95 0000
+ffd3 ffce ffc7 0000
+ffcd ff71 ff86 0000
+ffd0 ff83 ff99 0000

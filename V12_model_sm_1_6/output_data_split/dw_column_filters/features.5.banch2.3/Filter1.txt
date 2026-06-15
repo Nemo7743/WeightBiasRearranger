@@ -1,0 +1,3 @@
+003c ffa5 ffae 0000
+ffe9 ff66 ffc8 0000
+ffbc ff72 ffe6 0000

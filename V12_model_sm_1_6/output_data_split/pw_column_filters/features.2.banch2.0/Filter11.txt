@@ -1,0 +1,6 @@
+ffe9 ffae ffcb 0028
+fff5 ffc5 ffb0 ff85
+ffeb 002a 009e ff80
+ffa8 002e ffdb ffe4
+ffeb 0056 0000 ffea
+0028 0034 0025 fffe

@@ -1,0 +1,3 @@
+0002 ff31 fffa 0000
+ffae 006e fef0 0000
+ffd6 feea ff98 0000

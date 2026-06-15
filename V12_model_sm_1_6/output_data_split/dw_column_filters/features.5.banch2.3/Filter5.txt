@@ -1,0 +1,3 @@
+ffd5 fdec ffe3 0000
+ffdb 005e ffb7 0000
+0046 01d6 004a 0000

@@ -1,0 +1,3 @@
+ffb9 ffa0 ffb5 0000
+0021 ff08 ff45 0000
+ffae ff93 ffae 0000

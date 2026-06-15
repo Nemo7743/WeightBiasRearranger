@@ -1,0 +1,3 @@
+ffe9 ff7e ff8f 0000
+006c 02f6 fe70 0000
+ffea ffec ff87 0000

@@ -1,0 +1,6 @@
+ffd7 0022 ff96 ffc8
+0000 0027 ffea 00a1
+003a fff7 ffc4 ffef
+ffee ff33 0035 ff7e
+0002 0012 ffec ffeb
+ffcc 0026 ffc2 ffcd

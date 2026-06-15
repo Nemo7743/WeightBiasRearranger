@@ -1,0 +1,3 @@
+ff96 ff3e ff8c 0000
+ff26 fe98 ff03 0000
+ff68 fef4 ff3d 0000

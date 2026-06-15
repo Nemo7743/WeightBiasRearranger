@@ -1,0 +1,6 @@
+0011 ff95 ffca fff3
+0010 0045 0023 ffe1
+ffd6 ff8d ffe7 ffed
+003b fffa fffe 0038
+ffd3 ffd3 fffb ffeb
+ffe9 0085 0036 0005
